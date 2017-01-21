@@ -2392,3 +2392,512 @@ LogInit: Object subsystem initialized
 [2017.01.21-22.13.30:572][756]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.583
 [2017.01.21-22.13.30:572][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
 [2017.01.21-22.15.46:356][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-22.15.46:408][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-22.25.35:137][ 38]LogSavePackage: Save=145.67ms
+[2017.01.21-22.25.35:137][ 38]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_Auto181A95CDC44CC4A4EE52EFD996669D03A.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto1.umap'
+[2017.01.21-22.25.35:137][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto1.umap
+[2017.01.21-22.25.35:139][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.182
+[2017.01.21-22.25.35:139][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2017.01.21-22.27.13:550][114]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.01.21-22.27.13:653][120]LogEditorViewport: Clicking on Component (LMB): BoxComponent (CollisionComp)
+[2017.01.21-22.28.20:232][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-22.28.20:382][124]LogSavePackage: Save=136.13ms
+[2017.01.21-22.28.20:382][124]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevelA23A9E5D48700772C98111812551570A.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-22.28.20:383][124]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-22.28.20:407][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2017.01.21-22.28.20:509][124]LogSavePackage: Save=96.67ms
+[2017.01.21-22.28.20:509][124]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_BuiltDataFB0C85DE43926634D1292BA6D4636A0C.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset'
+[2017.01.21-22.28.20:509][124]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset
+[2017.01.21-22.29.36:834][502]Cmd: SELECT NONE
+[2017.01.21-22.33.10:207][956]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-22.33.12:376][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-22.33.12:968][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-22.33.13:321][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-22.33.14:273][193]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.01.21-22.34.02:985][457]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-22.35.04:032][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-22.35.04:637][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-22.35.05:605][356]LogEditorViewport: Clicking on Actor (LMB): Emitter (BeamParticle)
+[2017.01.21-22.35.31:598][908]LogEditorViewport: Clicking on Actor (LMB): Emitter (BeamParticle)
+[2017.01.21-22.35.31:998][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-22.35.32:819][980]LogEditorViewport: Clicking on Actor (LMB): Emitter (BeamParticle)
+[2017.01.21-22.35.47:563][857]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.01.21-22.36.10:948][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-22.36.11:142][250]LogSavePackage: Save=174.22ms
+[2017.01.21-22.36.11:142][250]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel19BC9B9747B648351CE2AF85CC380B94.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-22.36.11:143][250]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-22.36.11:169][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2017.01.21-22.36.11:270][250]LogSavePackage: Save=96.52ms
+[2017.01.21-22.36.11:270][250]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_BuiltData0DD80254460DC0FF7257ABB315ECD7A0.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset'
+[2017.01.21-22.36.11:271][250]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset
+[2017.01.21-22.36.26:931][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-22.36.27:086][189]LogSavePackage: Save=141.44ms
+[2017.01.21-22.36.27:086][189]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel7B2AD70A4918FAC16256A6BF6416A453.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-22.36.27:086][189]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap', retrying in .5s...
+[2017.01.21-22.36.27:589][189]LogFileManager:Warning: DeleteFile recovered during retry!
+[2017.01.21-22.36.27:592][189]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-22.36.27:650][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2017.01.21-22.36.27:753][189]LogSavePackage: Save=100.56ms
+[2017.01.21-22.36.27:753][189]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_BuiltData43AA8A684521C8F833B01B856A3ABBB0.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset'
+[2017.01.21-22.36.27:754][189]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset
+[2017.01.21-22.43.37:781][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-22.43.37:935][429]LogSavePackage: Save=136.28ms
+[2017.01.21-22.43.37:935][429]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevelCB2EE1E5408BB6F666AE3ABFA4440A2F.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-22.43.37:936][429]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-22.43.37:959][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2017.01.21-22.43.38:060][429]LogSavePackage: Save=95.39ms
+[2017.01.21-22.43.38:060][429]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_BuiltData1E8362D546F0DB9DCFDBD6990EB0F8A4.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset'
+[2017.01.21-22.43.38:060][429]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset
+[2017.01.21-22.43.42:094][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.21-22.43.42:100][669]LogSavePackage: Save=4.59ms
+[2017.01.21-22.43.42:100][669]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu3236F3FF497CF0EA577758A82A360640.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.21-22.43.42:100][669]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.21-22.43.54:878][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.21-22.43.54:884][431]LogSavePackage: Save=4.50ms
+[2017.01.21-22.43.54:884][431]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenuB5FE937A45BE9C3DC5783184DC7B35A9.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.21-22.43.54:884][431]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.21-22.44.11:721][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.44.11:727][436]LogSavePackage: Save=4.84ms
+[2017.01.21-22.44.11:727][436]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenA22D99354D822622303D37974AF940BA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.44.11:728][436]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.46.02:150][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.46.02:163][722]LogSavePackage: Save=7.26ms
+[2017.01.21-22.46.02:163][722]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen11349AB04DE2709CE149BDA36A9B7439.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.46.02:164][722]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.46.10:277][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.46.10:286][200]LogSavePackage: Save=6.68ms
+[2017.01.21-22.46.10:286][200]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenF0E971F74C7E4001D214CCBC9B41EDBA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.46.10:287][200]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.46.11:155][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.46.11:164][247]LogSavePackage: Save=6.66ms
+[2017.01.21-22.46.11:164][247]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen62CC34EA491617766D9521A09E540C9D.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.46.11:164][247]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.46.16:185][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.46.16:194][517]LogSavePackage: Save=6.90ms
+[2017.01.21-22.46.16:194][517]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen10ED191A4F6026AB2E4EA9A7621F6A67.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.46.16:195][517]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.47.26:515][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.47.26:524][336]LogSavePackage: Save=7.21ms
+[2017.01.21-22.47.26:524][336]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenB9B905AE4E1BC614B1D4339D869CED66.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.47.26:525][336]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.50.44:480][459]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.50.45:388][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.50.45:398][506]LogSavePackage: Save=8.43ms
+[2017.01.21-22.50.45:398][506]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenF487B9D14BC53A70C4C3B5AEAD207A9E.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.50.45:399][506]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.52.15:479][735]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.52.15:968][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.52.15:994][760]LogSavePackage: Save=22.18ms
+[2017.01.21-22.52.15:994][760]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenCF6F6FD4431CD830ADAE938EFA5B4BB9.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.52.15:995][760]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.52.47:638][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.52.47:650][635]LogSavePackage: Save=9.73ms
+[2017.01.21-22.52.47:650][635]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen768C333F440C6AABABA90C94A84BF77F.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.52.47:651][635]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.52.54:188][ 27]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.52.54:648][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.52.54:658][ 50]LogSavePackage: Save=9.14ms
+[2017.01.21-22.52.54:658][ 50]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenB26868774722770B259B269FC4091924.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.52.54:659][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.52.56:589][166]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.52.57:378][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.52.57:389][209]LogSavePackage: Save=9.02ms
+[2017.01.21-22.52.57:389][209]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen30F8B07B4AE38F890BCB85A92620B364.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.52.57:389][209]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.55.29:007][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.012
+[2017.01.21-22.55.29:008][947]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/GameOverScreen] ([1] browsable assets)...
+[2017.01.21-22.55.29:008][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/GameOverScreen]
+[2017.01.21-22.55.29:020][947]LogSavePackage: Save=10.29ms
+[2017.01.21-22.55.29:020][947]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen_Auto2176596D24A7279AB9608BBABBF65FEED.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/GameOverScreen_Auto2.uasset'
+[2017.01.21-22.55.29:021][947]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/GameOverScreen_Auto2.uasset
+[2017.01.21-22.55.29:021][947]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.01.21-22.55.31:264][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.55.31:298][962]LogSavePackage: Save=30.09ms
+[2017.01.21-22.55.31:298][962]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenC34BB80F49F16590D9CA329460B6B30A.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.55.31:301][962]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.56.51:527][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.56.51:540][309]LogSavePackage: Save=11.14ms
+[2017.01.21-22.56.51:541][309]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen2A18ADDC4FF51660D60E7DA0273457C0.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.56.51:541][309]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.57.01:728][917]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.57.02:424][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.57.02:436][954]LogSavePackage: Save=11.00ms
+[2017.01.21-22.57.02:436][954]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen027D7EA145563833F98F6F995BE1226C.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.57.02:437][954]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.57.56:662][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.57.56:676][134]LogSavePackage: Save=9.49ms
+[2017.01.21-22.57.56:676][134]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen0A56B876459229FCFF9F3E98B31C3A55.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.57.56:677][134]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.57.58:958][271]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.58.00:170][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.00:181][339]LogSavePackage: Save=9.20ms
+[2017.01.21-22.58.00:181][339]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen2825644C49FB95DADA28E4BC087FDDCF.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.00:181][339]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.58.32:929][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.32:940][870]LogSavePackage: Save=9.54ms
+[2017.01.21-22.58.32:940][870]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen3E143E2D4B41768F38CED68171CA63F8.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.32:941][870]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.58.33:654][913]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.58.33:996][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.34:006][929]LogSavePackage: Save=9.21ms
+[2017.01.21-22.58.34:006][929]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen50DCE173437EC4728583F1812BFE415F.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.34:007][929]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.58.45:322][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.45:333][336]LogSavePackage: Save=9.66ms
+[2017.01.21-22.58.45:333][336]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen07EA9E9B45930BC6E1EB7FA27E5F3A37.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.45:334][336]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.58.47:921][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.47:932][491]LogSavePackage: Save=9.79ms
+[2017.01.21-22.58.47:932][491]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen3F48F1714AC1DD56A50332A19A821AEA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.47:933][491]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.58.48:728][539]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.58.49:071][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.58.49:082][555]LogSavePackage: Save=9.47ms
+[2017.01.21-22.58.49:082][555]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen4993B5444F6A75B962DE0BAFDE9E52B6.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.58.49:083][555]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.59.09:805][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.59.09:816][751]LogSavePackage: Save=10.31ms
+[2017.01.21-22.59.09:816][751]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreenB0E3424D419444F6EE3A4DA6B52185BA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.59.09:817][751]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.59.10:113][769]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-22.59.10:523][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-22.59.10:534][789]LogSavePackage: Save=9.52ms
+[2017.01.21-22.59.10:534][789]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen7EF4FB484BCFA7C47938FCB192BEF313.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-22.59.10:534][789]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-22.59.57:151][956]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.21-23.00.35:497][ 76]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.02.59:103][880]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.03.55:396][951]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.03.56:562][ 16]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.03.59:723][200]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.03.59:738][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.03.59:738][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.03.59:738][200]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:03:59 AM)
+[2017.01.21-23.03.59:738][200]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.03.59:758][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019795s)
+[2017.01.21-23.03.59:759][200]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.03.59:759][200]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.01.21-23.03.59:759][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.020824s)
+[2017.01.21-23.03.59:779][200]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.03.59:783][200]LogInit: FAudioDevice initialized.
+[2017.01.21-23.03.59:818][200]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.03.59:821][200]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.03.59
+[2017.01.21-23.03.59:822][200]LogWorld: Bringing up level for play took: 0.002906
+[2017.01.21-23.03.59:826][200]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.672
+[2017.01.21-23.03.59:827][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.04.08:344][708]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.04.08:344][708]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.04.08:359][708]Cmd: MEM
+[2017.01.21-23.04.08:370][708]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.04.08:370][708]LogMemory: Process Physical Memory: 1328.04 MB used, 1596.85 MB peak
+[2017.01.21-23.04.08:370][708]LogMemory: Process Virtual Memory: 3988.24 MB used, 4033.27 MB peak
+[2017.01.21-23.04.08:370][708]LogMemory: Physical Memory: 7455.84 MB used,  8889.00 MB free, 16344.84 MB total
+[2017.01.21-23.04.08:370][708]LogMemory: Virtual Memory: 5471.10 MB used,  8889.00 MB free, 134217728.00 MB total
+[2017.01.21-23.04.08:370][708]LogMemory: 
+[2017.01.21-23.04.08:370][708]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.04.08:370][708]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.04.08:383][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012984s)
+[2017.01.21-23.04.08:383][708]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.04.08:384][708]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.01.21-23.04.08:384][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013898s)
+[2017.01.21-23.04.08:384][708]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.04.08:398][708]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.04.08
+[2017.01.21-23.04.08:398][708]LogWorld: Bringing up level for play took: 0.013480
+[2017.01.21-23.04.08:399][708]LogLoad: Took 0.056023 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.04.22:664][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.04.22:723][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.05.32:171][ 35]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.01.21-23.05.32:221][ 36]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.01.21-23.05.32:269][ 37]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.01.21-23.05.32:304][ 38]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.01.21-23.06.13:734][114]LogSavePackage: Save=152.76ms
+[2017.01.21-23.06.13:734][114]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_Auto3B2AC163E4019DD5080CB9CAD590221F2.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto3.umap'
+[2017.01.21-23.06.13:734][114]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto3.umap
+[2017.01.21-23.06.13:736][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.176
+[2017.01.21-23.06.13:736][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2017.01.21-23.06.33:477][219]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.06.36:358][385]Recompiling colorepo...
+[2017.01.21-23.06.36:358][385]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 8636 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.06.36:359][385]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.06.36:737][408]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:06:36 AM
+[2017.01.21-23.06.36:737][408]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.06.36:737][408]CompilerResultsLog: Info Target is up to date
+[2017.01.21-23.06.36:737][408]LogMainFrame: MainFrame: Module compiling took 0.382 seconds
+[2017.01.21-23.06.36:949][408]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.06.36:949][408]Display: HotReload took  0.6s.
+[2017.01.21-23.06.38:108][478]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.06.38:123][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.06.38:123][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.06.38:123][478]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:06:38 AM)
+[2017.01.21-23.06.38:123][478]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.06.38:135][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012377s)
+[2017.01.21-23.06.38:136][478]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.06.38:136][478]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2017.01.21-23.06.38:136][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013098s)
+[2017.01.21-23.06.38:181][478]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.06.38:185][478]LogInit: FAudioDevice initialized.
+[2017.01.21-23.06.38:225][478]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.06.38:228][478]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.06.38
+[2017.01.21-23.06.38:228][478]LogWorld: Bringing up level for play took: 0.002108
+[2017.01.21-23.06.38:232][478]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 1.078
+[2017.01.21-23.06.38:233][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.06.57:264][617]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.06.57:264][617]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.06.57:292][617]Cmd: MEM
+[2017.01.21-23.06.57:302][617]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.06.57:302][617]LogMemory: Process Physical Memory: 1537.97 MB used, 1596.85 MB peak
+[2017.01.21-23.06.57:302][617]LogMemory: Process Virtual Memory: 4161.80 MB used, 4342.88 MB peak
+[2017.01.21-23.06.57:302][617]LogMemory: Physical Memory: 7748.67 MB used,  8596.16 MB free, 16344.84 MB total
+[2017.01.21-23.06.57:302][617]LogMemory: Virtual Memory: 5725.91 MB used,  8596.16 MB free, 134217728.00 MB total
+[2017.01.21-23.06.57:302][617]LogMemory: 
+[2017.01.21-23.06.57:302][617]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.06.57:302][617]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.06.57:315][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012787s)
+[2017.01.21-23.06.57:316][617]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.06.57:316][617]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.01.21-23.06.57:316][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013753s)
+[2017.01.21-23.06.57:316][617]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.06.57:325][617]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.06.57
+[2017.01.21-23.06.57:325][617]LogWorld: Bringing up level for play took: 0.008446
+[2017.01.21-23.06.57:326][617]LogLoad: Took 0.062952 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.07.06:530][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.07.06:585][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.07.07:977][251]Recompiling colorepo...
+[2017.01.21-23.07.07:977][251]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 3037 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.07.07:978][251]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.07.08:321][272]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:07:08 AM
+[2017.01.21-23.07.08:321][272]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.07.08:321][272]CompilerResultsLog: Info Target is up to date
+[2017.01.21-23.07.08:321][272]LogMainFrame: MainFrame: Module compiling took 0.347 seconds
+[2017.01.21-23.07.08:515][272]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.07.08:515][272]Display: HotReload took  0.5s.
+[2017.01.21-23.08.50:400][933]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-23.08.50:981][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-23.08.50:995][961]LogSavePackage: Save=10.19ms
+[2017.01.21-23.08.50:995][961]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen592F74BC44B7F260FCE299A60521E64B.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-23.08.50:996][961]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-23.08.58:412][404]Recompiling colorepo...
+[2017.01.21-23.08.58:412][404]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 5319 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.08.58:413][404]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.08.58:774][426]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:08:58 AM
+[2017.01.21-23.08.58:774][426]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.08.58:774][426]CompilerResultsLog: Info Target is up to date
+[2017.01.21-23.08.58:774][426]LogMainFrame: MainFrame: Module compiling took 0.366 seconds
+[2017.01.21-23.08.58:989][426]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.08.58:989][426]Display: HotReload took  0.6s.
+[2017.01.21-23.09.00:739][531]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.09.00:753][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.09.00:753][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.09.00:753][531]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:09:00 AM)
+[2017.01.21-23.09.00:753][531]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.09.00:765][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012210s)
+[2017.01.21-23.09.00:765][531]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.09.00:765][531]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.01.21-23.09.00:766][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012966s)
+[2017.01.21-23.09.00:808][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.09.00:811][531]LogInit: FAudioDevice initialized.
+[2017.01.21-23.09.00:846][531]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.09.00:849][531]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.09.00
+[2017.01.21-23.09.00:849][531]LogWorld: Bringing up level for play took: 0.002235
+[2017.01.21-23.09.00:854][531]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.301
+[2017.01.21-23.09.00:855][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.09.22:886][812]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.09.22:886][812]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.09.22:910][812]Cmd: MEM
+[2017.01.21-23.09.22:920][812]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.09.22:920][812]LogMemory: Process Physical Memory: 1710.20 MB used, 1730.07 MB peak
+[2017.01.21-23.09.22:920][812]LogMemory: Process Virtual Memory: 4328.57 MB used, 4367.02 MB peak
+[2017.01.21-23.09.22:920][812]LogMemory: Physical Memory: 7951.45 MB used,  8393.39 MB free, 16344.84 MB total
+[2017.01.21-23.09.22:920][812]LogMemory: Virtual Memory: 5857.98 MB used,  8393.39 MB free, 134217728.00 MB total
+[2017.01.21-23.09.22:920][812]LogMemory: 
+[2017.01.21-23.09.22:920][812]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.09.22:920][812]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.09.22:932][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012376s)
+[2017.01.21-23.09.22:933][812]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.09.22:933][812]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.01.21-23.09.22:933][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013351s)
+[2017.01.21-23.09.22:933][812]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.09.22:947][812]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.09.22
+[2017.01.21-23.09.22:947][812]LogWorld: Bringing up level for play took: 0.013494
+[2017.01.21-23.09.22:949][812]LogLoad: Took 0.062983 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.09.34:940][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.09.35:001][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.11.15:840][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-23.11.15:853][376]LogSavePackage: Save=11.09ms
+[2017.01.21-23.11.15:853][376]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen348529EE4A7342964220119364C6B464.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-23.11.15:854][376]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-23.11.17:669][485]BlueprintLog: New page: Compile GameOverScreen
+[2017.01.21-23.11.18:169][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/GameOverScreen" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset" SILENT=true
+[2017.01.21-23.11.18:181][510]LogSavePackage: Save=10.31ms
+[2017.01.21-23.11.18:181][510]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/GameOverScreen3C30D4024C45A0F450EB5DAA4CAB3DD7.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset'
+[2017.01.21-23.11.18:182][510]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/GameOverScreen.uasset
+[2017.01.21-23.11.20:970][676]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.11.20:984][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.11.20:984][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.11.20:984][676]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:11:20 AM)
+[2017.01.21-23.11.20:984][676]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.11.20:998][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013715s)
+[2017.01.21-23.11.20:998][676]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.11.20:998][676]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.01.21-23.11.20:998][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014474s)
+[2017.01.21-23.11.21:020][676]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.11.21:024][676]LogInit: FAudioDevice initialized.
+[2017.01.21-23.11.21:057][676]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.11.21:060][676]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.11.21
+[2017.01.21-23.11.21:060][676]LogWorld: Bringing up level for play took: 0.002280
+[2017.01.21-23.11.21:065][676]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.09
+[2017.01.21-23.11.21:065][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.11.29:218][162]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.11.29:218][162]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.11.29:231][162]Cmd: MEM
+[2017.01.21-23.11.29:242][162]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.11.29:242][162]LogMemory: Process Physical Memory: 1666.77 MB used, 1730.07 MB peak
+[2017.01.21-23.11.29:242][162]LogMemory: Process Virtual Memory: 4340.24 MB used, 4524.66 MB peak
+[2017.01.21-23.11.29:242][162]LogMemory: Physical Memory: 7911.61 MB used,  8433.23 MB free, 16344.84 MB total
+[2017.01.21-23.11.29:242][162]LogMemory: Virtual Memory: 5886.04 MB used,  8433.23 MB free, 134217728.00 MB total
+[2017.01.21-23.11.29:242][162]LogMemory: 
+[2017.01.21-23.11.29:242][162]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.11.29:242][162]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.11.29:254][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012503s)
+[2017.01.21-23.11.29:255][162]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.11.29:255][162]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2017.01.21-23.11.29:255][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013455s)
+[2017.01.21-23.11.29:255][162]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.11.29:266][162]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.11.29
+[2017.01.21-23.11.29:266][162]LogWorld: Bringing up level for play took: 0.010327
+[2017.01.21-23.11.29:268][162]LogLoad: Took 0.049932 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.11.41:741][872]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.11.41:741][872]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.11.41:753][872]Cmd: MEM
+[2017.01.21-23.11.41:764][872]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.11.41:764][872]LogMemory: Process Physical Memory: 1658.13 MB used, 1730.07 MB peak
+[2017.01.21-23.11.41:764][872]LogMemory: Process Virtual Memory: 4123.13 MB used, 4524.66 MB peak
+[2017.01.21-23.11.41:764][872]LogMemory: Physical Memory: 7905.14 MB used,  8439.70 MB free, 16344.84 MB total
+[2017.01.21-23.11.41:764][872]LogMemory: Virtual Memory: 5752.16 MB used,  8439.70 MB free, 134217728.00 MB total
+[2017.01.21-23.11.41:764][872]LogMemory: 
+[2017.01.21-23.11.41:764][872]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.11.41:764][872]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.11.41:776][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012298s)
+[2017.01.21-23.11.41:777][872]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.11.41:777][872]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.01.21-23.11.41:777][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013074s)
+[2017.01.21-23.11.41:777][872]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.11.41:788][872]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.11.41
+[2017.01.21-23.11.41:788][872]LogWorld: Bringing up level for play took: 0.010003
+[2017.01.21-23.11.41:789][872]LogLoad: Took 0.048263 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.11.43:822][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.11.43:876][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.12.25:664][467]BlueprintLog: New page: Compile TestLevel
+[2017.01.21-23.12.28:597][636]Recompiling colorepo...
+[2017.01.21-23.12.28:597][636]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 6245 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.12.28:598][636]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.12.28:942][657]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:12:28 AM
+[2017.01.21-23.12.28:942][657]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.12.28:942][657]CompilerResultsLog: Info Target is up to date
+[2017.01.21-23.12.28:942][657]LogMainFrame: MainFrame: Module compiling took 0.348 seconds
+[2017.01.21-23.12.29:156][657]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.12.29:156][657]Display: HotReload took  0.6s.
+[2017.01.21-23.12.30:317][727]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.12.30:331][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.12.30:332][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.12.30:332][727]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:12:30 AM)
+[2017.01.21-23.12.30:332][727]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.12.30:345][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013779s)
+[2017.01.21-23.12.30:346][727]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.12.30:346][727]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.01.21-23.12.30:346][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014601s)
+[2017.01.21-23.12.30:392][727]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.12.30:396][727]LogInit: FAudioDevice initialized.
+[2017.01.21-23.12.30:431][727]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.12.30:434][727]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.12.30
+[2017.01.21-23.12.30:434][727]LogWorld: Bringing up level for play took: 0.002136
+[2017.01.21-23.12.30:439][727]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.717
+[2017.01.21-23.12.30:439][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.13.09:156][ 47]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.13.09:156][ 47]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.13.09:182][ 47]Cmd: MEM
+[2017.01.21-23.13.09:190][ 47]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.13.09:190][ 47]LogMemory: Process Physical Memory: 1773.11 MB used, 1781.45 MB peak
+[2017.01.21-23.13.09:190][ 47]LogMemory: Process Virtual Memory: 4341.00 MB used, 4524.66 MB peak
+[2017.01.21-23.13.09:190][ 47]LogMemory: Physical Memory: 8023.95 MB used,  8320.89 MB free, 16344.84 MB total
+[2017.01.21-23.13.09:190][ 47]LogMemory: Virtual Memory: 5867.66 MB used,  8320.89 MB free, 134217728.00 MB total
+[2017.01.21-23.13.09:190][ 47]LogMemory: 
+[2017.01.21-23.13.09:190][ 47]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.13.09:190][ 47]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.13.09:203][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012516s)
+[2017.01.21-23.13.09:203][ 47]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.13.09:203][ 47]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.01.21-23.13.09:204][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013418s)
+[2017.01.21-23.13.09:204][ 47]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.13.09:217][ 47]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.13.09
+[2017.01.21-23.13.09:218][ 47]LogWorld: Bringing up level for play took: 0.013282
+[2017.01.21-23.13.09:219][ 47]LogLoad: Took 0.063377 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.13.41:757][999]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.13.41:757][999]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.21-23.13.41:772][999]Cmd: MEM
+[2017.01.21-23.13.41:781][999]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-23.13.41:781][999]LogMemory: Process Physical Memory: 1666.01 MB used, 1790.25 MB peak
+[2017.01.21-23.13.41:781][999]LogMemory: Process Virtual Memory: 4123.93 MB used, 4524.66 MB peak
+[2017.01.21-23.13.41:781][999]LogMemory: Physical Memory: 7911.63 MB used,  8433.21 MB free, 16344.84 MB total
+[2017.01.21-23.13.41:781][999]LogMemory: Virtual Memory: 5772.29 MB used,  8433.21 MB free, 134217728.00 MB total
+[2017.01.21-23.13.41:781][999]LogMemory: 
+[2017.01.21-23.13.41:781][999]Allocator Stats for TBB: (not implemented)
+[2017.01.21-23.13.41:781][999]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.13.41:793][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012282s)
+[2017.01.21-23.13.41:794][999]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.13.41:794][999]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.01.21-23.13.41:794][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013317s)
+[2017.01.21-23.13.41:794][999]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.13.41:805][999]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.13.41
+[2017.01.21-23.13.41:806][999]LogWorld: Bringing up level for play took: 0.011175
+[2017.01.21-23.13.41:807][999]LogLoad: Took 0.049697 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.21-23.13.58:291][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.13.58:346][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.15.17:820][ 42]Recompiling colorepo...
+[2017.01.21-23.15.17:820][ 42]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 1226 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.15.17:821][ 42]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:15:30 AM
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info colorepoCharacter.cpp
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info [2/2] Link UE4Editor-colorepo-1226.dll
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info    Creating library D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo-1226.lib and object D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo-1226.exp
+[2017.01.21-23.15.30:215][786]CompilerResultsLog: Info Total build time: 12.35 seconds
+[2017.01.21-23.15.30:215][786]LogMainFrame: MainFrame: Module compiling took 12.398 seconds
+[2017.01.21-23.15.30:281][786]LogHotReload: Re-instancing colorepoCharacter after hot-reload.
+[2017.01.21-23.15.30:733][786]LogContentBrowser: Native class hierarchy updated for 'colorepo' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2017.01.21-23.15.30:735][786]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.01.21-23.15.30:941][786]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.15.30:941][786]Display: HotReload took 13.1s.
+[2017.01.21-23.15.39:762][315]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-23.15.39:777][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.15.39:777][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-23.15.39:777][315]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 7:15:39 AM)
+[2017.01.21-23.15.39:777][315]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-23.15.39:791][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013860s)
+[2017.01.21-23.15.39:792][315]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-23.15.39:792][315]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.01.21-23.15.39:792][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014953s)
+[2017.01.21-23.15.39:840][315]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-23.15.39:844][315]LogInit: FAudioDevice initialized.
+[2017.01.21-23.15.39:880][315]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-23.15.39:882][315]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-15.15.39
+[2017.01.21-23.15.39:883][315]LogWorld: Bringing up level for play took: 0.002103
+[2017.01.21-23.15.39:887][315]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.732
+[2017.01.21-23.15.39:888][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.17.38:522][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.17.38:590][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-23.17.40:232][523]Recompiling colorepo...
+[2017.01.21-23.17.40:232][523]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9321 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-23.17.40:233][523]Warning: Starting HotReload took  0.0s.
+[2017.01.21-23.17.40:610][546]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 7:17:40 AM
+[2017.01.21-23.17.40:610][546]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-23.17.40:610][546]CompilerResultsLog: Info Target is up to date
+[2017.01.21-23.17.40:610][546]LogMainFrame: MainFrame: Module compiling took 0.381 seconds
+[2017.01.21-23.17.40:805][546]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2198 classes and 436 folders.
+[2017.01.21-23.17.40:805][546]Display: HotReload took  0.6s.
+[2017.01.21-23.17.41:973][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-23.17.42:156][616]LogSavePackage: Save=144.90ms
+[2017.01.21-23.17.42:156][616]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevelCB397F54453FF5758CBBD59CE03F82D5.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-23.17.42:158][616]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-23.17.42:182][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
