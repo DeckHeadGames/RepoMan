@@ -13,22 +13,37 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 222585665);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 3379617968);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
 	IMPLEMENT_CLASS(AcolorepoGameMode, 4232732752);
+	void ALightWave::StaticRegisterNativesALightWave()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(ALightWave::StaticClass(), "OnHit",(Native)&ALightWave::execOnHit);
+	}
+	IMPLEMENT_CLASS(ALightWave, 1580037537);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
+	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_ALightWave_OnHit();
+	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave_NoRegister();
+	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave();
 	COLOREPO_API class UPackage* Z_Construct_UPackage__Script_colorepo();
 	UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister()
 	{
@@ -49,6 +64,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
@@ -61,6 +77,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("Category"), TEXT("Camera"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ToolTip"), TEXT("Base look up/down rate, in deg/sec. Other scaling may affect final rate."));
@@ -118,6 +136,83 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AcolorepoGameMode(Z_Construct_UClass_AcolorepoGameMode, &AcolorepoGameMode::StaticClass, TEXT("AcolorepoGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AcolorepoGameMode);
+	UFunction* Z_Construct_UFunction_ALightWave_OnHit()
+	{
+		struct LightWave_eventOnHit_Parms
+		{
+			UPrimitiveComponent* HitComp;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+		UObject* Outer=Z_Construct_UClass_ALightWave();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnHit"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x00C80401, 65535, sizeof(LightWave_eventOnHit_Parms));
+			UProperty* NewProp_Hit = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Hit"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Hit, LightWave_eventOnHit_Parms), 0x0010008008000182, Z_Construct_UScriptStruct_FHitResult());
+			UProperty* NewProp_NormalImpulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NormalImpulse"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(NormalImpulse, LightWave_eventOnHit_Parms), 0x0010000000000080, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, LightWave_eventOnHit_Parms), 0x0010000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, LightWave_eventOnHit_Parms), 0x0010000000000080, Z_Construct_UClass_AActor_NoRegister());
+			UProperty* NewProp_HitComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("HitComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(HitComp, LightWave_eventOnHit_Parms), 0x0010000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
+			MetaData->SetValue(NewProp_Hit, TEXT("NativeConst"), TEXT(""));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+			MetaData->SetValue(NewProp_HitComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ALightWave_NoRegister()
+	{
+		return ALightWave::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ALightWave()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage__Script_colorepo();
+			OuterClass = ALightWave::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_ALightWave_OnHit());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ProjectileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovement"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovement, ALightWave), 0x00100000000a001d, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, ALightWave), 0x00400000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ALightWave_OnHit(), "OnHit"); // 2120528868
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("LightWave.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("AllowPrivateAccess"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("Category"), TEXT("Movement"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ToolTip"), TEXT("Projectile movement component"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ALightWave(Z_Construct_UClass_ALightWave, &ALightWave::StaticClass, TEXT("ALightWave"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ALightWave);
 	UPackage* Z_Construct_UPackage__Script_colorepo()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -126,8 +221,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x9BC6C61E;
-			Guid.B = 0x72B93CDC;
+			Guid.A = 0xA60A5C0E;
+			Guid.B = 0x35D8E490;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

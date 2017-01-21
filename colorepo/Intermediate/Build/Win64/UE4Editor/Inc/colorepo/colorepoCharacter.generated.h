@@ -11,9 +11,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COLOREPO_colorepoCharacter_generated_h
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_RPC_WRAPPERS
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_RPC_WRAPPERS_NO_PURE_DECLS
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_INCLASS_NO_PURE_DECLS \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAcolorepoCharacter(); \
 	friend COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter(); \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_INCLASS \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesAcolorepoCharacter(); \
 	friend COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter(); \
@@ -35,7 +35,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_STANDARD_CONSTRUCTORS \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AcolorepoCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AcolorepoCharacter) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_ENHANCED_CONSTRUCTORS \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AcolorepoCharacter(AcolorepoCharacter&&); \
@@ -59,30 +59,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AcolorepoCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AcolorepoCharacter)
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_PRIVATE_PROPERTY_OFFSET \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AcolorepoCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AcolorepoCharacter, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AcolorepoCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(AcolorepoCharacter, ProjectileClass); }
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_6_PROLOG
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_GENERATED_BODY_LEGACY \
+#define colorepo_Source_colorepo_colorepoCharacter_h_8_PROLOG
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_PRIVATE_PROPERTY_OFFSET \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_RPC_WRAPPERS \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_INCLASS \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_STANDARD_CONSTRUCTORS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_PRIVATE_PROPERTY_OFFSET \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_INCLASS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_9_GENERATED_BODY \
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_PRIVATE_PROPERTY_OFFSET \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_INCLASS_NO_PURE_DECLS \
-	colorepo_Source_colorepo_colorepoCharacter_h_9_ENHANCED_CONSTRUCTORS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_PRIVATE_PROPERTY_OFFSET \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_INCLASS_NO_PURE_DECLS \
+	colorepo_Source_colorepo_colorepoCharacter_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -3,6 +3,9 @@
 #include "colorepo.h"
 #include "Kismet/HeadMountedDisplayFunctionLibrary.h"
 #include "colorepoCharacter.h"
+#include "LightWave.h"
+#include "Engine.h"
+#include <cmath>
 
 //////////////////////////////////////////////////////////////////////////
 // AcolorepoCharacter
@@ -37,6 +40,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+	CurrentColor = Green;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -69,12 +73,45 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
+	PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
 }
-
 
 void AcolorepoCharacter::OnResetVR()
 {
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
+}
+
+void AcolorepoCharacter::SetCurrentColor(float number) {
+	CurrentColor = number;
+}
+
+float AcolorepoCharacter::GetCurrentColor() {
+	return CurrentColor;
+}
+
+void AcolorepoCharacter::FireLightWave() {
+	// try and fire a projectile
+	if (ProjectileClass != NULL)
+	{
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+				GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
+				FVector CurrentLocation = this->GetActorLocation();
+				FVector OurForwards = this->GetActorForwardVector();
+				FVector OurUp = this->GetActorUpVector();
+				OurUp.Normalize();
+				OurForwards.Normalize();
+				FVector DeltaForwards = OurForwards*60.0f;
+				FVector DeltaUp = OurUp*20.0f;
+				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
+				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
+				float magnitude = sqrt(magnitudeSquared);
+				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
+				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
+				ShotWave->SetFrequency(CurrentColor);
+		}
+	}
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)

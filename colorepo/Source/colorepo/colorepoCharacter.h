@@ -3,6 +3,8 @@
 #include "GameFramework/Character.h"
 #include "colorepoCharacter.generated.h"
 
+
+
 UCLASS(config=Game)
 class AcolorepoCharacter : public ACharacter
 {
@@ -26,7 +28,22 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	const float Red = 90.0f;
+	const float Orange = 78.0f;
+	const float Yellow = 66.0f;
+	const float Green = 54.0f;
+	const float Blue = 42.0f;
+	const float Indigo = 30.0f;
+	const float Violet = 18.0f;
+
+
 protected:
+
+	float CurrentColor;
+
+
+	void SetCurrentColor(float number);
+	float GetCurrentColor();
 
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
@@ -54,6 +71,11 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+	void FireLightWave();
+
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> ProjectileClass;
 
 protected:
 	// APawn interface
