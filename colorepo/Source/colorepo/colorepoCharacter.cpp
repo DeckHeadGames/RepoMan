@@ -5,6 +5,7 @@
 #include "colorepoCharacter.h"
 #include "LightWave.h"
 #include "Engine.h"
+#include "Crystal.h"
 #include <cmath>
 
 //////////////////////////////////////////////////////////////////////////
@@ -35,13 +36,14 @@ AcolorepoCharacter::AcolorepoCharacter()
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
-
+	BoundingBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-	CurrentColor = Red;
+	CurrentColor = Green;
 	CanFire = true;
+	IsWithin = false;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -149,14 +151,27 @@ void AcolorepoCharacter::FireLightWave() {
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
 				ShotWave->SetColor(CurrentColor);
 				if (CurrentColor == Violet) {
-					CurrentColor = Red;
+					//CurrentColor = Red;
 				}
 				else {
-					CurrentColor++;
+					//CurrentColor++;
 				}
 				FireManager();
 		}
 	}
+}
+
+bool AcolorepoCharacter::GetIsWithin() {
+	return IsWithin;
+}
+
+void AcolorepoCharacter::SetIsWithin(bool value) {
+	IsWithin = value;
+}
+
+void AcolorepoCharacter::Tick(float DeltaSeconds) {
+	Super::Tick(DeltaSeconds);
+	CurrentColor = ColorOnDeck;
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)

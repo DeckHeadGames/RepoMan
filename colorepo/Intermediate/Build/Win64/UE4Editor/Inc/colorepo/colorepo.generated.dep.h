@@ -11,6 +11,9 @@
 #ifndef COLOREPO_colorepoGameMode_generated_h
 	#include "colorepoGameMode.h"
 #endif
+#ifndef COLOREPO_Crystal_generated_h
+	#include "Crystal.h"
+#endif
 #ifndef COLOREPO_LightWave_generated_h
 	#include "LightWave.h"
 #endif

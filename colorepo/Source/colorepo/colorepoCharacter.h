@@ -28,12 +28,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 	int CurrentColor;
+	int ColorOnDeck;
+	bool GetIsWithin();
+	void SetIsWithin(bool value);
+	
 
 
 
 protected:
-
-	
+	virtual void Tick(float DeltaSeconds) override;
+	UPROPERTY(VisibleAnywhere)
+		class UBoxComponent* BoundingBox;
+	bool IsWithin;
 	const int Red = 1;
 	const int Orange = 2;
 	const int Yellow = 3;

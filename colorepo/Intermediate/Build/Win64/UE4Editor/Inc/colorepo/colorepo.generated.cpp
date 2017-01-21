@@ -13,11 +13,15 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 2248865235);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 3397411703);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
 	IMPLEMENT_CLASS(AcolorepoGameMode, 4232732752);
+	void ACrystal::StaticRegisterNativesACrystal()
+	{
+	}
+	IMPLEMENT_CLASS(ACrystal, 1979211084);
 	void ALightWave::StaticRegisterNativesALightWave()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ALightWave::StaticClass(), "OnHit",(Native)&ALightWave::execOnHit);
@@ -26,14 +30,15 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
@@ -42,6 +47,8 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode();
+	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal_NoRegister();
+	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_ALightWave_OnHit();
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave();
@@ -72,6 +79,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_YellowProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("YellowProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(YellowProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_OrangeProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OrangeProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(OrangeProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_RedProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RedProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(RedProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, AcolorepoCharacter), 0x00200800000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
@@ -98,6 +106,9 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_OrangeProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_RedProjectile, TEXT("Category"), TEXT("Projectile"));
 				MetaData->SetValue(NewProp_RedProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("Category"), TEXT("colorepoCharacter"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("Category"), TEXT("Camera"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ToolTip"), TEXT("Base look up/down rate, in deg/sec. Other scaling may affect final rate."));
@@ -155,6 +166,47 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AcolorepoGameMode(Z_Construct_UClass_AcolorepoGameMode, &AcolorepoGameMode::StaticClass, TEXT("AcolorepoGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AcolorepoGameMode);
+	UClass* Z_Construct_UClass_ACrystal_NoRegister()
+	{
+		return ACrystal::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ACrystal()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage__Script_colorepo();
+			OuterClass = ACrystal::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, ACrystal), 0x00400000000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
+				UProperty* NewProp_CrystalColor = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CrystalColor"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(CrystalColor, ACrystal), 0x0010000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Crystal.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Crystal.h"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("Category"), TEXT("Crystal"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("ModuleRelativePath"), TEXT("Crystal.h"));
+				MetaData->SetValue(NewProp_BoundingBox, TEXT("ToolTip"), TEXT("UPROPERTY(VisibleDefaultsOnly)\n       class USphereComponent* CollisionComp;"));
+				MetaData->SetValue(NewProp_CrystalColor, TEXT("Category"), TEXT("Crystal"));
+				MetaData->SetValue(NewProp_CrystalColor, TEXT("ModuleRelativePath"), TEXT("Crystal.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ACrystal(Z_Construct_UClass_ACrystal, &ACrystal::StaticClass, TEXT("ACrystal"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ACrystal);
 	UFunction* Z_Construct_UFunction_ALightWave_OnHit()
 	{
 		struct LightWave_eventOnHit_Parms
@@ -247,8 +299,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x6F709430;
-			Guid.B = 0x35D8E490;
+			Guid.A = 0xDCB2879E;
+			Guid.B = 0xE50C2391;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
