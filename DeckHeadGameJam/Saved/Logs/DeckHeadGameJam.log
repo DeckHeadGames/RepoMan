@@ -1,0 +1,999 @@
+﻿Log file open, 01/20/17 20:15:10
+LogInit:Display: Running engine for game: DeckHeadGameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-445736699) SRandInit(-445736699).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.065047
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3241561
+LogInit: Engine Version: 4.14.2-3241561+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec 21 2016 02:13:27
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.21-04.15.10:899][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-04.15.10:899][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.21-04.15.10:908][  0]LogInit: Computer: DESKTOP-E3B0E1K
+[2017.01.21-04.15.10:908][  0]LogInit: User: Origin
+[2017.01.21-04.15.10:908][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.21-04.15.10:908][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2017.01.21-04.15.10:908][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.21-04.15.10:908][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-04.15.10:908][  0]LogMemory: Process Physical Memory: 264.62 MB used, 264.62 MB peak
+[2017.01.21-04.15.10:908][  0]LogMemory: Process Virtual Memory: 262.79 MB used, 262.79 MB peak
+[2017.01.21-04.15.10:908][  0]LogMemory: Physical Memory: 6162.28 MB used,  10182.55 MB free, 16344.84 MB total
+[2017.01.21-04.15.10:908][  0]LogMemory: Virtual Memory: 676.42 MB used,  10182.55 MB free, 134217728.00 MB total
+[2017.01.21-04.15.10:931][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.01.21-04.15.11:427][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.21-04.15.11:449][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M            ' (Feature Level 11_0)
+[2017.01.21-04.15.11:449][  0]LogD3D11RHI:       8093/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.21-04.15.11:450][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.21-04.15.11:450][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.21-04.15.11:450][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.21-04.15.11:455][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.21-04.15.11:455][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.21-04.15.11:455][  0]LogWindows: EnumDisplayDevices:
+[2017.01.21-04.15.11:455][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M            ' (P:1 D:1)
+[2017.01.21-04.15.11:456][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-04.15.11:456][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-04.15.11:456][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-04.15.11:456][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.21-04.15.11:456][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M            
+[2017.01.21-04.15.11:456][  0]LogD3D11RHI:   Driver Version: 361.43 (internal:10.18.13.6143, unified:361.43)
+[2017.01.21-04.15.11:456][  0]LogD3D11RHI:      Driver Date: 12-16-2015
+[2017.01.21-04.15.11:456][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.21-04.15.11:468][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.21-04.15.11:484][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.21-04.15.11:484][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../RepoMan/DeckHeadGameJam/Intermediate/Shaders/WorkingDirectory/4236/).
+[2017.01.21-04.15.11:484][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Origin/AppData/Local/Temp/UnrealShaderWorkingDir/4D37C8E5475B1A08DE0DCC8F8D29BDB7/'.
+[2017.01.21-04.15.11:484][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.21-04.15.12:373][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.21-04.15.12:424][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.21-04.15.12:458][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.21-04.15.12:512][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.21-04.15.12:546][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.21-04.15.12:586][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.21-04.15.12:629][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.21-04.15.12:672][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.21-04.15.12:699][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.21-04.15.12:739][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.21-04.15.12:777][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.21-04.15.12:822][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.21-04.15.12:868][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.21-04.15.12:900][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.21-04.15.12:935][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.21-04.15.13:005][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.21-04.15.13:005][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.21-04.15.13:027][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.21-04.15.13:084][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.21-04.15.13:106][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.21-04.15.13:138][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.21-04.15.13:171][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.21-04.15.13:204][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.21-04.15.13:237][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.21-04.15.13:238][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.21-04.15.13:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../RepoMan/DeckHeadGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../RepoMan/DeckHeadGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.21-04.15.13:518][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.21-04.15.13:532][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.21-04.15.13:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Origin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.21-04.15.13:695][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-04.15.13:697][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.21-04.15.13:837][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.21-04.15.13:862][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.21-04.15.13:887][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.21-04.15.13:887][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.21-04.15.13:887][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.21-04.15.14:315][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: deckheadgamejam, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3067858551
+[2017.01.21-04.15.14:363][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.01.21-04.15.14:402][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020622 seconds
+[2017.01.21-04.15.14:408][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.21-04.15.14:408][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.21-04.15.14:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.21-04.15.14:447][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.21-04.15.15:420][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.21-04.15.15:420][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.21-04.15.15:420][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.21-04.15.16:063][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.21-04.15.16:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.21-04.15.16:993][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.21-04.15.17:239][  0]SourceControl: Info Source control is disabled
+[2017.01.21-04.15.17:265][  0]SourceControl: Info Source control is disabled
+[2017.01.21-04.15.17:289][  0]SourceControl: Info Source control is disabled
+[2017.01.21-04.15.17:317][  0]SourceControl: Info Source control is disabled
+[2017.01.21-04.15.18:027][  0]LogEngine: Initializing Engine...
+[2017.01.21-04.15.18:027][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.21-04.15.18:184][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.21-04.15.18:192][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.15.18:198][  0]LogInit: FAudioDevice initialized.
+[2017.01.21-04.15.18:216][  0]LogDerivedDataCache: Saved boot cache 0.02s 51MB C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.21-04.15.18:222][  0]LogInit: Texture streaming: Enabled
+[2017.01.21-04.15.18:355][  0]LogInit: Transaction tracking system initialized
+[2017.01.21-04.15.18:533][  0]BlueprintLog: New page: Editor Load
+[2017.01.21-04.15.19:185][  0]LocalizationService: Info Localization service is disabled
+[2017.01.21-04.15.19:556][  0]LogConsoleResponse:Display: 
+[2017.01.21-04.15.19:729][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.21-04.15.19:729][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.21-04.15.20:226][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/DeckHeadGameJam/Content/' took 0.01s
+[2017.01.21-04.15.20:249][  0]SourceControl: Info Source control is disabled
+[2017.01.21-04.15.20:767][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2017.01.21-04.15.20:979][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.01.21-04.15.21:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.01.21-04.15.21:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.01.21-04.15.21:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.01.21-04.15.21:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.01.21-04.15.21:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.01.21-04.15.21:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.01.21-04.15.21:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.01.21-04.15.21:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.01.21-04.15.21:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.01.21-04.15.21:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.01.21-04.15.21:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.01.21-04.15.21:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.01.21-04.15.21:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.01.21-04.15.21:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.01.21-04.15.21:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.01.21-04.15.21:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.01.21-04.15.21:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.01.21-04.15.21:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Fire01.uasset"
+[2017.01.21-04.15.21:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.01.21-04.15.21:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.01.21-04.15.21:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.01.21-04.15.22:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Light01.uasset"
+[2017.01.21-04.15.22:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.01.21-04.15.22:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Light02.uasset"
+[2017.01.21-04.15.22:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.01.21-04.15.22:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.01.21-04.15.22:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.01.21-04.15.22:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.01.21-04.15.22:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.01.21-04.15.22:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.01.21-04.15.22:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.01.21-04.15.22:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.01.21-04.15.22:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.01.21-04.15.22:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Steam01.uasset"
+[2017.01.21-04.15.22:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.01.21-04.15.22:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.01.21-04.15.22:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.01.21-04.15.22:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.01.21-04.15.22:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.01.21-04.15.22:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.01.21-04.15.23:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.01.21-04.15.23:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.01.21-04.15.23:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.01.21-04.15.23:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.01.21-04.15.23:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.01.21-04.15.23:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.01.21-04.15.23:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.01.21-04.15.23:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.01.21-04.15.23:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.01.21-04.15.23:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.01.21-04.15.23:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.01.21-04.15.37:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.01.21-04.15.38:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.01.21-04.15.38:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.01.21-04.15.38:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Maps/StarterMap.umap"
+[2017.01.21-04.15.38:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.01.21-04.15.38:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.01.21-04.15.38:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.01.21-04.15.38:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.01.21-04.15.38:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.01.21-04.15.38:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.01.21-04.15.38:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.01.21-04.15.38:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.01.21-04.15.38:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.01.21-04.15.38:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.01.21-04.15.38:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.01.21-04.15.38:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.01.21-04.15.38:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.01.21-04.15.38:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.01.21-04.15.38:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.01.21-04.15.38:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.01.21-04.15.38:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.01.21-04.15.39:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.01.21-04.15.39:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.01.21-04.15.39:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.01.21-04.15.39:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.01.21-04.15.39:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.01.21-04.15.39:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.01.21-04.15.39:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.01.21-04.15.39:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.01.21-04.15.39:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.01.21-04.15.39:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.01.21-04.15.39:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.01.21-04.15.39:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.01.21-04.15.39:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.01.21-04.15.39:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.01.21-04.15.39:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.01.21-04.15.39:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.01.21-04.15.39:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.01.21-04.15.39:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.01.21-04.15.39:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.01.21-04.15.39:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.01.21-04.15.39:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.01.21-04.15.39:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.01.21-04.15.40:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.01.21-04.15.40:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.01.21-04.15.40:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.01.21-04.15.40:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.01.21-04.15.40:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.01.21-04.15.40:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.01.21-04.15.40:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.01.21-04.15.40:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.01.21-04.15.40:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.01.21-04.15.40:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.01.21-04.15.40:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.01.21-04.15.40:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.01.21-04.15.40:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.01.21-04.15.40:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.01.21-04.15.40:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.01.21-04.15.40:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.01.21-04.15.40:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.01.21-04.15.40:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.01.21-04.15.40:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.01.21-04.15.40:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.01.21-04.15.40:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.01.21-04.15.40:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.01.21-04.15.40:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.01.21-04.15.40:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.01.21-04.15.40:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.01.21-04.15.40:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Door.uasset"
+[2017.01.21-04.15.41:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.01.21-04.15.41:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.01.21-04.15.41:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.01.21-04.15.41:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.01.21-04.15.41:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.01.21-04.15.41:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.01.21-04.15.41:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.01.21-04.15.41:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.01.21-04.15.41:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.01.21-04.15.41:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.01.21-04.15.41:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.01.21-04.15.41:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.01.21-04.15.41:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.01.21-04.15.41:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.01.21-04.15.41:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.01.21-04.15.42:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.01.21-04.15.42:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.01.21-04.15.42:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.01.21-04.15.42:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.01.21-04.15.42:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.01.21-04.15.42:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.01.21-04.15.42:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.01.21-04.15.42:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.01.21-04.15.42:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.01.21-04.15.42:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.01.21-04.15.42:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.01.21-04.15.42:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.01.21-04.15.42:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.01.21-04.15.42:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.01.21-04.15.42:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.01.21-04.15.42:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.01.21-04.15.42:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.01.21-04.15.42:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.01.21-04.15.42:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.01.21-04.15.42:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.01.21-04.15.42:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.01.21-04.15.42:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.01.21-04.15.42:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.01.21-04.15.42:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.01.21-04.15.42:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.01.21-04.15.42:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.01.21-04.15.42:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.01.21-04.15.42:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.01.21-04.15.42:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.01.21-04.15.42:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.01.21-04.15.42:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.01.21-04.15.43:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.01.21-04.15.43:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.01.21-04.15.43:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.01.21-04.15.43:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.01.21-04.15.43:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.01.21-04.15.43:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.01.21-04.15.43:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.01.21-04.15.43:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.01.21-04.15.44:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.01.21-04.15.44:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.01.21-04.15.44:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.01.21-04.15.44:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.01.21-04.15.44:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.01.21-04.15.44:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.01.21-04.15.44:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.01.21-04.15.44:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.01.21-04.15.44:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.01.21-04.15.44:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.01.21-04.15.44:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.01.21-04.15.44:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.01.21-04.15.44:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.01.21-04.15.45:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.01.21-04.15.45:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.01.21-04.15.45:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.01.21-04.15.45:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.01.21-04.15.45:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.01.21-04.15.45:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.01.21-04.15.45:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.01.21-04.15.45:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.01.21-04.15.45:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.01.21-04.15.45:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.01.21-04.15.46:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.01.21-04.15.46:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.01.21-04.15.46:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.01.21-04.15.46:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.01.21-04.15.46:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.01.21-04.15.47:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.01.21-04.15.47:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.01.21-04.15.47:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.01.21-04.15.47:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.01.21-04.15.47:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.01.21-04.15.47:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.01.21-04.15.47:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.01.21-04.15.47:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.01.21-04.15.48:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.01.21-04.15.48:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.01.21-04.15.48:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.01.21-04.15.48:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.01.21-04.15.48:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.01.21-04.15.48:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.01.21-04.15.48:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.01.21-04.15.49:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.01.21-04.15.49:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.01.21-04.15.49:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.01.21-04.15.49:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.01.21-04.15.49:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.01.21-04.15.49:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.01.21-04.15.49:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.01.21-04.15.50:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.01.21-04.15.50:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.01.21-04.15.50:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.01.21-04.15.50:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.01.21-04.15.50:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.01.21-04.15.51:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.01.21-04.15.51:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.01.21-04.15.51:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.01.21-04.15.51:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.01.21-04.15.51:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.01.21-04.15.51:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.01.21-04.15.51:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.01.21-04.15.52:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.01.21-04.15.52:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.01.21-04.15.52:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.01.21-04.15.52:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.01.21-04.15.52:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.01.21-04.15.52:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.01.21-04.15.53:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.01.21-04.15.53:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.01.21-04.15.53:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.01.21-04.15.53:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.01.21-04.15.53:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.01.21-04.15.53:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.01.21-04.15.53:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.01.21-04.15.53:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.01.21-04.15.53:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.01.21-04.15.53:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.01.21-04.15.53:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.01.21-04.15.53:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.01.21-04.15.53:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.01.21-04.15.53:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.01.21-04.15.53:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.01.21-04.15.53:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.01.21-04.15.53:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.01.21-04.15.54:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.01.21-04.15.54:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.01.21-04.15.54:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.01.21-04.15.54:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.01.21-04.15.54:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.01.21-04.15.54:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.01.21-04.15.55:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.01.21-04.15.55:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.01.21-04.15.56:428][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.01.21-04.15.57:755][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.01.21-04.15.57:884][  0]LogSavePackage: Save=70.89ms
+[2017.01.21-04.15.57:884][  0]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/Floor_400x400283130A24F9A68E05A88999A516B59DC.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.01.21-04.15.57:887][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.01.21-04.15.57:887][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.01.21-04.15.57:901][  0]Cmd: MAP LOAD FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.21-04.15.57:901][  0]LightingResults: New page: Lighting Build
+[2017.01.21-04.15.57:923][  0]MapCheck: New page: Map Check
+[2017.01.21-04.15.57:923][  0]LightingResults: New page: Lighting Build
+[2017.01.21-04.15.58:876][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.01.21-04.15.59:112][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.01.21-04.15.59:170][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.01.21-04.15.59:182][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.01.21-04.15.59:250][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.01.21-04.15.59:275][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.01.21-04.15.59:285][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.01.21-04.15.59:374][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.01.21-04.15.59:397][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2017.01.21-04.15.59:404][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.01.21-04.15.59:462][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.01.21-04.16.00:025][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-04.16.00:654][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.21-04.16.00:663][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.21-04.16.00:685][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.8ms to complete.
+[2017.01.21-04.16.00:685][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.784
+[2017.01.21-04.16.00:755][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.21-04.16.02:490][  0]LogCollectionManager: Loaded 0 collections in 0.000817 seconds
+[2017.01.21-04.16.03:361][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/DeckHeadGameJam/Saved/Collections/' took 0.01s
+[2017.01.21-04.16.03:361][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/DeckHeadGameJam/Content/Developers/Origin/Collections/' took 0.01s
+[2017.01.21-04.16.03:361][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/DeckHeadGameJam/Content/Collections/' took 0.01s
+[2017.01.21-04.16.03:361][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.01.21-04.16.03:457][  0]LogContentBrowser: Native class hierarchy populated in 0.0327 seconds. Added 2192 classes and 430 folders.
+[2017.01.21-04.16.03:529][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.21-04.16.03:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.012 s
+[2017.01.21-04.16.03:553][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.01.21-04.16.03:629][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.21-04.16.03:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.01.21-04.16.04:028][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.01.21-04.16.04:747][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.21-04.16.05:270][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.01.21-04.16.05:270][  0]LogLoad: (Engine Initialization) Total time: 55.39 seconds
+[2017.01.21-04.16.05:270][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
+[2017.01.21-04.16.05:270][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.21-04.16.05:270][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.21-04.16.05:287][  0]LogOcInput: OculusInput pre-init called
+[2017.01.21-04.16.05:398][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.21-04.16.05:850][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
+[2017.01.21-04.16.05:951][  1]LogAssetRegistry: Asset discovery search completed in 51.6095 seconds
+[2017.01.21-04.16.05:951][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.21-04.16.05:951][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2017.01.21-04.18.12:445][670]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.01.21-04.18.12:452][670]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.01.21-04.18.13:930][670]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.01.21-04.18.19:701][ 13]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-04.18.20:046][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.18.20:074][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-04.18.20:332][ 13]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 20, 2017, 12:18:20 PM)
+[2017.01.21-04.18.20:332][ 13]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-04.18.21:513][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (1.180202s)
+[2017.01.21-04.18.21:513][ 13]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-04.18.21:513][ 13]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2017.01.21-04.18.21:513][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (1.180836s)
+[2017.01.21-04.18.21:882][ 13]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.18.21:885][ 13]LogInit: FAudioDevice initialized.
+[2017.01.21-04.18.23:353][ 13]LogLoad: Game class is 'DeckHeadGameJamGameMode'
+[2017.01.21-04.18.24:014][ 13]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.01.20-20.18.24
+[2017.01.21-04.18.24:014][ 13]LogWorld: Bringing up level for play took: 0.067256
+[2017.01.21-04.18.29:551][ 13]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.01.21-04.18.29:805][ 13]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 10.652
+[2017.01.21-04.18.29:805][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.18.42:435][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.18.43:658][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.19.01:646][185]Cmd: SELECT NONE
+[2017.01.21-04.19.02:927][260]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (TextRenderActor)
+[2017.01.21-04.19.04:480][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-04.19.12:488][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-04.19.13:071][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-04.19.13:521][585]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.01.21-04.19.15:471][585]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.01.21-04.20.51:083][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-04.20.51:864][887]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.01.21-04.20.52:394][889]LogEditorViewport: Clicking on Component (LMB): CameraComponent (CameraComponent)
+[2017.01.21-04.21.28:151][434]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.01.21-04.23.48:974][891]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.01.21-04.24.11:686][851]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.01.21-04.26.37:414][351]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.01.21-04.26.39:506][473]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.01.21-04.27.11:717][260]LogSavePackage: Save=166.38ms
+[2017.01.21-04.27.11:717][260]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/ThirdPersonExampleMap_Auto1E11152404CCE5094D99D3790DCD852DD.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.01.21-04.27.11:717][260]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.01.21-04.27.11:736][260]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.305
+[2017.01.21-04.27.11:736][260]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.305
+[2017.01.21-04.27.13:198][348]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-04.27.13:206][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.27.13:206][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-04.27.13:206][348]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 20, 2017, 12:27:13 PM)
+[2017.01.21-04.27.13:206][348]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-04.27.13:220][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013871s)
+[2017.01.21-04.27.13:221][348]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-04.27.13:221][348]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.01.21-04.27.13:221][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014617s)
+[2017.01.21-04.27.13:268][348]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.27.13:271][348]LogInit: FAudioDevice initialized.
+[2017.01.21-04.27.13:376][348]LogLoad: Game class is 'DeckHeadGameJamGameMode'
+[2017.01.21-04.27.13:378][348]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.01.20-20.27.13
+[2017.01.21-04.27.13:378][348]LogWorld: Bringing up level for play took: 0.001559
+[2017.01.21-04.27.13:392][348]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.239
+[2017.01.21-04.27.13:392][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.27.41:238][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.27.41:299][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.27.47:426][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-04.27.48:139][407]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.01.21-04.27.49:791][502]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.01.21-04.28.04:931][764]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-04.28.04:935][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.04:935][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-04.28.04:935][764]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 20, 2017, 12:28:04 PM)
+[2017.01.21-04.28.04:935][764]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-04.28.04:950][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014346s)
+[2017.01.21-04.28.04:950][764]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-04.28.04:950][764]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.01.21-04.28.04:950][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015156s)
+[2017.01.21-04.28.04:998][764]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.28.05:001][764]LogInit: FAudioDevice initialized.
+[2017.01.21-04.28.05:033][764]LogLoad: Game class is 'DeckHeadGameJamGameMode'
+[2017.01.21-04.28.05:035][764]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.01.20-20.28.05
+[2017.01.21-04.28.05:035][764]LogWorld: Bringing up level for play took: 0.001444
+[2017.01.21-04.28.05:037][764]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.116
+[2017.01.21-04.28.05:037][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.11:901][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.11:983][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.14:534][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.14:534][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-04.28.14:534][323]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 20, 2017, 12:28:14 PM)
+[2017.01.21-04.28.14:534][323]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.01.21-04.28.14:545][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011045s)
+[2017.01.21-04.28.14:545][323]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.01.21-04.28.14:546][323]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2017.01.21-04.28.14:546][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012044s)
+[2017.01.21-04.28.14:591][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.28.14:595][323]LogInit: FAudioDevice initialized.
+[2017.01.21-04.28.14:998][323]LogLoad: Game class is 'DeckHeadGameJamGameMode'
+[2017.01.21-04.28.15:005][323]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.01.20-20.28.15
+[2017.01.21-04.28.15:005][323]LogWorld: Bringing up level for play took: 0.004653
+[2017.01.21-04.28.15:015][323]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.138
+[2017.01.21-04.28.15:016][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.28.15:049][323]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:34976).
+[2017.01.21-04.29.05:868][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.29.05:959][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.01.21-04.29.23:603][388]LogSavePackage: Save=78.73ms
+[2017.01.21-04.29.23:603][388]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/ThirdPersonExampleMap457E85BB4A88CF025EE94E830ECD913D.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.01.21-04.29.23:606][388]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.01.21-04.29.23:629][388]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.142
+[2017.01.21-04.29.25:614][501]LogSavePackage: Save=79.23ms
+[2017.01.21-04.29.25:614][501]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/ThirdPersonExampleMap8D8269A6483E517585AF84BF31D3093D.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.01.21-04.29.25:615][501]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.01.21-04.29.25:729][501]LogSavePackage: Save=103.20ms
+[2017.01.21-04.29.25:729][501]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/ThirdPersonExampleMap_BuiltData2CD8339A437FAF703BF1E6B53959D3A9.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.01.21-04.29.25:730][501]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.01.21-04.29.35:594][ 45]LogMetaData: Removing '/Game/ThirdPersonCPP/Maps/Level1.Level1_C' ref from Metadata '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.01.21-04.29.35:594][ 45]LogMetaData: Removing '/Game/ThirdPersonCPP/Maps/Level1.SKEL_Level1_C' ref from Metadata '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.01.21-04.29.35:673][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/Level1" FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-04.29.35:863][ 45]LogSavePackage: Save=179.41ms
+[2017.01.21-04.29.35:863][ 45]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/Level1DEA298CD4BBB674159D4CE9325FDC53F.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap'
+[2017.01.21-04.29.35:864][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap
+[2017.01.21-04.29.35:873][ 45]LogFileHelpers: Saving map 'Level1' took 0.239
+[2017.01.21-04.29.36:754][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/Level1" FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-04.29.36:951][ 86]LogSavePackage: Save=178.37ms
+[2017.01.21-04.29.36:951][ 86]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/Level18BA372464AA9F6EC705798A6DD453F72.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap'
+[2017.01.21-04.29.36:952][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap
+[2017.01.21-04.29.36:956][ 86]LogFileHelpers: Saving map 'Level1' took 0.226
+[2017.01.21-04.29.38:805][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/Level1" FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-04.29.38:994][197]LogSavePackage: Save=176.10ms
+[2017.01.21-04.29.38:994][197]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/Level1B05940A14AE2D03BF7061FBBC4A7B33E.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap'
+[2017.01.21-04.29.38:995][197]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap
+[2017.01.21-04.29.41:442][344]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.21-04.29.41:445][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.01.21-04.29.41:445][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-04.29.41:445][344]PIE: New page: PIE session: Level1 (Jan 20, 2017, 12:29:41 PM)
+[2017.01.21-04.29.41:445][344]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Level1
+[2017.01.21-04.29.41:460][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014671s)
+[2017.01.21-04.29.41:461][344]LogAIModule: Creating AISystem for world Level1
+[2017.01.21-04.29.41:461][344]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2017.01.21-04.29.41:461][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Level1.Level1 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Level1.Level1 (0.015878s)
+[2017.01.21-04.29.41:504][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-04.29.41:508][344]LogInit: FAudioDevice initialized.
+[2017.01.21-04.29.41:548][344]LogLoad: Game class is 'DeckHeadGameJamGameMode'
+[2017.01.21-04.29.41:550][344]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2017.01.20-20.29.41
+[2017.01.21-04.29.41:551][344]LogWorld: Bringing up level for play took: 0.001566
+[2017.01.21-04.29.41:554][344]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_Level1 0.401
+[2017.01.21-04.29.41:555][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.01.21-04.29.53:064][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.01.21-04.29.53:121][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.01.21-04.29.54:479][104]Recompiling DeckHeadGameJam...
+[2017.01.21-04.29.54:479][104]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe DeckHeadGameJam -ModuleWithSuffix DeckHeadGameJam 8320 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/DeckHeadGameJam/DeckHeadGameJam.uproject" ]
+[2017.01.21-04.29.54:480][104]Warning: Starting HotReload took  0.1s.
+[2017.01.21-04.29.56:173][206]CompilerResultsLog: New page: Compilation - Jan 20, 2017, 12:29:56 PM
+[2017.01.21-04.29.56:174][206]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.01.21-04.29.56:174][206]CompilerResultsLog: Info Creating makefile for hot reloading DeckHeadGameJam (no existing makefile)
+[2017.01.21-04.29.56:174][206]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-04.29.56:174][206]CompilerResultsLog: Info Target is up to date
+[2017.01.21-04.29.56:174][206]LogMainFrame: MainFrame: Module compiling took 1.699 seconds
+[2017.01.21-04.29.56:442][206]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2194 classes and 434 folders.
+[2017.01.21-04.29.56:470][206]Display: HotReload took  2.1s.
+[2017.01.21-04.29.57:208][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/Level1" FILE="../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-04.29.57:425][250]LogSavePackage: Save=180.05ms
+[2017.01.21-04.29.57:425][250]LogSavePackage: Moving '../../../../../../RepoMan/DeckHeadGameJam/Saved/Level13B834DB9416B3BB261EFDBACE37D6DDC.tmp' to '../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap'
+[2017.01.21-04.29.57:426][250]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/DeckHeadGameJam/Content/ThirdPersonCPP/Maps/Level1.umap
+[2017.01.21-04.30.02:028][520]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.21-04.30.02:275][521]Cmd: QUIT_EDITOR
+[2017.01.21-04.30.03:155][521]LogExit: Preparing to exit.
+[2017.01.21-04.30.03:482][521]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/DeckHeadGameJam/Content/' was aborted.
+[2017.01.21-04.30.03:498][521]LogExit: Editor shut down
+[2017.01.21-04.30.03:499][521]LogExit: Transaction tracking system shut down
+[2017.01.21-04.30.03:553][521]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.21-04.30.03:553][521]LogExit: Object subsystem successfully closed.
+[2017.01.21-04.30.03:569][521]LogD3D11RHI: Shutdown
+[2017.01.21-04.30.03:569][521]LogD3D11RHI: CleanupD3DDevice
+[2017.01.21-04.30.03:623][521]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.21-04.30.03:711][521]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.21-04.30.03:711][521]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B57541E19-4766-C4E1-9A59-7199DEF2A43A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.2-3241561%2B%2B%2BUE4%2BRelease-4.14&UserID=1de5576948547c4a3d64389e206d40e9%7C08ec85b453944d8e86d6651d1fcb8040%7C91f838fd-68de-48f1-999f-0aec201f1854&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.21-04.30.03:739][521]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.01.21-04.30.03:739][521]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.01.21-04.30.03:742][521]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.01.21-04.30.03:742][521]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.01.21-04.30.03:742][521]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.01.21-04.30.03:742][521]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.01.21-04.30.03:743][521]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.01.21-04.30.03:743][521]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/DeckHeadGameJam/Content/Collections/' was aborted.
+[2017.01.21-04.30.03:743][521]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/DeckHeadGameJam/Content/Developers/Origin/Collections/' was aborted.
+[2017.01.21-04.30.03:743][521]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/DeckHeadGameJam/Saved/Collections/' was aborted.
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.01.21-04.30.03:743][521]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.01.21-04.30.03:744][521]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.01.21-04.30.04:674][521]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.01.21-04.30.04:716][521]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.01.21-04.30.04:718][521]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.01.21-04.30.04:796][521]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.01.21-04.30.04:797][521]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.01.21-04.30.04:798][521]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/DeckHeadGameJam/Binaries/Win64' was aborted.
+[2017.01.21-04.30.04:798][521]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.01.21-04.30.04:798][521]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.01.21-04.30.04:798][521]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.01.21-04.30.04:799][521]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.01.21-04.30.04:799][521]LogModuleManager: Shutting down and abandoning module DeckHeadGameJam (104)
+[2017.01.21-04.30.04:799][521]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.21-04.30.04:899][521]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.21-04.30.05:000][521]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.21-04.30.05:001][521]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.21-04.30.05:001][521]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.21-04.30.05:001][521]LogDirectoryWatcher: A directory notification for '../../../../../../RepoMan/DeckHeadGameJam/Content/' was aborted.
+[2017.01.21-04.30.05:001][521]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.21-04.30.05:002][521]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.21-04.30.05:140][521]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.21-04.30.05:154][521]LogDerivedDataCache: Shutdown
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.21-04.30.05:154][521]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.21-04.30.05:155][521]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.21-04.30.05:155][521]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.21-04.30.05:157][521]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.21-04.30.05:158][521]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.21-04.30.05:158][521]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.21-04.30.05:158][521]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.21-04.30.05:159][521]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.21-04.30.05:161][521]LogExit: Exiting.
+[2017.01.21-04.30.05:175][521]Log file closed, 01/20/17 20:30:05

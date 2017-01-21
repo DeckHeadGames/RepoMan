@@ -1,0 +1,3 @@
+D:\RepoMan\DeckHeadGameJam\Source\DeckHeadGameJam\DeckHeadGameJam.Build.cs
+D:\RepoMan\DeckHeadGameJam\Source\DeckHeadGameJam.Target.cs
+D:\RepoMan\DeckHeadGameJam\Source\DeckHeadGameJamEditor.Target.cs
