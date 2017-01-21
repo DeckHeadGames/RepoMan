@@ -11,6 +11,8 @@ class COLOREPO_API ALightWave : public AActor
 	GENERATED_BODY()
 		UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
 		class USphereComponent* CollisionComp;
+	UPROPERTY(VisibleAnywhere)
+		class UParticleSystemComponent* PSC;
 
 public:
 	// Sets default values for this actor's properties
@@ -27,8 +29,8 @@ public:
 	virtual void Tick(float DeltaSeconds) override;
 	void SetInitialForward(FVector direction);
 	FVector GetInitialForward();
-	void SetFrequency(float number);
-	float GetFrequency();
+	
+	void SetColor(int index);
 
 protected:
 
@@ -38,7 +40,16 @@ protected:
 	FORCEINLINE class USphereComponent* GetCollisionComp() const { return CollisionComp; }
 	/** Returns ProjectileMovement subobject **/
 	FORCEINLINE class UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
-	FVector InitialForward;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector InitialForward;
+	void SetFrequency(float number);
+	const float Red = 90.0f;
+	const float Orange = 78.0f;
+	const float Yellow = 66.0f;
+	const float Green = 54.0f;
+	const float Blue = 42.0f;
+	const float Indigo = 30.0f;
+	const float Violet = 18.0f;
 
 	float xValue;
 	float frequency;

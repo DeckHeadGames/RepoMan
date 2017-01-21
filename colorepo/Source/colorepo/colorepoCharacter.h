@@ -27,20 +27,20 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+	int CurrentColor;
 
-	const float Red = 90.0f;
-	const float Orange = 78.0f;
-	const float Yellow = 66.0f;
-	const float Green = 54.0f;
-	const float Blue = 42.0f;
-	const float Indigo = 30.0f;
-	const float Violet = 18.0f;
 
 
 protected:
 
-	float CurrentColor;
-
+	
+	const int Red = 1;
+	const int Orange = 2;
+	const int Yellow = 3;
+	const int Green = 4;
+	const int Blue = 5;
+	const int Indigo = 6;
+	const int Violet = 7;
 
 	void SetCurrentColor(float number);
 	float GetCurrentColor();

@@ -22,7 +22,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ALightWave::StaticClass(), "OnHit",(Native)&ALightWave::execOnHit);
 	}
-	IMPLEMENT_CLASS(ALightWave, 1580037537);
+	IMPLEMENT_CLASS(ALightWave, 3354398603);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister();
@@ -188,7 +189,9 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->LinkChild(Z_Construct_UFunction_ALightWave_OnHit());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_InitialForward = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("InitialForward"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(InitialForward, ALightWave), 0x0020080000000005, Z_Construct_UScriptStruct_FVector());
 				UProperty* NewProp_ProjectileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovement"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovement, ALightWave), 0x00100000000a001d, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+				UProperty* NewProp_PSC = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PSC"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PSC, ALightWave), 0x00400000000a0009, Z_Construct_UClass_UParticleSystemComponent_NoRegister());
 				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, ALightWave), 0x00400000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ALightWave_OnHit(), "OnHit"); // 2120528868
@@ -197,11 +200,16 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("LightWave.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
+				MetaData->SetValue(NewProp_InitialForward, TEXT("Category"), TEXT("LightWave"));
+				MetaData->SetValue(NewProp_InitialForward, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
 				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("AllowPrivateAccess"), TEXT("true"));
 				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("Category"), TEXT("Movement"));
 				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
 				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ToolTip"), TEXT("Projectile movement component"));
+				MetaData->SetValue(NewProp_PSC, TEXT("Category"), TEXT("LightWave"));
+				MetaData->SetValue(NewProp_PSC, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_PSC, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
 				MetaData->SetValue(NewProp_CollisionComp, TEXT("Category"), TEXT("Projectile"));
 				MetaData->SetValue(NewProp_CollisionComp, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_CollisionComp, TEXT("ModuleRelativePath"), TEXT("LightWave.h"));
@@ -221,7 +229,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xA60A5C0E;
+			Guid.A = 0x0E4E1908;
 			Guid.B = 0x35D8E490;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
