@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 3379617968);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 2248865235);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
@@ -65,7 +65,13 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_VioletProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("VioletProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(VioletProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_IndigoProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IndigoProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(IndigoProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_BlueProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BlueProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(BlueProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_GreenProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GreenProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(GreenProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_YellowProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("YellowProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(YellowProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_OrangeProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OrangeProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(OrangeProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_RedProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RedProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(RedProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, AcolorepoCharacter), 0x0010000000020015);
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
@@ -78,8 +84,20 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
-				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
-				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_VioletProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_VioletProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_IndigoProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_IndigoProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_BlueProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_BlueProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_GreenProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_GreenProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_YellowProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_YellowProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_OrangeProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_OrangeProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_RedProjectile, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_RedProjectile, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("Category"), TEXT("Camera"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ToolTip"), TEXT("Base look up/down rate, in deg/sec. Other scaling may affect final rate."));
@@ -229,7 +247,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x0E4E1908;
+			Guid.A = 0x6F709430;
 			Guid.B = 0x35D8E490;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

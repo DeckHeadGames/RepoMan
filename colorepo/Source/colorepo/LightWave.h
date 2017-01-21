@@ -30,7 +30,7 @@ public:
 	void SetInitialForward(FVector direction);
 	FVector GetInitialForward();
 	
-	//void SetColor(int index);
+	void SetColor(int index);
 
 protected:
 
@@ -43,14 +43,14 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector InitialForward;
 	void SetFrequency(float number);
-	const float Red = 90.0f;
-	const float Orange = 78.0f;
-	const float Yellow = 66.0f;
+	const float Violet = 90.0f;
+	const float Indigo = 78.0f;
+	const float Blue = 66.0f;
 	const float Green = 54.0f;
-	const float Blue = 42.0f;
-	const float Indigo = 30.0f;
-	const float Violet = 18.0f;
-
+	const float Yellow = 42.0f;
+	const float Orange = 30.0f;
+	const float Red = 18.0f;
+	int MyColor;
 	float xValue;
 	float frequency;
 };

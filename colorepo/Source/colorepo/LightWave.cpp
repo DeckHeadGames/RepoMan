@@ -37,48 +37,7 @@ ALightWave::ALightWave()
 	InitialForward = ProjectileMovement->Velocity;
 	xValue = 0.0f;
 	frequency = 10.0f;
-
-	//PSC = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyPSC"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> RR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/RED_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> OR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/ORANGE_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> YR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/YELLOW_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> GR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/GREEN_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> BR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/BLUE_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> IR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/INDIGO_RIBBON'"));
-	//static ConstructorHelpers::FObjectFinder<UParticleSystem> VR(TEXT("ParticleSystem'/Game/ParticleSystems/Ribbon/VIOLET_RIBBON'"));
-	//int index = 4;
-	//switch (index) {
-	//case 1:
-	//	SetFrequency(Red);
-	//	PSC->SetTemplate(RR.Object);
-	//	break;
-	//case 2:
-	//	SetFrequency(Orange);
-	//	PSC->SetTemplate(OR.Object);
-	//	break;
-	//case 3:
-	//	SetFrequency(Yellow);
-	//	PSC->SetTemplate(YR.Object);
-	//	break;
-	//case 4:
-	//	SetFrequency(Green);
-	//	PSC->SetTemplate(GR.Object);
-	//	break;
-	//case 5:
-	//	SetFrequency(Blue);
-	//	PSC->SetTemplate(BR.Object);
-	//	break;
-	//case 6:
-	//	SetFrequency(Indigo);
-	//	PSC->SetTemplate(RR.Object);
-	//	break;
-	//case 7:
-	//	SetFrequency(Violet);
-	//	PSC->SetTemplate(RR.Object);
-	//	break;
-	//default:
-	//	break;
-	//}
+	MyColor = 0;
 
 }
 
@@ -111,6 +70,13 @@ void ALightWave::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimit
 	if (!OtherActor->IsA(AcolorepoCharacter::StaticClass())) {
 		this->Destroy();
 	}
+	if (OtherActor->IsA(AcolorepoCharacter::StaticClass())) {
+		AcolorepoCharacter*  temp = Cast<AcolorepoCharacter>(OtherActor);
+		FVector Impulse = InitialForward;
+		Impulse.Normalize();
+		temp->LaunchCharacter(Impulse * 500.0f * MyColor, true, true);
+		this->Destroy();
+	}
 	
 }
 
@@ -118,6 +84,37 @@ void ALightWave::SetFrequency(float number) {
 	frequency = number;
 }
 
-//void ALightWave::SetColor(int index) {
-//
-//}
+void ALightWave::SetColor(int index) {
+	switch (index) {
+	case 1:
+		SetFrequency(Red);
+		MyColor = 8 - index;
+		break;
+	case 2:
+		SetFrequency(Orange);
+		MyColor = 8 - index;
+		break;
+	case 3:
+		SetFrequency(Yellow);
+		MyColor = 8 - index;
+		break;
+	case 4:
+		SetFrequency(Green);
+		MyColor = 8 - index;
+		break;
+	case 5:
+		SetFrequency(Blue);
+		MyColor = 8 - index;
+		break;
+	case 6:
+		SetFrequency(Indigo);
+		MyColor = 8 - index;
+		break;
+	case 7:
+		SetFrequency(Violet);
+		MyColor = 8 - index;
+		break;
+	default:
+		break;
+	}
+}

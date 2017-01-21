@@ -40,7 +40,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-	CurrentColor = Green;
+	CurrentColor = Red;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -91,6 +91,32 @@ float AcolorepoCharacter::GetCurrentColor() {
 
 void AcolorepoCharacter::FireLightWave() {
 	// try and fire a projectile
+	TSubclassOf<ALightWave> ProjectileClass;
+	switch (CurrentColor) {
+	case 1:
+		ProjectileClass = RedProjectile;
+		break;
+	case 2:
+		ProjectileClass = OrangeProjectile;
+		break;
+	case 3:
+		ProjectileClass = YellowProjectile;
+		break;
+	case 4:
+		ProjectileClass = GreenProjectile;
+		break;
+	case 5:
+		ProjectileClass = BlueProjectile;
+		break;
+	case 6:
+		ProjectileClass = IndigoProjectile;
+		break;
+	case 7:
+		ProjectileClass = VioletProjectile;
+		break;
+	default:
+		break;
+	}
 	if (ProjectileClass != NULL)
 	{
 		UWorld* const World = GetWorld();
@@ -109,7 +135,13 @@ void AcolorepoCharacter::FireLightWave() {
 				float magnitude = sqrt(magnitudeSquared);
 				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-				//ShotWave->SetColor(CurrentColor);
+				ShotWave->SetColor(CurrentColor);
+				if (CurrentColor == Violet) {
+					CurrentColor = Red;
+				}
+				else {
+					CurrentColor++;
+				}
 		}
 	}
 }

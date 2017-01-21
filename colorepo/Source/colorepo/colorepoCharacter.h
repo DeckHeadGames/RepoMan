@@ -75,7 +75,19 @@ protected:
 	void FireLightWave();
 
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
-		TSubclassOf<class ALightWave> ProjectileClass;
+		TSubclassOf<class ALightWave> RedProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> OrangeProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> YellowProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> GreenProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> BlueProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> IndigoProjectile;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ALightWave> VioletProjectile;
 
 protected:
 	// APawn interface
