@@ -73,6 +73,8 @@ protected:
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
 	void FireLightWave();
+	void FireManager();
+	void CannotFire();
 
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class ALightWave> RedProjectile;
@@ -88,6 +90,9 @@ protected:
 		TSubclassOf<class ALightWave> IndigoProjectile;
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class ALightWave> VioletProjectile;
+
+	bool CanFire;
+	FTimerHandle Cooldown;
 
 protected:
 	// APawn interface

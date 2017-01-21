@@ -41,6 +41,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 	CurrentColor = Red;
+	CanFire = true;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -89,6 +90,17 @@ float AcolorepoCharacter::GetCurrentColor() {
 	return CurrentColor;
 }
 
+void AcolorepoCharacter::FireManager() {
+	CanFire = false;
+	int Value = 8 - CurrentColor;
+	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotFire,
+		0.2f * Value, false);
+}
+
+void AcolorepoCharacter::CannotFire() {
+	CanFire = true;
+}
+
 void AcolorepoCharacter::FireLightWave() {
 	// try and fire a projectile
 	TSubclassOf<ALightWave> ProjectileClass;
@@ -117,7 +129,7 @@ void AcolorepoCharacter::FireLightWave() {
 	default:
 		break;
 	}
-	if (ProjectileClass != NULL)
+	if (ProjectileClass != NULL && CanFire)
 	{
 		UWorld* const World = GetWorld();
 		if (World != NULL)
@@ -142,6 +154,7 @@ void AcolorepoCharacter::FireLightWave() {
 				else {
 					CurrentColor++;
 				}
+				FireManager();
 		}
 	}
 }
