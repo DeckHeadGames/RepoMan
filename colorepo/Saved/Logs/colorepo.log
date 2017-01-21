@@ -1694,3 +1694,850 @@ LogInit: Object subsystem initialized
 [2017.01.21-07.33.53:315][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
 [2017.01.21-07.33.53:347][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
 [2017.01.21-07.39.23:786][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.01.21-07.53.08:369][428]Recompiling colorepo...
+[2017.01.21-07.53.08:369][428]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 1713 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-07.53.08:370][428]Warning: Starting HotReload took  0.0s.
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: New page: Compilation - Jan 20, 2017, 3:53:24 PM
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info Parsing headers for colorepoEditor
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\RepoMan\colorepo\colorepo.uproject" "D:\RepoMan\colorepo\Intermediate\Build\Win64\colorepoEditor\Development\colorepoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info Reflection code generated for colorepoEditor in 2.125541 seconds
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info LightWave.cpp
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info colorepo.generated.cpp
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info colorepoGameMode.cpp
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info colorepoCharacter.cpp
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info [5/5] Link UE4Editor-colorepo-1713.dll
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info    Creating library D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo-1713.lib and object D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo-1713.exp
+[2017.01.21-07.53.24:911][421]CompilerResultsLog: Info Total build time: 16.39 seconds
+[2017.01.21-07.53.24:911][421]LogMainFrame: MainFrame: Module compiling took 16.545 seconds
+[2017.01.21-07.53.24:982][421]LogContentBrowser: Native class hierarchy updated for 'colorepo' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2017.01.21-07.53.24:984][421]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.01.21-07.53.25:183][421]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2195 classes and 434 folders.
+[2017.01.21-07.53.25:183][421]Display: HotReload took 16.8s.
+[2017.01.21-07.53.27:075][535]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-07.53.27:084][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-07.53.27:084][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-07.53.27:084][535]PIE: New page: PIE session: TestLevel (Jan 20, 2017, 3:53:27 PM)
+[2017.01.21-07.53.27:085][535]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-07.53.27:097][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012627s)
+[2017.01.21-07.53.27:098][535]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-07.53.27:098][535]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2017.01.21-07.53.27:099][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014042s)
+[2017.01.21-07.53.27:138][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-07.53.27:142][535]LogInit: FAudioDevice initialized.
+[2017.01.21-07.53.27:173][535]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-07.53.27:175][535]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.20-23.53.27
+[2017.01.21-07.53.27:175][535]LogWorld: Bringing up level for play took: 0.001160
+[2017.01.21-07.53.27:177][535]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.024
+[2017.01.21-07.53.27:177][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-07.53.47:491][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-07.53.47:533][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.00.25:087][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal1.obj)
+[2017.01.21-08.00.25:209][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal1.obj
+[2017.01.21-08.00.25:227][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:155][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal1.obj
+[2017.01.21-08.00.34:156][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:162][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box001Mat'
+[2017.01.21-08.00.34:162][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box001Mat'
+[2017.01.21-08.00.34:331][603]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.00.34:430][603]LogFbx:Warning: Triangulating static mesh Box001
+[2017.01.21-08.00.34:477][603]LogStaticMesh: Building static mesh crystal1...
+[2017.01.21-08.00.34:554][603]LogStaticMesh: Built static mesh [0.08s] /Game/Geometry/Meshes/crystal1.crystal1
+[2017.01.21-08.00.34:583][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal2.obj)
+[2017.01.21-08.00.34:589][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal2.obj
+[2017.01.21-08.00.34:590][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:592][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box002Mat'
+[2017.01.21-08.00.34:592][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box002Mat'
+[2017.01.21-08.00.34:595][603]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.00.34:606][603]LogFbx:Warning: Triangulating static mesh Box002
+[2017.01.21-08.00.34:621][603]LogStaticMesh: Building static mesh crystal2...
+[2017.01.21-08.00.34:641][603]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/crystal2.crystal2
+[2017.01.21-08.00.34:650][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal3.obj)
+[2017.01.21-08.00.34:655][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal3.obj
+[2017.01.21-08.00.34:657][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:659][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Cone002Mat'
+[2017.01.21-08.00.34:659][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Cone002Mat'
+[2017.01.21-08.00.34:662][603]LogMaterial: Missing cached shader map for material Cone002Mat, compiling. 
+[2017.01.21-08.00.34:675][603]LogFbx:Warning: Triangulating static mesh Cone002
+[2017.01.21-08.00.34:689][603]LogStaticMesh: Building static mesh crystal3...
+[2017.01.21-08.00.34:695][603]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/crystal3.crystal3
+[2017.01.21-08.00.34:703][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal4.obj)
+[2017.01.21-08.00.34:716][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal4.obj
+[2017.01.21-08.00.34:718][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:720][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Cone003Mat'
+[2017.01.21-08.00.34:720][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Cone003Mat'
+[2017.01.21-08.00.34:723][603]LogMaterial: Missing cached shader map for material Cone003Mat, compiling. 
+[2017.01.21-08.00.34:733][603]LogFbx:Warning: Triangulating static mesh Cone003
+[2017.01.21-08.00.34:749][603]LogStaticMesh: Building static mesh crystal4...
+[2017.01.21-08.00.34:756][603]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/crystal4.crystal4
+[2017.01.21-08.00.34:764][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal5.obj)
+[2017.01.21-08.00.34:769][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal5.obj
+[2017.01.21-08.00.34:773][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:775][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box003Mat'
+[2017.01.21-08.00.34:775][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box003Mat'
+[2017.01.21-08.00.34:778][603]LogMaterial: Missing cached shader map for material Box003Mat, compiling. 
+[2017.01.21-08.00.34:789][603]LogFbx:Warning: Triangulating static mesh Box003
+[2017.01.21-08.00.34:820][603]LogStaticMesh: Building static mesh crystal5...
+[2017.01.21-08.00.34:832][603]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/crystal5.crystal5
+[2017.01.21-08.00.34:843][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal6.obj)
+[2017.01.21-08.00.34:850][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal6.obj
+[2017.01.21-08.00.34:852][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:854][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box005Mat'
+[2017.01.21-08.00.34:854][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box005Mat'
+[2017.01.21-08.00.34:857][603]LogMaterial: Missing cached shader map for material Box005Mat, compiling. 
+[2017.01.21-08.00.34:868][603]LogFbx:Warning: Triangulating static mesh Box005
+[2017.01.21-08.00.34:887][603]LogStaticMesh: Building static mesh crystal6...
+[2017.01.21-08.00.34:923][603]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Meshes/crystal6.crystal6
+[2017.01.21-08.00.34:930][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/crystal7.obj)
+[2017.01.21-08.00.34:936][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/crystal7.obj
+[2017.01.21-08.00.34:938][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.34:940][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box006Mat'
+[2017.01.21-08.00.34:940][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Box006Mat'
+[2017.01.21-08.00.34:944][603]LogMaterial: Missing cached shader map for material Box006Mat, compiling. 
+[2017.01.21-08.00.34:961][603]LogFbx:Warning: Triangulating static mesh Box006
+[2017.01.21-08.00.34:974][603]LogStaticMesh: Building static mesh crystal7...
+[2017.01.21-08.00.34:997][603]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/crystal7.crystal7
+[2017.01.21-08.00.35:006][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/person1.obj)
+[2017.01.21-08.00.35:016][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/person1.obj
+[2017.01.21-08.00.35:017][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.35:019][603]LogLinker: Can't find file '/Game/Geometry/Meshes/HeadpieceMat'
+[2017.01.21-08.00.35:019][603]LogLinker: Can't find file '/Game/Geometry/Meshes/HeadpieceMat'
+[2017.01.21-08.00.35:022][603]LogMaterial: Missing cached shader map for material HeadpieceMat, compiling. 
+[2017.01.21-08.00.35:034][603]LogFbx:Warning: Triangulating static mesh Headpiece
+[2017.01.21-08.00.35:036][603]LogLinker: Can't find file '/Game/Geometry/Meshes/PersonMat'
+[2017.01.21-08.00.35:036][603]LogLinker: Can't find file '/Game/Geometry/Meshes/PersonMat'
+[2017.01.21-08.00.35:039][603]LogMaterial: Missing cached shader map for material PersonMat, compiling. 
+[2017.01.21-08.00.35:052][603]LogFbx:Warning: Triangulating static mesh Person
+[2017.01.21-08.00.35:059][603]LogStaticMesh: Building static mesh person1...
+[2017.01.21-08.00.35:064][603]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/person1.person1
+[2017.01.21-08.00.35:064][603]LogStaticMesh:Warning: person1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.21-08.00.35:069][603]FBXImport:Warning: Warning person1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.01.21-08.00.35:080][603]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/person2.obj)
+[2017.01.21-08.00.35:087][603]LogFbx: Loading FBX Scene from ../../../../../../RepoMan/colorepo/Assets/person2.obj
+[2017.01.21-08.00.35:090][603]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-08.00.35:092][603]LogFbx:Warning: Triangulating static mesh Person
+[2017.01.21-08.00.35:099][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Tube001Mat'
+[2017.01.21-08.00.35:099][603]LogLinker: Can't find file '/Game/Geometry/Meshes/Tube001Mat'
+[2017.01.21-08.00.35:102][603]LogMaterial: Missing cached shader map for material Tube001Mat, compiling. 
+[2017.01.21-08.00.35:115][603]LogFbx:Warning: Triangulating static mesh Tube001
+[2017.01.21-08.00.35:125][603]LogStaticMesh: Building static mesh person2...
+[2017.01.21-08.00.35:130][603]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/person2.person2
+[2017.01.21-08.00.35:130][603]LogStaticMesh:Warning: person2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.21-08.00.35:134][603]FBXImport:Warning: Warning person2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.01.21-08.00.44:324][119]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.011
+[2017.01.21-08.00.44:325][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal1] ([1] browsable assets)...
+[2017.01.21-08.00.44:335][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal1.crystal1]
+[2017.01.21-08.00.44:335][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal1]
+[2017.01.21-08.00.44:336][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal1" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:421][119]LogSavePackage: Save=11.48ms
+[2017.01.21-08.00.44:421][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal1_Auto23B2C20744D9B070AC33134BF0225A0AE.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal1_Auto2.uasset'
+[2017.01.21-08.00.44:421][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal1_Auto2.uasset
+[2017.01.21-08.00.44:422][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Box001Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:440][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Box001Mat.Box001Mat]
+[2017.01.21-08.00.44:440][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Box001Mat]
+[2017.01.21-08.00.44:440][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box001Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box001Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:457][119]LogSavePackage: Save=14.54ms
+[2017.01.21-08.00.44:457][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box001Mat_Auto24FB3F856492AFAE6DFC2D1BAFB951CFD.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box001Mat_Auto2.uasset'
+[2017.01.21-08.00.44:457][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box001Mat_Auto2.uasset
+[2017.01.21-08.00.44:457][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal2] ([1] browsable assets)...
+[2017.01.21-08.00.44:469][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal2.crystal2]
+[2017.01.21-08.00.44:469][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal2]
+[2017.01.21-08.00.44:469][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal2" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:481][119]LogSavePackage: Save=11.01ms
+[2017.01.21-08.00.44:481][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal2_Auto297843C4A4362B365FE8D029571CF4430.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal2_Auto2.uasset'
+[2017.01.21-08.00.44:481][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal2_Auto2.uasset
+[2017.01.21-08.00.44:481][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Box002Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:492][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Box002Mat.Box002Mat]
+[2017.01.21-08.00.44:492][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Box002Mat]
+[2017.01.21-08.00.44:492][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box002Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box002Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:504][119]LogSavePackage: Save=10.01ms
+[2017.01.21-08.00.44:504][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box002Mat_Auto2671B87894F4A4F00931E38A566DD7C36.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box002Mat_Auto2.uasset'
+[2017.01.21-08.00.44:504][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box002Mat_Auto2.uasset
+[2017.01.21-08.00.44:504][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal3] ([1] browsable assets)...
+[2017.01.21-08.00.44:514][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal3.crystal3]
+[2017.01.21-08.00.44:514][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal3]
+[2017.01.21-08.00.44:514][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal3" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal3_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:525][119]LogSavePackage: Save=9.61ms
+[2017.01.21-08.00.44:526][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal3_Auto22D302795409557853733C486C3B2952A.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal3_Auto2.uasset'
+[2017.01.21-08.00.44:527][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal3_Auto2.uasset
+[2017.01.21-08.00.44:527][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Cone002Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:537][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Cone002Mat.Cone002Mat]
+[2017.01.21-08.00.44:537][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Cone002Mat]
+[2017.01.21-08.00.44:537][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Cone002Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone002Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:548][119]LogSavePackage: Save=9.86ms
+[2017.01.21-08.00.44:548][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Cone002Mat_Auto2AC7F06274174E2F045117BA3688BD008.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone002Mat_Auto2.uasset'
+[2017.01.21-08.00.44:549][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone002Mat_Auto2.uasset
+[2017.01.21-08.00.44:549][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal4] ([1] browsable assets)...
+[2017.01.21-08.00.44:559][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal4.crystal4]
+[2017.01.21-08.00.44:559][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal4]
+[2017.01.21-08.00.44:559][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal4" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal4_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:570][119]LogSavePackage: Save=9.42ms
+[2017.01.21-08.00.44:570][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal4_Auto2BE03C24B4B847E22FB721A9EE75C01C1.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal4_Auto2.uasset'
+[2017.01.21-08.00.44:571][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal4_Auto2.uasset
+[2017.01.21-08.00.44:571][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Cone003Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:581][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Cone003Mat.Cone003Mat]
+[2017.01.21-08.00.44:581][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Cone003Mat]
+[2017.01.21-08.00.44:581][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Cone003Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone003Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:597][119]LogSavePackage: Save=15.61ms
+[2017.01.21-08.00.44:597][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Cone003Mat_Auto26CA1176D4637DEC515ED5AA6EB2CEC0D.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone003Mat_Auto2.uasset'
+[2017.01.21-08.00.44:597][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Cone003Mat_Auto2.uasset
+[2017.01.21-08.00.44:598][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal5] ([1] browsable assets)...
+[2017.01.21-08.00.44:608][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal5.crystal5]
+[2017.01.21-08.00.44:608][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal5]
+[2017.01.21-08.00.44:608][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal5" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal5_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:618][119]LogSavePackage: Save=9.48ms
+[2017.01.21-08.00.44:618][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal5_Auto27A7364DD4BDD06013D60FD87746A9009.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal5_Auto2.uasset'
+[2017.01.21-08.00.44:619][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal5_Auto2.uasset
+[2017.01.21-08.00.44:619][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Box003Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:629][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Box003Mat.Box003Mat]
+[2017.01.21-08.00.44:629][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Box003Mat]
+[2017.01.21-08.00.44:629][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box003Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box003Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:639][119]LogSavePackage: Save=9.93ms
+[2017.01.21-08.00.44:639][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box003Mat_Auto2D678AD05485399FFEB9CB88A24371D7F.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box003Mat_Auto2.uasset'
+[2017.01.21-08.00.44:640][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box003Mat_Auto2.uasset
+[2017.01.21-08.00.44:640][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal6] ([1] browsable assets)...
+[2017.01.21-08.00.44:650][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal6.crystal6]
+[2017.01.21-08.00.44:650][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal6]
+[2017.01.21-08.00.44:650][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal6" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal6_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:660][119]LogSavePackage: Save=9.48ms
+[2017.01.21-08.00.44:660][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal6_Auto2059AB89A4505F6AAFD137986EC55C001.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal6_Auto2.uasset'
+[2017.01.21-08.00.44:660][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal6_Auto2.uasset
+[2017.01.21-08.00.44:660][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Box005Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:671][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Box005Mat.Box005Mat]
+[2017.01.21-08.00.44:671][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Box005Mat]
+[2017.01.21-08.00.44:671][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box005Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box005Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:681][119]LogSavePackage: Save=9.87ms
+[2017.01.21-08.00.44:681][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box005Mat_Auto2BCA33A0E43A72D37D0087C8A9B2E36A4.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box005Mat_Auto2.uasset'
+[2017.01.21-08.00.44:682][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box005Mat_Auto2.uasset
+[2017.01.21-08.00.44:682][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/crystal7] ([1] browsable assets)...
+[2017.01.21-08.00.44:692][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/crystal7.crystal7]
+[2017.01.21-08.00.44:692][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/crystal7]
+[2017.01.21-08.00.44:692][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal7" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal7_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:703][119]LogSavePackage: Save=9.64ms
+[2017.01.21-08.00.44:703][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal7_Auto2A30D566E4BE908EBD9D1FBA76AC4E31E.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal7_Auto2.uasset'
+[2017.01.21-08.00.44:703][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/crystal7_Auto2.uasset
+[2017.01.21-08.00.44:703][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Box006Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:713][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Box006Mat.Box006Mat]
+[2017.01.21-08.00.44:713][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Box006Mat]
+[2017.01.21-08.00.44:713][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box006Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box006Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:725][119]LogSavePackage: Save=10.88ms
+[2017.01.21-08.00.44:726][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box006Mat_Auto25179B80F414EEDF1886FDE9E07AEEAAC.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box006Mat_Auto2.uasset'
+[2017.01.21-08.00.44:726][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Box006Mat_Auto2.uasset
+[2017.01.21-08.00.44:726][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/person1] ([1] browsable assets)...
+[2017.01.21-08.00.44:736][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/person1.person1]
+[2017.01.21-08.00.44:736][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/person1]
+[2017.01.21-08.00.44:736][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/person1" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:746][119]LogSavePackage: Save=8.77ms
+[2017.01.21-08.00.44:746][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/person1_Auto28FDEC43D487DC230363AE1B866CB01D2.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person1_Auto2.uasset'
+[2017.01.21-08.00.44:746][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person1_Auto2.uasset
+[2017.01.21-08.00.44:746][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/HeadpieceMat] ([1] browsable assets)...
+[2017.01.21-08.00.44:756][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/HeadpieceMat.HeadpieceMat]
+[2017.01.21-08.00.44:756][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/HeadpieceMat]
+[2017.01.21-08.00.44:756][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/HeadpieceMat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/HeadpieceMat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:767][119]LogSavePackage: Save=9.99ms
+[2017.01.21-08.00.44:767][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/HeadpieceMat_Auto29096A889436B26631B2375B535B958F0.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/HeadpieceMat_Auto2.uasset'
+[2017.01.21-08.00.44:767][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/HeadpieceMat_Auto2.uasset
+[2017.01.21-08.00.44:768][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/PersonMat] ([1] browsable assets)...
+[2017.01.21-08.00.44:778][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/PersonMat.PersonMat]
+[2017.01.21-08.00.44:778][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/PersonMat]
+[2017.01.21-08.00.44:778][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/PersonMat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/PersonMat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:789][119]LogSavePackage: Save=9.99ms
+[2017.01.21-08.00.44:789][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PersonMat_Auto219149EF244DB173F032C629D86FB0DE5.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/PersonMat_Auto2.uasset'
+[2017.01.21-08.00.44:789][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/PersonMat_Auto2.uasset
+[2017.01.21-08.00.44:790][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/person2] ([1] browsable assets)...
+[2017.01.21-08.00.44:799][119]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/person2.person2]
+[2017.01.21-08.00.44:799][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/person2]
+[2017.01.21-08.00.44:799][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/person2" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:809][119]LogSavePackage: Save=9.09ms
+[2017.01.21-08.00.44:809][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/person2_Auto2DAD3EA7B4F4010A7E49083962EF96446.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person2_Auto2.uasset'
+[2017.01.21-08.00.44:810][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/person2_Auto2.uasset
+[2017.01.21-08.00.44:810][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Tube001Mat] ([1] browsable assets)...
+[2017.01.21-08.00.44:820][119]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Tube001Mat.Tube001Mat]
+[2017.01.21-08.00.44:820][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Tube001Mat]
+[2017.01.21-08.00.44:820][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Tube001Mat" FILE="../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Tube001Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.21-08.00.44:830][119]LogSavePackage: Save=9.84ms
+[2017.01.21-08.00.44:831][119]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Tube001Mat_Auto2E473AEE84E3277E36CCAEB80F59CCBB4.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Tube001Mat_Auto2.uasset'
+[2017.01.21-08.00.44:831][119]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/Geometry/Meshes/Tube001Mat_Auto2.uasset
+[2017.01.21-08.00.44:831][119]LogFileHelpers: Auto-saving content packages took 0.506
+[2017.01.21-08.00.47:294][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-08.00.47:503][266]LogSavePackage: Save=186.09ms
+[2017.01.21-08.00.47:503][266]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel55A5AB1C43072B8944A5FB8921DAEDBF.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-08.00.47:505][266]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-08.00.50:174][403]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2017.01.21-08.00.50:478][403]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:189880).
+[2017.01.21-08.00.51:796][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal1" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset" SILENT=true
+[2017.01.21-08.00.51:806][481]LogSavePackage: Save=9.05ms
+[2017.01.21-08.00.51:806][481]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal160AF062B47F7792F01077C868D031FF1.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset'
+[2017.01.21-08.00.51:809][481]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset
+[2017.01.21-08.00.55:021][665]LogActorFactory: Actor Factory created crystal1
+[2017.01.21-08.00.55:338][684]LogActorFactory: Actor Factory created crystal1
+[2017.01.21-08.01.05:714][302]Cmd: TRANSACTION UNDO
+[2017.01.21-08.01.05:714][302]LogEditorTransaction: Undo Scale Actors
+[2017.01.21-08.01.06:411][343]Cmd: TRANSACTION UNDO
+[2017.01.21-08.01.06:411][343]LogEditorTransaction: Undo Scale Actors
+[2017.01.21-08.01.23:211][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2017.01.21-08.01.25:296][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crystal1)
+[2017.01.21-08.01.31:364][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crystal1)
+[2017.01.21-08.01.41:325][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal1" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset" SILENT=true
+[2017.01.21-08.01.41:637][426]LogSavePackage: Save=307.53ms
+[2017.01.21-08.01.41:637][426]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal17B612F534AD67443D991848E291228A2.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset'
+[2017.01.21-08.01.41:638][426]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal1.uasset
+[2017.01.21-08.01.45:198][626]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.01.45:445][626]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.01.45:457][626]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.01.45:483][626]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.01.46:124][655]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.01.46:124][655]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.01.46:124][655]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.01.54:291][134]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.01.54:299][134]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.01.54:328][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.01.54:843][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.01.54:843][165]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.01.54:843][165]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.01.57:145][303]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.01.57:152][303]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.01.57:179][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.01.57:675][333]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.01.57:676][333]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.01.57:676][333]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.02.11:822][179]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.02.11:830][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.02.11:858][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.02.12:392][211]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.02.12:392][211]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.02.12:392][211]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.02.14:567][341]LogMaterialEditor: Saving and Compiling material Box001Mat
+[2017.01.21-08.02.15:292][341]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.02.15:305][341]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.02.15:317][341]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.02.15:332][341]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.02.15:343][341]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.02.16:671][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box001Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset" SILENT=true
+[2017.01.21-08.02.16:685][341]LogSavePackage: Save=13.34ms
+[2017.01.21-08.02.16:685][341]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box001Mat77F881B34C77F5396A8353B4D94406F0.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset'
+[2017.01.21-08.02.16:690][341]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset
+[2017.01.21-08.02.16:694][341]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2017.01.21-08.02.16:694][341]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.02.16:694][341]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.01.21-08.02.29:566][108]Recompiling colorepo...
+[2017.01.21-08.02.29:566][108]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 7033 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-08.02.29:567][108]Warning: Starting HotReload took  0.0s.
+[2017.01.21-08.02.30:059][138]CompilerResultsLog: New page: Compilation - Jan 20, 2017, 4:02:30 PM
+[2017.01.21-08.02.30:059][138]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-08.02.30:059][138]CompilerResultsLog: Info Target is up to date
+[2017.01.21-08.02.30:059][138]LogMainFrame: MainFrame: Module compiling took 0.495 seconds
+[2017.01.21-08.02.30:260][138]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2195 classes and 434 folders.
+[2017.01.21-08.02.30:260][138]Display: HotReload took  0.7s.
+[2017.01.21-08.02.30:885][176]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-08.02.30:894][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.02.30:894][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-08.02.30:894][176]PIE: New page: PIE session: TestLevel (Jan 20, 2017, 4:02:30 PM)
+[2017.01.21-08.02.30:894][176]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-08.02.30:906][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012102s)
+[2017.01.21-08.02.30:907][176]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-08.02.30:907][176]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.01.21-08.02.30:907][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012815s)
+[2017.01.21-08.02.30:945][176]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-08.02.30:949][176]LogInit: FAudioDevice initialized.
+[2017.01.21-08.02.30:978][176]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-08.02.30:980][176]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-00.02.30
+[2017.01.21-08.02.30:980][176]LogWorld: Bringing up level for play took: 0.001135
+[2017.01.21-08.02.30:982][176]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.171
+[2017.01.21-08.02.30:982][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.02.42:319][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.02.42:363][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.03.01:829][970]LogEditorTransaction: Undo Set Vector Property
+[2017.01.21-08.03.02:288][997]LogEditorTransaction: Undo Set Vector Property
+[2017.01.21-08.03.03:014][ 40]LogEditorTransaction: Undo Move Actors
+[2017.01.21-08.03.03:415][ 64]LogEditorTransaction: Undo Move Actors
+[2017.01.21-08.03.03:648][ 78]LogEditorTransaction: Undo Move Actors
+[2017.01.21-08.03.09:291][400]LogActorFactory: Actor Factory created crystal2
+[2017.01.21-08.03.09:627][420]LogActorFactory: Actor Factory created crystal2
+[2017.01.21-08.04.09:094][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crystal2)
+[2017.01.21-08.04.10:209][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crystal2)
+[2017.01.21-08.04.10:295][ 59]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.01.21-08.04.15:411][353]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.15:472][353]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.15:479][353]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.04.15:509][353]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.04.16:202][391]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.04.16:202][391]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.04.16:202][391]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.04.21:713][721]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.21:720][721]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.04.21:748][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-08.04.22:297][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.21-08.04.22:297][754]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.04.22:297][754]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.21-08.04.22:565][770]LogMaterialEditor: Saving and Compiling material Box002Mat
+[2017.01.21-08.04.22:859][770]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.22:872][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.04.22:884][770]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.22:900][770]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.04.22:913][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.04.24:267][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box002Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset" SILENT=true
+[2017.01.21-08.04.24:280][770]LogSavePackage: Save=12.26ms
+[2017.01.21-08.04.24:280][770]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box002Mat78AD2E0B4534AACE865AD8805B0CAE75.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset'
+[2017.01.21-08.04.24:284][770]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset
+[2017.01.21-08.04.24:287][770]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2017.01.21-08.04.24:287][770]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.21-08.04.24:287][770]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.01.21-08.04.30:712][150]Recompiling colorepo...
+[2017.01.21-08.04.30:713][150]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 8718 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.21-08.04.30:713][150]Warning: Starting HotReload took  0.0s.
+[2017.01.21-08.04.31:206][180]CompilerResultsLog: New page: Compilation - Jan 20, 2017, 4:04:31 PM
+[2017.01.21-08.04.31:206][180]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.21-08.04.31:206][180]CompilerResultsLog: Info Target is up to date
+[2017.01.21-08.04.31:206][180]LogMainFrame: MainFrame: Module compiling took 0.495 seconds
+[2017.01.21-08.04.31:399][180]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2195 classes and 434 folders.
+[2017.01.21-08.04.31:399][180]Display: HotReload took  0.7s.
+[2017.01.21-08.04.32:839][267]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-08.04.32:848][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.04.32:848][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-08.04.32:849][267]PIE: New page: PIE session: TestLevel (Jan 20, 2017, 4:04:32 PM)
+[2017.01.21-08.04.32:849][267]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-08.04.32:860][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010949s)
+[2017.01.21-08.04.32:860][267]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-08.04.32:860][267]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.01.21-08.04.32:860][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.011667s)
+[2017.01.21-08.04.32:899][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-08.04.32:902][267]LogInit: FAudioDevice initialized.
+[2017.01.21-08.04.32:930][267]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-08.04.32:932][267]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-00.04.32
+[2017.01.21-08.04.32:932][267]LogWorld: Bringing up level for play took: 0.001087
+[2017.01.21-08.04.32:934][267]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.22
+[2017.01.21-08.04.32:934][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.04.50:333][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.04.50:377][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.04.51:381][352]MapCheck: New page: Map Check
+[2017.01.21-08.04.51:683][352]Cmd: MAP REBUILD ALLVISIBLE
+[2017.01.21-08.04.51:684][352]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.01.21-08.04.51:804][352]LightingResults: New page: Lighting Build - Jan 20, 2017, 4:04:51 PM
+[2017.01.21-08.04.51:951][352]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.21-08.04.52:035][352]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.21-08.04.52:043][352]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.21-08.04.52:552][352]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.21-08.04.52:552][352]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3388
+[2017.01.21-08.04.55:648][352]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.21-08.04.55:648][352]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.21-08.04.55:648][352]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.21-08.04.55:648][352]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.21-08.04.55:648][352]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.21-08.04.56:059][352]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.01.21-08.04.56:059][352]MapCheck: New page: TestLevel - Jan 20, 2017, 4:04:56 PM
+[2017.01.21-08.04.56:076][352]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.01.21-08.04.56:802][352]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 742.539ms to complete.
+[2017.01.21-08.04.56:824][352]LogEditorBuildUtils: Build time 0:05
+[2017.01.21-08.04.56:842][352]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.01.21-08.04.56:846][352]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.01.21-08.04.56:901][353]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2017.01.21-08.04.56:906][353]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2017.01.21-08.04.56:936][354]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2017.01.21-08.04.56:941][354]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2017.01.21-08.04.56:961][355]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Box001Mat, compiling. 
+[2017.01.21-08.04.56:966][355]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Box001Mat, compiling. 
+[2017.01.21-08.04.56:970][355]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Box002Mat, compiling. 
+[2017.01.21-08.04.56:976][355]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Box002Mat, compiling. 
+[2017.01.21-08.04.57:023][356]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.01.21-08.04.57:031][356]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.01.21-08.05.04:506][657]Job is a success!
+[2017.01.21-08.05.04:688][658]LogMaterial:Warning: Material /Game/Geometry/Meshes/Box001Mat.Box001Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-08.05.04:689][658]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2017.01.21-08.05.04:707][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.05.04:707][658]LogMaterial:Warning: Material /Game/Geometry/Meshes/Box002Mat.Box002Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-08.05.04:709][658]LogMaterial: Missing cached shader map for material Box002Mat, compiling. 
+[2017.01.21-08.05.04:723][658]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.01.21-08.05.05:259][658]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.01.21-08.05.05:827][658]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.01.21-08.05.05:827][658]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.01.21-08.05.05:846][658]Lightmass on DESKTOP-E3B0E1K: 6.05 sec total, 81 ms importing, 11 ms setup, 1.14 sec photons, 4.75 sec processing, 0 ms extra exporting [14/14 mappings]. Threads: 33.0 sec total, 12.8 sec processing.
+[2017.01.21-08.05.05:871][658]LogStaticLightingSystem: Illumination: 13.9 sec (532 ms encoding lightmaps, 566 ms encoding shadowmaps)
+[2017.01.21-08.05.05:871][658]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.01.21-08.05.05:871][658]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.01.21-08.05.06:653][658]DumpUnbuiltLightIteractions
+[2017.01.21-08.05.06:653][658]Lights with unbuilt interactions: 0
+[2017.01.21-08.05.06:653][658]
+[2017.01.21-08.05.06:653][658]Primitives with unbuilt interactions: 0
+[2017.01.21-08.05.06:667][659]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.01.21-08.05.06:667][659]MapCheck: New page: TestLevel - Jan 20, 2017, 4:05:06 PM
+[2017.01.21-08.05.06:698][659]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.26ms to complete.
+[2017.01.21-08.05.07:922][731]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-08.05.07:932][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.05.07:932][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-08.05.07:932][731]PIE: New page: PIE session: TestLevel (Jan 20, 2017, 4:05:07 PM)
+[2017.01.21-08.05.07:932][731]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.21-08.05.07:944][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011919s)
+[2017.01.21-08.05.07:945][731]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-08.05.07:945][731]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.01.21-08.05.07:945][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012845s)
+[2017.01.21-08.05.07:964][731]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-08.05.07:967][731]LogInit: FAudioDevice initialized.
+[2017.01.21-08.05.07:996][731]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.21-08.05.07:998][731]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-00.05.07
+[2017.01.21-08.05.07:998][731]LogWorld: Bringing up level for play took: 0.001157
+[2017.01.21-08.05.07:999][731]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.847
+[2017.01.21-08.05.07:999][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.05.50:130][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.05.50:170][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.21-08.11.16:266][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box001Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:335][ 17]LogSavePackage: Save=64.73ms
+[2017.01.21-08.11.16:335][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box001Mat542B63514D23763D5012DD8095CEE579.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset'
+[2017.01.21-08.11.16:336][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box001Mat.uasset
+[2017.01.21-08.11.16:338][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box002Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:353][ 17]LogSavePackage: Save=10.59ms
+[2017.01.21-08.11.16:353][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box002Mat6F0D09AE4E8D9D8DB593E88DAD51004A.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset'
+[2017.01.21-08.11.16:354][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box002Mat.uasset
+[2017.01.21-08.11.16:366][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box003Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box003Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:376][ 17]LogSavePackage: Save=9.37ms
+[2017.01.21-08.11.16:376][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box003Mat4127DB634747573AC41C7BB02DC30375.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box003Mat.uasset'
+[2017.01.21-08.11.16:380][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box003Mat.uasset
+[2017.01.21-08.11.16:392][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box005Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box005Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:403][ 17]LogSavePackage: Save=9.30ms
+[2017.01.21-08.11.16:403][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box005MatC444905F4139F9C9AC209296252FD612.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box005Mat.uasset'
+[2017.01.21-08.11.16:406][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box005Mat.uasset
+[2017.01.21-08.11.16:418][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Box006Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box006Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:429][ 17]LogSavePackage: Save=9.47ms
+[2017.01.21-08.11.16:429][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Box006Mat68A4B8374D1226CC883C22AE43C6E8D1.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box006Mat.uasset'
+[2017.01.21-08.11.16:432][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Box006Mat.uasset
+[2017.01.21-08.11.16:445][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Cone002Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone002Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:455][ 17]LogSavePackage: Save=9.24ms
+[2017.01.21-08.11.16:455][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Cone002Mat5465ACB742116FE46539A6A5151FD047.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone002Mat.uasset'
+[2017.01.21-08.11.16:459][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone002Mat.uasset
+[2017.01.21-08.11.16:471][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Cone003Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone003Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:481][ 17]LogSavePackage: Save=9.39ms
+[2017.01.21-08.11.16:481][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Cone003Mat38075095440D4E8C9A61B78A7C5B83E3.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone003Mat.uasset'
+[2017.01.21-08.11.16:484][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Cone003Mat.uasset
+[2017.01.21-08.11.16:496][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal2" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal2.uasset" SILENT=true
+[2017.01.21-08.11.16:508][ 17]LogSavePackage: Save=10.34ms
+[2017.01.21-08.11.16:508][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal25B5FD6EE4F23D354C6C62DAC6BC5A8B0.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal2.uasset'
+[2017.01.21-08.11.16:511][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal2.uasset
+[2017.01.21-08.11.16:523][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal3" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal3.uasset" SILENT=true
+[2017.01.21-08.11.16:534][ 17]LogSavePackage: Save=9.45ms
+[2017.01.21-08.11.16:534][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal3157A0A8743D2D3A3C4FD18A33C40D4ED.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal3.uasset'
+[2017.01.21-08.11.16:538][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal3.uasset
+[2017.01.21-08.11.16:549][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal4" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal4.uasset" SILENT=true
+[2017.01.21-08.11.16:559][ 17]LogSavePackage: Save=8.95ms
+[2017.01.21-08.11.16:560][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal4296AAC9C4E9899AE7F4EA1973175269E.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal4.uasset'
+[2017.01.21-08.11.16:563][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal4.uasset
+[2017.01.21-08.11.16:575][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal5" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal5.uasset" SILENT=true
+[2017.01.21-08.11.16:586][ 17]LogSavePackage: Save=9.12ms
+[2017.01.21-08.11.16:586][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal5807DA81C493FAAC242BA9B878CF7080C.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal5.uasset'
+[2017.01.21-08.11.16:589][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal5.uasset
+[2017.01.21-08.11.16:601][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal6" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal6.uasset" SILENT=true
+[2017.01.21-08.11.16:612][ 17]LogSavePackage: Save=9.23ms
+[2017.01.21-08.11.16:612][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal68C55BBEB4F3B23D44BBE17834A5B6884.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal6.uasset'
+[2017.01.21-08.11.16:615][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal6.uasset
+[2017.01.21-08.11.16:627][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/crystal7" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal7.uasset" SILENT=true
+[2017.01.21-08.11.16:638][ 17]LogSavePackage: Save=9.17ms
+[2017.01.21-08.11.16:638][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/crystal7D85C8BC24A20FB050E4D07A805F716C6.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal7.uasset'
+[2017.01.21-08.11.16:641][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/crystal7.uasset
+[2017.01.21-08.11.16:657][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/HeadpieceMat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/HeadpieceMat.uasset" SILENT=true
+[2017.01.21-08.11.16:667][ 17]LogSavePackage: Save=9.33ms
+[2017.01.21-08.11.16:667][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/HeadpieceMatAAD9402D411AC81203F08496BA01B384.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/HeadpieceMat.uasset'
+[2017.01.21-08.11.16:670][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/HeadpieceMat.uasset
+[2017.01.21-08.11.16:683][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/person1" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person1.uasset" SILENT=true
+[2017.01.21-08.11.16:693][ 17]LogSavePackage: Save=8.79ms
+[2017.01.21-08.11.16:693][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/person194BC64984FE76DBCD4DC84989434D03C.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person1.uasset'
+[2017.01.21-08.11.16:704][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person1.uasset
+[2017.01.21-08.11.16:716][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/person2" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person2.uasset" SILENT=true
+[2017.01.21-08.11.16:726][ 17]LogSavePackage: Save=8.50ms
+[2017.01.21-08.11.16:726][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/person2B9C75AE5433DA5E8656271A905500D80.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person2.uasset'
+[2017.01.21-08.11.16:729][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/person2.uasset
+[2017.01.21-08.11.16:742][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/PersonMat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/PersonMat.uasset" SILENT=true
+[2017.01.21-08.11.16:755][ 17]LogSavePackage: Save=9.30ms
+[2017.01.21-08.11.16:755][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PersonMat9727B274483F7FF838F97F98F4333B97.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/PersonMat.uasset'
+[2017.01.21-08.11.16:757][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/PersonMat.uasset
+[2017.01.21-08.11.16:769][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Tube001Mat" FILE="../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Tube001Mat.uasset" SILENT=true
+[2017.01.21-08.11.16:780][ 17]LogSavePackage: Save=9.39ms
+[2017.01.21-08.11.16:780][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/Tube001MatF2D65A084A6D90395E266994231FB856.tmp' to '../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Tube001Mat.uasset'
+[2017.01.21-08.11.16:782][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Geometry/Meshes/Tube001Mat.uasset
+[2017.01.21-08.11.16:811][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.21-08.11.16:937][ 17]LogSavePackage: Save=108.61ms
+[2017.01.21-08.11.16:937][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel6BBC8BFC4B865229C1DEC088A04CCFC8.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.21-08.11.16:939][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.21-08.11.16:955][ 17]LogFileHelpers: Saving map 'TestLevel' took 0.172
+[2017.01.21-08.11.16:956][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2017.01.21-08.11.17:063][ 17]LogSavePackage: Save=106.05ms
+[2017.01.21-08.11.17:063][ 17]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_BuiltData0915697A40719C75F6266BAA7D4CDBCE.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset'
+[2017.01.21-08.11.17:064][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel_BuiltData.uasset
+[2017.01.21-08.11.17:313][ 18]Cmd: QUIT_EDITOR
+[2017.01.21-08.11.17:540][ 18]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.21-08.11.17:576][ 18]LogExit: Preparing to exit.
+[2017.01.21-08.11.18:756][ 18]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/' was aborted.
+[2017.01.21-08.11.18:823][ 18]LogExit: Editor shut down
+[2017.01.21-08.11.18:824][ 18]LogExit: Transaction tracking system shut down
+[2017.01.21-08.11.18:933][ 18]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.21-08.11.18:933][ 18]LogExit: Object subsystem successfully closed.
+[2017.01.21-08.11.18:952][ 18]LogD3D11RHI: Shutdown
+[2017.01.21-08.11.18:952][ 18]LogD3D11RHI: CleanupD3DDevice
+[2017.01.21-08.11.19:029][ 18]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.21-08.11.19:035][ 18]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.21-08.11.19:035][ 18]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8B20D5A5-4AE5-B0A9-BD9D-32A77BC79F7F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.2-3241561%2B%2B%2BUE4%2BRelease-4.14&UserID=1de5576948547c4a3d64389e206d40e9%7C08ec85b453944d8e86d6651d1fcb8040%7C91f838fd-68de-48f1-999f-0aec201f1854&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.21-08.11.19:046][ 18]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2017.01.21-08.11.19:046][ 18]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (248)
+[2017.01.21-08.11.19:046][ 18]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (247)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (243)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module StatsViewer (242)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.01.21-08.11.19:113][ 18]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.01.21-08.11.19:113][ 18]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.21-08.11.19:116][ 18]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.01.21-08.11.19:117][ 18]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Collections/' was aborted.
+[2017.01.21-08.11.19:117][ 18]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Developers/Origin/Collections/' was aborted.
+[2017.01.21-08.11.19:117][ 18]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Saved/Collections/' was aborted.
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.01.21-08.11.19:117][ 18]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.01.21-08.11.19:417][ 18]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.01.21-08.11.19:418][ 18]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.01.21-08.11.19:459][ 18]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.01.21-08.11.19:465][ 18]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.01.21-08.11.19:465][ 18]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.01.21-08.11.19:466][ 18]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.01.21-08.11.19:467][ 18]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.01.21-08.11.19:510][ 18]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.01.21-08.11.19:511][ 18]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.01.21-08.11.19:512][ 18]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Binaries/Win64' was aborted.
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.01.21-08.11.19:512][ 18]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.01.21-08.11.19:515][ 18]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.01.21-08.11.19:517][ 18]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.01.21-08.11.19:517][ 18]LogModuleManager: Shutting down and abandoning module colorepo (104)
+[2017.01.21-08.11.19:517][ 18]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.21-08.11.19:618][ 18]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.21-08.11.19:718][ 18]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.21-08.11.19:719][ 18]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.21-08.11.19:724][ 18]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.21-08.11.19:724][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.21-08.11.19:725][ 18]LogDirectoryWatcher: A directory notification for '../../../../../../RepoMan/colorepo/Content/' was aborted.
+[2017.01.21-08.11.19:726][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.21-08.11.19:734][ 18]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.21-08.11.19:908][ 18]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.21-08.11.19:996][ 18]LogDerivedDataCache: Shutdown
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.21-08.11.19:996][ 18]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.21-08.11.19:997][ 18]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.21-08.11.19:997][ 18]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.21-08.11.19:998][ 18]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.21-08.11.20:003][ 18]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.21-08.11.20:005][ 18]LogExit: Exiting.
+[2017.01.21-08.11.20:021][ 18]Log file closed, 01/21/17 00:11:20

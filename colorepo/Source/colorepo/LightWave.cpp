@@ -52,6 +52,7 @@ void ALightWave::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 	xValue += DeltaTime;
+	FMath::Clamp(frequency, 10.0f, 100.0f);
 	ProjectileMovement->Velocity = InitialForward + FVector(0.0f, 1000.0f * sin(xValue*frequency), 0.0f);
 
 }
