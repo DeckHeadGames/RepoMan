@@ -1,6 +1,6 @@
-colorepo/Content/StarterContent
-colorepo/DeckHeadGameJam.VC.db 
-colorepo/DeckHeadGameJam.VC.VC.opendb
+Content/StarterContent
+colorepo.VC.db 
+colorepo.VC.VC.opendb
 
 # Compiled Object files
 *.slo
