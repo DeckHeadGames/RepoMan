@@ -1,9 +1,9 @@
-﻿Log file open, 01/21/17 05:10:36
+﻿Log file open, 01/21/17 05:25:25
 LogInit:Display: Running engine for game: colorepo
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(743216797) SRandInit(743216797).
+LogInit:Display: RandInit(-71424980) SRandInit(-71424980).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.065543
+LogStats: Stats thread started at 0.066207
 LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -100,6 +100,23 @@ LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Ga
 LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
 LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
 LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit:Warning: Incompatible or missing module: UE4Editor-colorepo.dll
+Running D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo Development Win64 -project="D:/RepoMan/colorepo/colorepo.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE
+@progress push 5%
+Parsing headers for colorepoEditor
+  Running UnrealHeaderTool "D:\RepoMan\colorepo\colorepo.uproject" "D:\RepoMan\colorepo\Intermediate\Build\Win64\colorepoEditor\Development\colorepoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for colorepoEditor in 2.0704993 seconds
+@progress pop
+Performing 7 actions (4 in parallel)
+PCH.colorepo.h.cpp
+colorepoGameMode.cpp
+colorepo.generated.cpp
+LightWave.cpp
+colorepoCharacter.cpp
+colorepo.cpp
+[7/7] Link UE4Editor-colorepo.dll
+   Creating library D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo.lib and object D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo.exp
+Total build time: 28.17 seconds
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -143,162 +160,173 @@ LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.21-13.10.36:843][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.21-13.10.36:843][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.21-13.10.36:851][  0]LogInit: Computer: DESKTOP-E3B0E1K
-[2017.01.21-13.10.36:851][  0]LogInit: User: Origin
-[2017.01.21-13.10.36:851][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.01.21-13.10.36:851][  0]LogInit: High frequency timer resolution =3.914066 MHz
-[2017.01.21-13.10.36:851][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.01.21-13.10.36:851][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.21-13.10.36:851][  0]LogMemory: Process Physical Memory: 265.01 MB used, 265.01 MB peak
-[2017.01.21-13.10.36:851][  0]LogMemory: Process Virtual Memory: 262.82 MB used, 262.82 MB peak
-[2017.01.21-13.10.36:851][  0]LogMemory: Physical Memory: 8048.25 MB used,  8296.58 MB free, 16344.84 MB total
-[2017.01.21-13.10.36:851][  0]LogMemory: Virtual Memory: 676.42 MB used,  8296.58 MB free, 134217728.00 MB total
-[2017.01.21-13.10.36:872][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.01.21-13.10.37:290][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.21-13.10.37:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M            ' (Feature Level 11_0)
-[2017.01.21-13.10.37:312][  0]LogD3D11RHI:       8093/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.01.21-13.10.37:313][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.01.21-13.10.37:313][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.01.21-13.10.37:313][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.21-13.10.37:318][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.21-13.10.37:318][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.21-13.10.37:318][  0]LogWindows: EnumDisplayDevices:
-[2017.01.21-13.10.37:318][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M            ' (P:1 D:1)
-[2017.01.21-13.10.37:318][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
-[2017.01.21-13.10.37:318][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
-[2017.01.21-13.10.37:319][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
-[2017.01.21-13.10.37:319][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.01.21-13.10.37:319][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M            
-[2017.01.21-13.10.37:319][  0]LogD3D11RHI:   Driver Version: 361.43 (internal:10.18.13.6143, unified:361.43)
-[2017.01.21-13.10.37:319][  0]LogD3D11RHI:      Driver Date: 12-16-2015
-[2017.01.21-13.10.37:319][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.21-13.10.37:330][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.21-13.10.37:344][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.01.21-13.10.37:345][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../RepoMan/colorepo/Intermediate/Shaders/WorkingDirectory/18036/).
-[2017.01.21-13.10.37:345][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Origin/AppData/Local/Temp/UnrealShaderWorkingDir/8D2B63BC4088E8BAA505F980D8BA75A1/'.
-[2017.01.21-13.10.37:345][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.21-13.10.38:060][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.21-13.10.38:094][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.01.21-13.10.38:124][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.01.21-13.10.38:155][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.01.21-13.10.38:186][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.01.21-13.10.38:216][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.21-13.10.38:248][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.21-13.10.38:280][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.21-13.10.38:306][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.21-13.10.38:335][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.21-13.10.38:365][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.21-13.10.38:395][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.21-13.10.38:425][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.21-13.10.38:455][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.21-13.10.38:484][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.21-13.10.38:547][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.21-13.10.38:547][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.21-13.10.38:569][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.21-13.10.38:621][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.21-13.10.38:641][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.21-13.10.38:670][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.21-13.10.38:704][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.21-13.10.38:734][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.21-13.10.38:764][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.21-13.10.38:764][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.21-13.10.38:963][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../RepoMan/colorepo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../RepoMan/colorepo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.21-13.10.39:000][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.21-13.10.39:013][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.21-13.10.39:024][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Origin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.21-13.10.39:173][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.21-13.10.39:175][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.21-13.10.39:313][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.01.21-13.10.39:360][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.01.21-13.10.39:390][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.01.21-13.10.39:390][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.01.21-13.10.39:390][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.21-13.10.39:706][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: colorepo, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2769966269
-[2017.01.21-13.10.39:749][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2017.01.21-13.10.39:774][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013498 seconds
-[2017.01.21-13.10.39:777][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.01.21-13.10.39:777][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.01.21-13.10.39:777][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.21-13.10.39:808][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.21-13.10.40:179][  0]LogSlate: Using Freetype 2.6.0
-[2017.01.21-13.10.40:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.21-13.10.40:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.21-13.10.40:681][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.01.21-13.10.40:706][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.21-13.10.40:871][  0]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: === Critical error: ===
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: 
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: Assertion failed: Object [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp] [Line: 8445] 
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: 
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: 
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: 
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: KERNELBASE.dll
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:103]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Core.dll!FOutputDevice::Logf__VA() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:68]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Core.dll!FDebug::AssertFailed() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:332]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Engine.dll!UEngine::GetWorldFromContextObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:8448]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Engine.dll!UGameplayStatics::GetPlayerController() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:64]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Engine.dll!UGameplayStatics::GetPlayerCharacter() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:83]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-colorepo-3658.dll
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:2664]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UClass::GetArchetypeForCDO() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3671]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UObject::GetArchetypeFromRequiredInfo() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectarchetype.cpp:25]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3864]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4334]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::operator<<() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4531]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UClass::Serialize() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3544]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\blueprintgeneratedclass.cpp:1211]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3414]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4111]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4334]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3807]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2884]
-[2017.01.21-13.10.41:339][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3023]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1271]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1423]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2561]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2609]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2105]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2015]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:699]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linker.cpp:657]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1196]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1437]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!ResolveName() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:722]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!StaticLoadObjectInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:809]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!StaticLoadObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:869]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!StaticLoadClass() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:893]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-colorepo-3658.dll
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-colorepo-3658.dll
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-colorepo-3658.dll
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:2664]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:745]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:821]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:1018]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:922]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:466]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:409]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\projects\private\projectmanager.cpp:53]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2236]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!FEngineLoop::PreInit() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:1668]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launch.cpp:113]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: KERNEL32.DLL
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: ntdll.dll
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: ntdll.dll
-[2017.01.21-13.10.41:340][  0]LogWindows:Error: 
-[2017.01.21-13.10.41:358][  0]LogExit: Executing StaticShutdownAfterError
-[2017.01.21-13.10.41:359][  0]LogWindows: FPlatformMisc::RequestExit(1)
-[2017.01.21-13.10.41:359][  0]Log file closed, 01/21/17 05:10:41
+[2017.01.21-13.25.55:910][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-13.25.55:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.21-13.25.55:917][  0]LogInit: Computer: DESKTOP-E3B0E1K
+[2017.01.21-13.25.55:917][  0]LogInit: User: Origin
+[2017.01.21-13.25.55:917][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.21-13.25.55:917][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2017.01.21-13.25.55:917][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.21-13.25.55:917][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-13.25.55:917][  0]LogMemory: Process Physical Memory: 268.01 MB used, 268.01 MB peak
+[2017.01.21-13.25.55:917][  0]LogMemory: Process Virtual Memory: 262.98 MB used, 262.98 MB peak
+[2017.01.21-13.25.55:917][  0]LogMemory: Physical Memory: 5733.36 MB used,  10611.48 MB free, 16344.84 MB total
+[2017.01.21-13.25.55:917][  0]LogMemory: Virtual Memory: 698.57 MB used,  10611.48 MB free, 134217728.00 MB total
+[2017.01.21-13.25.55:938][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.01.21-13.25.56:351][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.21-13.25.56:373][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M            ' (Feature Level 11_0)
+[2017.01.21-13.25.56:373][  0]LogD3D11RHI:       8093/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.21-13.25.56:374][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.21-13.25.56:374][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.21-13.25.56:374][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.21-13.25.56:379][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.21-13.25.56:379][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.21-13.25.56:379][  0]LogWindows: EnumDisplayDevices:
+[2017.01.21-13.25.56:379][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M            ' (P:1 D:1)
+[2017.01.21-13.25.56:379][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-13.25.56:379][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-13.25.56:379][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M            ' (P:0 D:0)
+[2017.01.21-13.25.56:379][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.21-13.25.56:379][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M            
+[2017.01.21-13.25.56:379][  0]LogD3D11RHI:   Driver Version: 361.43 (internal:10.18.13.6143, unified:361.43)
+[2017.01.21-13.25.56:379][  0]LogD3D11RHI:      Driver Date: 12-16-2015
+[2017.01.21-13.25.56:379][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.21-13.25.56:391][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.21-13.25.56:405][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.21-13.25.56:405][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../RepoMan/colorepo/Intermediate/Shaders/WorkingDirectory/14664/).
+[2017.01.21-13.25.56:405][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Origin/AppData/Local/Temp/UnrealShaderWorkingDir/5172B7DD416674AD2EC365A9970F94BA/'.
+[2017.01.21-13.25.56:405][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.21-13.25.57:108][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.21-13.25.57:139][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.21-13.25.57:170][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.21-13.25.57:200][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.21-13.25.57:231][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.21-13.25.57:261][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.21-13.25.57:291][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.21-13.25.57:322][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.21-13.25.57:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.21-13.25.57:375][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.21-13.25.57:405][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.21-13.25.57:435][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.21-13.25.57:464][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.21-13.25.57:495][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.21-13.25.57:524][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.21-13.25.57:584][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.21-13.25.57:584][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.21-13.25.57:603][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.21-13.25.57:654][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.21-13.25.57:675][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.21-13.25.57:704][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.21-13.25.57:733][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.21-13.25.57:763][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.21-13.25.57:793][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.21-13.25.57:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.21-13.25.58:006][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache: Loaded boot cache 0.04s 51MB C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../RepoMan/colorepo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../RepoMan/colorepo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.21-13.25.58:043][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.21-13.25.58:055][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.21-13.25.58:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Origin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.21-13.25.58:197][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.21-13.25.58:199][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.21-13.25.58:320][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.21-13.25.58:341][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.21-13.25.58:364][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.21-13.25.58:364][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.21-13.25.58:364][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.21-13.25.58:680][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: colorepo, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2769966269
+[2017.01.21-13.25.58:720][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.01.21-13.25.58:747][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.015458 seconds
+[2017.01.21-13.25.58:751][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.21-13.25.58:751][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.21-13.25.58:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.21-13.25.58:781][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.21-13.25.59:142][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.21-13.25.59:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.21-13.25.59:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.21-13.25.59:628][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.21-13.25.59:653][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.21-13.25.59:800][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Gold'
+[2017.01.21-13.25.59:800][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Gold' while loading ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/LightWave_BP.uasset.
+[2017.01.21-13.25.59:800][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/LightWave_BP : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Gold
+[2017.01.21-13.25.59:800][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Gold'
+[2017.01.21-13.25.59:801][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Gold' while loading ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/LightWave_BP.uasset.
+[2017.01.21-13.25.59:801][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/LightWave_BP : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Gold
+[2017.01.21-13.25.59:801][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Gold'
+[2017.01.21-13.25.59:801][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Gold' while loading ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset.
+[2017.01.21-13.25.59:801][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Gold
+[2017.01.21-13.25.59:801][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Gold'
+[2017.01.21-13.25.59:801][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Gold' while loading ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset.
+[2017.01.21-13.25.59:801][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Gold
+[2017.01.21-13.25.59:802][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Gold'
+[2017.01.21-13.25.59:802][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold Referenced by Sphere_GEN_VARIABLE
+[2017.01.21-13.25.59:802][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Gold' while loading ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset.
+[2017.01.21-13.25.59:802][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold Referenced by Sphere_GEN_VARIABLE
+[2017.01.21-13.25.59:802][  0]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Gold
+[2017.01.21-13.25.59:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.21-13.26.00:172][  0]SourceControl: Info Source control is disabled
+[2017.01.21-13.26.00:199][  0]SourceControl: Info Source control is disabled
+[2017.01.21-13.26.00:222][  0]SourceControl: Info Source control is disabled
+[2017.01.21-13.26.00:244][  0]SourceControl: Info Source control is disabled
+[2017.01.21-13.26.00:862][  0]LogEngine: Initializing Engine...
+[2017.01.21-13.26.00:863][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.21-13.26.01:002][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.21-13.26.01:010][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-13.26.01:016][  0]LogInit: FAudioDevice initialized.
+[2017.01.21-13.26.01:035][  0]LogDerivedDataCache: Saved boot cache 0.02s 51MB C:/Users/Origin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.21-13.26.01:041][  0]LogInit: Texture streaming: Enabled
+[2017.01.21-13.26.01:133][  0]LogInit: Transaction tracking system initialized
+[2017.01.21-13.26.01:321][  0]BlueprintLog: New page: Editor Load
+[2017.01.21-13.26.01:771][  0]LocalizationService: Info Localization service is disabled
+[2017.01.21-13.26.02:092][  0]LogConsoleResponse:Display: 
+[2017.01.21-13.26.02:183][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.21-13.26.02:183][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.21-13.26.02:641][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/colorepo/Content/' took 0.01s
+[2017.01.21-13.26.02:641][  0]SourceControl: Info Source control is disabled
+[2017.01.21-13.26.02:641][  0]Cmd: MAP LOAD FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.21-13.26.02:641][  0]LightingResults: New page: Lighting Build
+[2017.01.21-13.26.02:661][  0]MapCheck: New page: Map Check
+[2017.01.21-13.26.02:661][  0]LightingResults: New page: Lighting Build
+[2017.01.21-13.26.02:847][  0]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.21-13.26.02:854][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.21-13.26.02:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.21-13.26.02:878][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.719ms to complete.
+[2017.01.21-13.26.02:878][  0]LogFileHelpers: Loading map 'TestLevel' took 0.237
+[2017.01.21-13.26.02:941][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.21-13.26.02:999][  0]LogCollectionManager: Loaded 0 collections in 0.000780 seconds
+[2017.01.21-13.26.03:057][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/colorepo/Saved/Collections/' took 0.01s
+[2017.01.21-13.26.03:057][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/colorepo/Content/Developers/Origin/Collections/' took 0.01s
+[2017.01.21-13.26.03:057][  0]LogFileCache: Scanning file cache for directory 'D:/RepoMan/colorepo/Content/Collections/' took 0.01s
+[2017.01.21-13.26.03:057][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.01.21-13.26.03:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2193 classes and 430 folders.
+[2017.01.21-13.26.03:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.21-13.26.03:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.21-13.26.03:089][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 13 classes and 0 folders.
+[2017.01.21-13.26.03:124][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.01.21-13.26.03:148][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.21-13.26.03:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.21-13.26.03:194][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.21-13.26.03:198][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.21-13.26.03:242][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.21-13.26.03:242][  0]LogLoad: (Engine Initialization) Total time: 38.25 seconds
+[2017.01.21-13.26.03:242][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.01.21-13.26.03:242][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.21-13.26.03:242][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.21-13.26.03:259][  0]LogOcInput: OculusInput pre-init called
+[2017.01.21-13.26.03:271][  0]LogAssetRegistry: Asset discovery search completed in 4.5721 seconds
+[2017.01.21-13.26.03:271][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.21-13.26.03:271][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2017.01.21-13.26.03:274][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.21-13.26.03:402][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.01.21-13.26.13:659][592]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.01.21-13.26.16:450][731]BlueprintLog: New page: Compile LightWave_BP
+[2017.01.21-13.26.21:566][ 28]BlueprintLog: New page: Compile LightWave_BP
+[2017.01.21-13.26.22:510][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/LightWave_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/LightWave_BP.uasset" SILENT=true
+[2017.01.21-13.26.22:529][ 79]LogSavePackage: Save=15.84ms
+[2017.01.21-13.26.22:529][ 79]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/LightWave_BPF043BE7D4DD323242D777DAD055B67C2.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/LightWave_BP.uasset'
+[2017.01.21-13.26.22:531][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/LightWave_BP.uasset
+[2017.01.21-13.26.30:411][548]Running D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/RepoMan/colorepo/colorepo.uproject" -game -rocket -progress
+[2017.01.21-13.26.30:612][548]Discovering modules, targets and source code for project...

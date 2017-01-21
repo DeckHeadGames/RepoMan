@@ -30,7 +30,7 @@ public:
 	void SetInitialForward(FVector direction);
 	FVector GetInitialForward();
 	
-	void SetColor(int index);
+	//void SetColor(int index);
 
 protected:
 

@@ -109,7 +109,7 @@ void AcolorepoCharacter::FireLightWave() {
 				float magnitude = sqrt(magnitudeSquared);
 				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-				ShotWave->SetColor(CurrentColor);
+				//ShotWave->SetColor(CurrentColor);
 		}
 	}
 }
