@@ -31,14 +31,20 @@ void ACrystal::Tick( float DeltaTime )
 	AcolorepoCharacter* PlayerTwo = Cast<AcolorepoCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 1));
 	if (PlayerOne != nullptr) {
 		if (BoundingBox->IsOverlappingActor(PlayerOne)) {
-			PlayerOne->ColorOnDeck = CrystalColor;
+			if (PlayerOne->DoDestroy) {
+				PlayerOne->ColorOnDeck = CrystalColor;
+				this->Destroy();
+			}
 		}
 		else {
 		}
 	}
 	if (PlayerTwo != nullptr) {
 		if (BoundingBox->IsOverlappingActor(PlayerTwo)) {
-			PlayerTwo->ColorOnDeck = CrystalColor;
+			if (PlayerTwo->DoDestroy) {
+				PlayerTwo->ColorOnDeck = CrystalColor;
+				this->Destroy();
+			}
 		}
 		else {
 		}

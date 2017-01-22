@@ -46,6 +46,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	BurstBool = false;
 	IsWithin = false;
 	SpeedModifier = 1.0f;
+	DoDestroy = false;
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -80,6 +81,8 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
 	PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
 	PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
+	PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
+	PlayerInputComponent->BindAction("RemoveCrystal", IE_Released, this, &AcolorepoCharacter::xReleased);
 }
 
 void AcolorepoCharacter::OnResetVR()
@@ -93,6 +96,14 @@ void AcolorepoCharacter::SetCurrentColor(float number) {
 
 float AcolorepoCharacter::GetCurrentColor() {
 	return CurrentColor;
+}
+
+void AcolorepoCharacter::xPressed() {
+	DoDestroy = true;
+}
+
+void AcolorepoCharacter::xReleased() {
+	DoDestroy = false;
 }
 
 void AcolorepoCharacter::FireManager() {

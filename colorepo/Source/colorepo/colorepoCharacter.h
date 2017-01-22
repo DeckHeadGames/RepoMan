@@ -31,6 +31,7 @@ public:
 	int ColorOnDeck;
 	bool GetIsWithin();
 	void SetIsWithin(bool value);
+	bool DoDestroy;
 	
 
 
@@ -104,6 +105,9 @@ protected:
 	bool BurstBool;
 	FTimerHandle Cooldown;
 	float SpeedModifier;
+	void xPressed();
+	void xReleased();
+	
 
 protected:
 	// APawn interface
