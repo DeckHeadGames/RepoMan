@@ -422,6 +422,8 @@
 		<ClInclude Include="..\..\Source\colorepo\colorepoCharacter.h" />
 		<ClCompile Include="..\..\Source\colorepo\colorepoGameMode.cpp" />
 		<ClInclude Include="..\..\Source\colorepo\colorepoGameMode.h" />
+		<ClCompile Include="..\..\Source\colorepo\Crystal.cpp" />
+		<ClInclude Include="..\..\Source\colorepo\Crystal.h" />
 		<ClCompile Include="..\..\Source\colorepo\LightWave.cpp" />
 		<ClInclude Include="..\..\Source\colorepo\LightWave.h" />
 	</ItemGroup>

@@ -13,3 +13,8 @@ AcolorepoGameMode::AcolorepoGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
+
+void AcolorepoGameMode::BeginPlay() {
+	UGameplayStatics::CreatePlayer(GetWorld(), 0, true);
+	UGameplayStatics::CreatePlayer(GetWorld(), 1, true);
+}

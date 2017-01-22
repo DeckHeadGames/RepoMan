@@ -62,6 +62,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AcolorepoCharacter); \
 #define colorepo_Source_colorepo_colorepoCharacter_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AcolorepoCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AcolorepoCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__BoundingBox() { return STRUCT_OFFSET(AcolorepoCharacter, BoundingBox); } \
 	FORCEINLINE static uint32 __PPO__RedProjectile() { return STRUCT_OFFSET(AcolorepoCharacter, RedProjectile); } \
 	FORCEINLINE static uint32 __PPO__OrangeProjectile() { return STRUCT_OFFSET(AcolorepoCharacter, OrangeProjectile); } \
 	FORCEINLINE static uint32 __PPO__YellowProjectile() { return STRUCT_OFFSET(AcolorepoCharacter, YellowProjectile); } \
