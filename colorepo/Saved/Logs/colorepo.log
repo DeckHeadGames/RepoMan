@@ -1858,3 +1858,451 @@ LogInit: Object subsystem initialized
 [2017.01.22-22.15.15:760][234]CompilerResultsLog: Info Compiling game modules for hot reload
 [2017.01.22-22.15.15:760][234]CompilerResultsLog: Info Target is up to date
 [2017.01.22-22.15.15:760][234]LogMainFrame: MainFrame: Module compiling took 0.396 seconds
+[2017.01.22-22.15.15:953][234]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-22.15.15:953][234]Display: HotReload took  0.6s.
+[2017.01.22-22.16.08:666][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-22.16.08:837][617]LogSavePackage: Save=132.86ms
+[2017.01.22-22.16.08:837][617]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainSceneFF89B0EB4881F2944C16AFAC60C1DF6E.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap'
+[2017.01.22-22.16.08:839][617]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap
+[2017.01.22-22.16.08:865][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset" SILENT=true
+[2017.01.22-22.16.08:935][617]LogSavePackage: Save=64.51ms
+[2017.01.22-22.16.08:935][617]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainScene_BuiltData74008F834A37396A2C7A2CA5F5EF9FFE.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset'
+[2017.01.22-22.16.08:935][617]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset
+[2017.01.22-22.16.40:816][508]LogMaterial: Missing cached shader map for material M_OrganicM, compiling. 
+[2017.01.22-22.16.57:616][511]BlueprintLog: New page: Compile colorepoCharacter_BP
+[2017.01.22-22.16.58:203][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset" SILENT=true
+[2017.01.22-22.16.58:236][537]LogSavePackage: Save=26.42ms
+[2017.01.22-22.16.58:236][537]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter_BPD35B767F4CE8307988B8AF875CB9A6BD.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset'
+[2017.01.22-22.16.58:237][537]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset
+[2017.01.22-22.17.20:542][856]BlueprintLog: New page: Compile colorepoCharacter2_bp
+[2017.01.22-22.17.21:737][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset" SILENT=true
+[2017.01.22-22.17.21:763][921]LogSavePackage: Save=19.73ms
+[2017.01.22-22.17.21:763][921]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter2_bp71E113F948B6BBB882EA36A6D60D6DA9.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset'
+[2017.01.22-22.17.21:764][921]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset
+[2017.01.22-22.17.28:459][320]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.17.28:473][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.28:473][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.17.28:473][320]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:17:28 AM)
+[2017.01.22-22.17.28:473][320]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.17.28:480][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007071s)
+[2017.01.22-22.17.28:480][320]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.17.28:480][320]LogPlayLevel: PIE: World Init took: (0.000393s)
+[2017.01.22-22.17.28:481][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007644s)
+[2017.01.22-22.17.28:496][320]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.17.28:500][320]LogInit: FAudioDevice initialized.
+[2017.01.22-22.17.28:540][320]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.17.28:542][320]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.17.28
+[2017.01.22-22.17.28:543][320]LogWorld: Bringing up level for play took: 0.002023
+[2017.01.22-22.17.28:543][320]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.17.28:548][320]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.396
+[2017.01.22-22.17.28:548][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.35:482][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.35:533][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.50:484][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset" SILENT=true
+[2017.01.22-22.17.50:508][613]LogSavePackage: Save=20.82ms
+[2017.01.22-22.17.50:508][613]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter2_bpDD7A78B34D75EBBEE6C716AAF41BD3DE.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset'
+[2017.01.22-22.17.50:509][613]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset
+[2017.01.22-22.17.51:521][674]BlueprintLog: New page: Compile colorepoCharacter2_bp
+[2017.01.22-22.17.51:916][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset" SILENT=true
+[2017.01.22-22.17.51:938][691]LogSavePackage: Save=19.71ms
+[2017.01.22-22.17.51:938][691]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter2_bp379FB4EB4DFBD35CFB9098890508E2BA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset'
+[2017.01.22-22.17.51:938][691]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter2_bp.uasset
+[2017.01.22-22.17.53:568][786]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.17.53:582][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.53:582][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.17.53:582][786]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:17:53 AM)
+[2017.01.22-22.17.53:582][786]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.17.53:588][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006605s)
+[2017.01.22-22.17.53:589][786]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.17.53:589][786]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2017.01.22-22.17.53:589][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007303s)
+[2017.01.22-22.17.53:604][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.17.53:608][786]LogInit: FAudioDevice initialized.
+[2017.01.22-22.17.53:648][786]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.17.53:651][786]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.17.53
+[2017.01.22-22.17.53:651][786]LogWorld: Bringing up level for play took: 0.001932
+[2017.01.22-22.17.53:652][786]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.17.53:656][786]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene -0.495
+[2017.01.22-22.17.53:657][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.59:311][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.17.59:370][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.18.11:790][867]Recompiling colorepo...
+[2017.01.22-22.18.11:790][867]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 2927 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-22.18.11:791][867]Warning: Starting HotReload took  0.0s.
+[2017.01.22-22.18.12:166][890]CompilerResultsLog: New page: Compilation - Jan 22, 2017, 6:18:12 AM
+[2017.01.22-22.18.12:166][890]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-22.18.12:166][890]CompilerResultsLog: Info Target is up to date
+[2017.01.22-22.18.12:166][890]LogMainFrame: MainFrame: Module compiling took 0.379 seconds
+[2017.01.22-22.18.12:382][890]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-22.18.12:383][890]Display: HotReload took  0.6s.
+[2017.01.22-22.18.13:006][928]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.18.13:022][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.18.13:022][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.18.13:022][928]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:18:13 AM)
+[2017.01.22-22.18.13:022][928]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.18.13:030][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007293s)
+[2017.01.22-22.18.13:030][928]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.18.13:030][928]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.01.22-22.18.13:030][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.008058s)
+[2017.01.22-22.18.13:068][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.18.13:072][928]LogInit: FAudioDevice initialized.
+[2017.01.22-22.18.13:108][928]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.18.13:111][928]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.18.13
+[2017.01.22-22.18.13:112][928]LogWorld: Bringing up level for play took: 0.001976
+[2017.01.22-22.18.13:112][928]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.18.13:117][928]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.965
+[2017.01.22-22.18.13:117][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.18.16:313][118]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.16:313][118]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.16:340][118]Cmd: MEM
+[2017.01.22-22.18.16:349][118]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.18.16:349][118]LogMemory: Process Physical Memory: 1618.35 MB used, 1753.46 MB peak
+[2017.01.22-22.18.16:349][118]LogMemory: Process Virtual Memory: 3888.08 MB used, 3894.16 MB peak
+[2017.01.22-22.18.16:349][118]LogMemory: Physical Memory: 8208.43 MB used,  8136.41 MB free, 16344.84 MB total
+[2017.01.22-22.18.16:349][118]LogMemory: Virtual Memory: 4820.27 MB used,  8136.41 MB free, 134217728.00 MB total
+[2017.01.22-22.18.16:349][118]LogMemory: 
+[2017.01.22-22.18.16:349][118]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.18.16:349][118]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.18.16:355][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006340s)
+[2017.01.22-22.18.16:355][118]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.18.16:355][118]LogPlayLevel: PIE: World Init took: (0.000375s)
+[2017.01.22-22.18.16:356][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.006895s)
+[2017.01.22-22.18.16:356][118]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.18.16:358][118]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.18.16
+[2017.01.22-22.18.16:359][118]LogWorld: Bringing up level for play took: 0.002041
+[2017.01.22-22.18.16:359][118]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.16:359][118]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.16:360][118]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.18.16:360][118]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.18.16:361][118]LogLoad: Took 0.047816 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.18.19:979][335]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.19:979][335]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.19:991][335]Cmd: MEM
+[2017.01.22-22.18.20:001][335]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.18.20:001][335]LogMemory: Process Physical Memory: 1566.68 MB used, 1753.46 MB peak
+[2017.01.22-22.18.20:001][335]LogMemory: Process Virtual Memory: 3722.76 MB used, 3950.32 MB peak
+[2017.01.22-22.18.20:001][335]LogMemory: Physical Memory: 8156.25 MB used,  8188.58 MB free, 16344.84 MB total
+[2017.01.22-22.18.20:001][335]LogMemory: Virtual Memory: 4712.27 MB used,  8188.58 MB free, 134217728.00 MB total
+[2017.01.22-22.18.20:001][335]LogMemory: 
+[2017.01.22-22.18.20:001][335]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.18.20:001][335]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.18.20:009][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007202s)
+[2017.01.22-22.18.20:009][335]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.18.20:009][335]LogPlayLevel: PIE: World Init took: (0.000413s)
+[2017.01.22-22.18.20:009][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007809s)
+[2017.01.22-22.18.20:009][335]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.18.20:012][335]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.18.20
+[2017.01.22-22.18.20:012][335]LogWorld: Bringing up level for play took: 0.002304
+[2017.01.22-22.18.20:012][335]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.20:013][335]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.20:013][335]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.18.20:013][335]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.18.20:015][335]LogLoad: Took 0.036427 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.18.54:885][427]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.54:885][427]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.18.54:898][427]Cmd: MEM
+[2017.01.22-22.18.54:908][427]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.18.54:908][427]LogMemory: Process Physical Memory: 1566.00 MB used, 1753.46 MB peak
+[2017.01.22-22.18.54:908][427]LogMemory: Process Virtual Memory: 3714.89 MB used, 3950.32 MB peak
+[2017.01.22-22.18.54:908][427]LogMemory: Physical Memory: 8148.59 MB used,  8196.25 MB free, 16344.84 MB total
+[2017.01.22-22.18.54:908][427]LogMemory: Virtual Memory: 4688.27 MB used,  8196.25 MB free, 134217728.00 MB total
+[2017.01.22-22.18.54:908][427]LogMemory: 
+[2017.01.22-22.18.54:908][427]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.18.54:908][427]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.18.54:915][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006419s)
+[2017.01.22-22.18.54:915][427]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.18.54:915][427]LogPlayLevel: PIE: World Init took: (0.000374s)
+[2017.01.22-22.18.54:915][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.006976s)
+[2017.01.22-22.18.54:915][427]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.18.54:917][427]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.18.54
+[2017.01.22-22.18.54:918][427]LogWorld: Bringing up level for play took: 0.001914
+[2017.01.22-22.18.54:918][427]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.54:918][427]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.18.54:919][427]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.18.54:919][427]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.18.54:920][427]LogLoad: Took 0.034904 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.19.08:418][237]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.08:418][237]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.08:431][237]Cmd: MEM
+[2017.01.22-22.19.08:442][237]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.19.08:442][237]LogMemory: Process Physical Memory: 1565.77 MB used, 1753.46 MB peak
+[2017.01.22-22.19.08:442][237]LogMemory: Process Virtual Memory: 3714.81 MB used, 3950.32 MB peak
+[2017.01.22-22.19.08:442][237]LogMemory: Physical Memory: 8148.97 MB used,  8195.87 MB free, 16344.84 MB total
+[2017.01.22-22.19.08:442][237]LogMemory: Virtual Memory: 4675.64 MB used,  8195.87 MB free, 134217728.00 MB total
+[2017.01.22-22.19.08:442][237]LogMemory: 
+[2017.01.22-22.19.08:442][237]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.19.08:442][237]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.19.08:448][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006485s)
+[2017.01.22-22.19.08:448][237]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.19.08:449][237]LogPlayLevel: PIE: World Init took: (0.000396s)
+[2017.01.22-22.19.08:449][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007055s)
+[2017.01.22-22.19.08:449][237]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.19.08:451][237]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.19.08
+[2017.01.22-22.19.08:451][237]LogWorld: Bringing up level for play took: 0.001896
+[2017.01.22-22.19.08:452][237]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.08:452][237]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.08:452][237]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.19.08:452][237]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.19.08:454][237]LogLoad: Took 0.035209 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.19.10:919][385]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.10:919][385]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.10:932][385]Cmd: MEM
+[2017.01.22-22.19.10:941][385]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.19.10:941][385]LogMemory: Process Physical Memory: 1566.66 MB used, 1753.46 MB peak
+[2017.01.22-22.19.10:941][385]LogMemory: Process Virtual Memory: 3781.07 MB used, 3950.32 MB peak
+[2017.01.22-22.19.10:941][385]LogMemory: Physical Memory: 8148.66 MB used,  8196.18 MB free, 16344.84 MB total
+[2017.01.22-22.19.10:941][385]LogMemory: Virtual Memory: 4715.64 MB used,  8196.18 MB free, 134217728.00 MB total
+[2017.01.22-22.19.10:941][385]LogMemory: 
+[2017.01.22-22.19.10:941][385]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.19.10:941][385]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.19.10:948][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006419s)
+[2017.01.22-22.19.10:948][385]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.19.10:948][385]LogPlayLevel: PIE: World Init took: (0.000394s)
+[2017.01.22-22.19.10:948][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.006990s)
+[2017.01.22-22.19.10:948][385]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.19.10:951][385]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.19.10
+[2017.01.22-22.19.10:951][385]LogWorld: Bringing up level for play took: 0.001965
+[2017.01.22-22.19.10:951][385]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.10:952][385]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.10:952][385]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.19.10:952][385]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.19.10:953][385]LogLoad: Took 0.034204 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.19.12:135][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.19.12:186][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.19.12:901][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-22.19.13:043][498]LogSavePackage: Save=129.50ms
+[2017.01.22-22.19.13:043][498]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainScene76AAC97D43264DF29EF569A1EAC2E8C3.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap'
+[2017.01.22-22.19.13:043][498]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap
+[2017.01.22-22.19.13:069][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset" SILENT=true
+[2017.01.22-22.19.13:139][498]LogSavePackage: Save=67.83ms
+[2017.01.22-22.19.13:139][498]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainScene_BuiltData6A75F87543AAA6E286FD0196E63DEEEA.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset'
+[2017.01.22-22.19.13:140][498]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset
+[2017.01.22-22.19.29:195][445]BlueprintLog: New page: Compile MainScene
+[2017.01.22-22.19.31:055][549]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.19.31:069][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.19.31:069][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.19.31:069][549]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:19:31 AM)
+[2017.01.22-22.19.31:069][549]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.19.31:076][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006858s)
+[2017.01.22-22.19.31:076][549]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.19.31:076][549]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2017.01.22-22.19.31:076][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007489s)
+[2017.01.22-22.19.31:094][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.19.31:097][549]LogInit: FAudioDevice initialized.
+[2017.01.22-22.19.31:136][549]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.19.31:138][549]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.19.31
+[2017.01.22-22.19.31:139][549]LogWorld: Bringing up level for play took: 0.002059
+[2017.01.22-22.19.31:139][549]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.19.31:144][549]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.993
+[2017.01.22-22.19.31:145][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.19.33:678][699]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.33:678][699]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.19.33:691][699]Cmd: MEM
+[2017.01.22-22.19.33:702][699]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.19.33:702][699]LogMemory: Process Physical Memory: 1570.12 MB used, 1753.46 MB peak
+[2017.01.22-22.19.33:702][699]LogMemory: Process Virtual Memory: 3758.01 MB used, 3950.32 MB peak
+[2017.01.22-22.19.33:702][699]LogMemory: Physical Memory: 8158.46 MB used,  8186.37 MB free, 16344.84 MB total
+[2017.01.22-22.19.33:702][699]LogMemory: Virtual Memory: 4716.27 MB used,  8186.37 MB free, 134217728.00 MB total
+[2017.01.22-22.19.33:702][699]LogMemory: 
+[2017.01.22-22.19.33:702][699]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.19.33:702][699]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.19.33:708][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006562s)
+[2017.01.22-22.19.33:709][699]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.19.33:709][699]LogPlayLevel: PIE: World Init took: (0.000386s)
+[2017.01.22-22.19.33:709][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007125s)
+[2017.01.22-22.19.33:709][699]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.19.33:711][699]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.19.33
+[2017.01.22-22.19.33:712][699]LogWorld: Bringing up level for play took: 0.002024
+[2017.01.22-22.19.33:712][699]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.33:712][699]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.19.33:713][699]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.19.33:713][699]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.19.33:714][699]LogLoad: Took 0.036547 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.19.35:564][810]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.19.35:623][810]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.20.07:068][680]BlueprintLog: New page: Compile MainScene
+[2017.01.22-22.20.08:682][769]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.20.08:696][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.20.08:696][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.20.08:696][769]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:20:08 AM)
+[2017.01.22-22.20.08:696][769]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.20.08:703][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006722s)
+[2017.01.22-22.20.08:704][769]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.20.08:704][769]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2017.01.22-22.20.08:704][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007397s)
+[2017.01.22-22.20.08:721][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.20.08:725][769]LogInit: FAudioDevice initialized.
+[2017.01.22-22.20.08:765][769]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.20.08:768][769]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.20.08
+[2017.01.22-22.20.08:768][769]LogWorld: Bringing up level for play took: 0.002071
+[2017.01.22-22.20.08:769][769]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.20.08:774][769]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.622
+[2017.01.22-22.20.08:774][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.20.12:257][976]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.20.12:257][976]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.20.12:270][976]Cmd: MEM
+[2017.01.22-22.20.12:280][976]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.20.12:280][976]LogMemory: Process Physical Memory: 1581.70 MB used, 1753.46 MB peak
+[2017.01.22-22.20.12:280][976]LogMemory: Process Virtual Memory: 3732.10 MB used, 3950.32 MB peak
+[2017.01.22-22.20.12:280][976]LogMemory: Physical Memory: 8168.94 MB used,  8175.90 MB free, 16344.84 MB total
+[2017.01.22-22.20.12:280][976]LogMemory: Virtual Memory: 4732.27 MB used,  8175.90 MB free, 134217728.00 MB total
+[2017.01.22-22.20.12:280][976]LogMemory: 
+[2017.01.22-22.20.12:280][976]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.20.12:280][976]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.20.12:287][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006643s)
+[2017.01.22-22.20.12:287][976]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.20.12:287][976]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2017.01.22-22.20.12:288][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007209s)
+[2017.01.22-22.20.12:288][976]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.20.12:290][976]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.20.12
+[2017.01.22-22.20.12:290][976]LogWorld: Bringing up level for play took: 0.001915
+[2017.01.22-22.20.12:291][976]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.20.12:291][976]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.20.12:291][976]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.20.12:291][976]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.20.12:293][976]LogLoad: Took 0.036030 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.20.14:324][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.20.14:378][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.20.17:563][288]Recompiling colorepo...
+[2017.01.22-22.20.17:563][288]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9757 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-22.20.17:564][288]Warning: Starting HotReload took  0.0s.
+[2017.01.22-22.20.17:938][311]CompilerResultsLog: New page: Compilation - Jan 22, 2017, 6:20:17 AM
+[2017.01.22-22.20.17:938][311]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-22.20.17:939][311]CompilerResultsLog: Info Target is up to date
+[2017.01.22-22.20.17:939][311]LogMainFrame: MainFrame: Module compiling took 0.379 seconds
+[2017.01.22-22.20.18:129][311]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-22.20.18:130][311]Display: HotReload took  0.6s.
+[2017.01.22-22.20.18:905][358]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.01.22-22.20.19:752][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.01.22-22.20.19:852][413]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.01.22-22.20.21:250][497]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.01.22-22.20.21:354][503]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cube5)
+[2017.01.22-22.20.57:661][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.01.22-22.21.04:712][100]LogMaterial:Warning: Material /Game/CharacterMat/M_OrganicM.M_OrganicM needed to have new flag set bUsedWithStaticLighting !
+[2017.01.22-22.21.04:714][100]LogMaterial: Missing cached shader map for material M_OrganicM, compiling. 
+[2017.01.22-22.21.04:726][100]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-22.21.06:787][224]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.21.06:811][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.06:811][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.21.06:811][224]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:21:06 AM)
+[2017.01.22-22.21.06:811][224]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.21.06:820][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008094s)
+[2017.01.22-22.21.06:820][224]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.21.06:820][224]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.01.22-22.21.06:820][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.008972s)
+[2017.01.22-22.21.06:883][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.21.06:887][224]LogInit: FAudioDevice initialized.
+[2017.01.22-22.21.06:929][224]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.21.06:933][224]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.21.06
+[2017.01.22-22.21.06:933][224]LogWorld: Bringing up level for play took: 0.002827
+[2017.01.22-22.21.06:934][224]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.21.06:940][224]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.788
+[2017.01.22-22.21.06:940][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.08:820][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.08:878][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.12:031][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.01.22-22.21.34:390][861]Recompiling colorepo...
+[2017.01.22-22.21.34:390][861]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 8579 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-22.21.34:391][861]Warning: Starting HotReload took  0.0s.
+[2017.01.22-22.21.34:749][883]CompilerResultsLog: New page: Compilation - Jan 22, 2017, 6:21:34 AM
+[2017.01.22-22.21.34:749][883]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-22.21.34:749][883]CompilerResultsLog: Info Target is up to date
+[2017.01.22-22.21.34:749][883]LogMainFrame: MainFrame: Module compiling took 0.362 seconds
+[2017.01.22-22.21.34:949][883]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-22.21.34:949][883]Display: HotReload took  0.6s.
+[2017.01.22-22.21.35:442][913]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.21.35:457][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.35:457][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.21.35:457][913]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:21:35 AM)
+[2017.01.22-22.21.35:457][913]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.21.35:464][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006614s)
+[2017.01.22-22.21.35:464][913]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.21.35:464][913]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2017.01.22-22.21.35:465][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007325s)
+[2017.01.22-22.21.35:500][913]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.21.35:504][913]LogInit: FAudioDevice initialized.
+[2017.01.22-22.21.35:538][913]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.21.35:540][913]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.21.35
+[2017.01.22-22.21.35:541][913]LogWorld: Bringing up level for play took: 0.001969
+[2017.01.22-22.21.35:541][913]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.21.35:546][913]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene -0.606
+[2017.01.22-22.21.35:546][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.36:957][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.37:018][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.46:069][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.01.22-22.21.51:883][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-22.21.52:031][882]LogSavePackage: Save=131.56ms
+[2017.01.22-22.21.52:031][882]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainSceneC8E2BE164495EC391DCBED9A5AA3C5D4.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap'
+[2017.01.22-22.21.52:032][882]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene.umap
+[2017.01.22-22.21.52:059][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColorepoLevel/MainScene_BuiltData" FILE="../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset" SILENT=true
+[2017.01.22-22.21.52:129][882]LogSavePackage: Save=65.67ms
+[2017.01.22-22.21.52:130][882]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainScene_BuiltDataB858CAC04CEEFE92168F5C8924E08182.tmp' to '../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset'
+[2017.01.22-22.21.52:130][882]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ColorepoLevel/MainScene_BuiltData.uasset
+[2017.01.22-22.21.54:060][998]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-22.21.54:074][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.21.54:074][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-22.21.54:074][998]PIE: New page: PIE session: MainScene (Jan 22, 2017, 6:21:54 AM)
+[2017.01.22-22.21.54:074][998]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.21.54:081][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006869s)
+[2017.01.22-22.21.54:081][998]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.21.54:081][998]LogPlayLevel: PIE: World Init took: (0.000417s)
+[2017.01.22-22.21.54:082][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.007456s)
+[2017.01.22-22.21.54:100][998]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-22.21.54:104][998]LogInit: FAudioDevice initialized.
+[2017.01.22-22.21.54:144][998]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.21.54:147][998]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.21.54
+[2017.01.22-22.21.54:148][998]LogWorld: Bringing up level for play took: 0.003062
+[2017.01.22-22.21.54:148][998]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.21.54:154][998]PIE: Info Play in editor start time for /Game/ColorepoLevel/UEDPIE_0_MainScene 0.002
+[2017.01.22-22.21.54:155][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.22.14:239][201]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-22.22.14:239][201]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-22.22.14:252][201]Cmd: MEM
+[2017.01.22-22.22.14:262][201]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.22.14:262][201]LogMemory: Process Physical Memory: 1247.50 MB used, 1753.46 MB peak
+[2017.01.22-22.22.14:262][201]LogMemory: Process Virtual Memory: 3766.02 MB used, 3950.32 MB peak
+[2017.01.22-22.22.14:262][201]LogMemory: Physical Memory: 7690.48 MB used,  8654.36 MB free, 16344.84 MB total
+[2017.01.22-22.22.14:262][201]LogMemory: Virtual Memory: 4731.02 MB used,  8654.36 MB free, 134217728.00 MB total
+[2017.01.22-22.22.14:262][201]LogMemory: 
+[2017.01.22-22.22.14:262][201]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.22.14:348][201]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-22.22.14:348][201]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.22.14:349][201]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.22-14.22.14
+[2017.01.22-22.22.14:349][201]LogWorld: Bringing up level for play took: 0.000576
+[2017.01.22-22.22.14:350][201]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.22.14:350][201]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.22.14:350][201]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.22.14:350][201]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.22.14:351][201]LogLoad: Took 0.111677 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-22.22.15:948][297]LogNet: Browse: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.22.15:948][297]LogLoad: LoadMap: /Game/ColorepoLevel/MainScene
+[2017.01.22-22.22.15:959][297]Cmd: MEM
+[2017.01.22-22.22.15:968][297]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-22.22.15:968][297]LogMemory: Process Physical Memory: 1383.39 MB used, 1753.46 MB peak
+[2017.01.22-22.22.15:968][297]LogMemory: Process Virtual Memory: 3912.00 MB used, 3970.93 MB peak
+[2017.01.22-22.22.15:968][297]LogMemory: Physical Memory: 7831.14 MB used,  8513.69 MB free, 16344.84 MB total
+[2017.01.22-22.22.15:968][297]LogMemory: Virtual Memory: 4854.96 MB used,  8513.69 MB free, 134217728.00 MB total
+[2017.01.22-22.22.15:968][297]LogMemory: 
+[2017.01.22-22.22.15:968][297]Allocator Stats for TBB: (not implemented)
+[2017.01.22-22.22.15:968][297]LogPlayLevel: Creating play world package: /Game/ColorepoLevel/UEDPIE_0_MainScene
+[2017.01.22-22.22.15:975][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006392s)
+[2017.01.22-22.22.15:975][297]LogAIModule: Creating AISystem for world MainScene
+[2017.01.22-22.22.15:975][297]LogPlayLevel: PIE: World Init took: (0.000391s)
+[2017.01.22-22.22.15:975][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColorepoLevel/MainScene.MainScene to /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.006959s)
+[2017.01.22-22.22.15:975][297]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-22.22.15:978][297]LogWorld: Bringing World /Game/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2017.01.22-14.22.15
+[2017.01.22-22.22.15:978][297]LogWorld: Bringing up level for play took: 0.002054
+[2017.01.22-22.22.15:978][297]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.22.15:979][297]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-22.22.15:979][297]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-22.22.15:979][297]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-22.22.15:980][297]LogLoad: Took 0.032545 seconds to LoadMap(/Game/ColorepoLevel/UEDPIE_0_MainScene)
+[2017.01.22-22.22.22:277][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.22.22:348][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2017.01.22-22.22.23:820][762]Recompiling colorepo...
+[2017.01.22-22.22.23:820][762]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9158 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-22.22.23:821][762]Warning: Starting HotReload took  0.0s.
+[2017.01.22-22.22.24:182][784]CompilerResultsLog: New page: Compilation - Jan 22, 2017, 6:22:24 AM
+[2017.01.22-22.22.24:182][784]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-22.22.24:182][784]CompilerResultsLog: Info Target is up to date
+[2017.01.22-22.22.24:182][784]LogMainFrame: MainFrame: Module compiling took 0.366 seconds
