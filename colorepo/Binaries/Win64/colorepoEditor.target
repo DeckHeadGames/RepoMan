@@ -2,13 +2,13 @@
 	"TargetName" : "colorepoEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "",
+	"BuildId" : "24e28c09-bf42-40b6-bfa6-3eaa997edc8e",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
 		"MinorVersion" : 14,
-		"PatchVersion" : 3,
-		"Changelist" : 3249277,
+		"PatchVersion" : 2,
+		"Changelist" : 3241561,
 		"CompatibleChangelist" : 3195953,
 		"IsLicenseeVersion" : 0,
 		"BranchName" : "++UE4+Release-4.14"

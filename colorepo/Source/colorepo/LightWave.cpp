@@ -19,7 +19,7 @@ ALightWave::ALightWave()
 	CollisionComp->InitSphereRadius(5.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
 	CollisionComp->OnComponentHit.AddDynamic(this, &ALightWave::OnHit);		// set up a notification for when this component hits something blocking
-
+	SecondaryFire = false;
 																					// Players can't walk on it
 	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
 	CollisionComp->CanCharacterStepUpOn = ECB_No;
@@ -54,8 +54,25 @@ void ALightWave::Tick( float DeltaTime )
 	Super::Tick( DeltaTime );
 	xValue += DeltaTime;
 	FMath::Clamp(frequency, 10.0f, 100.0f);
-	ProjectileMovement->Velocity = InitialForward + FVector(0.0f, 1000.0f * sin(xValue*frequency), 0.0f);
+	if (SecondaryFire) {
+		if ((5.0f - xValue) < 0) {
+			this->Destroy();
+		}
+		else {
+			InitialForward *= 1.125;
+			ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f, (30.0f * (5.0f - xValue)), 0));
+		}
+	}
+	else {
+		ProjectileMovement->Velocity = InitialForward + FVector(0.0f, 1000.0f * sin(xValue*frequency), 0.0f);
+	}
+	
 
+}
+
+void ALightWave::SetSecondary(bool value) {
+	SecondaryFire = value;
+	InitialForward = InitialForward / 1000.0f;
 }
 
 void ALightWave::SetInitialForward(FVector direction) {

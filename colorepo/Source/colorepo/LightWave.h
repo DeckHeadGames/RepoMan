@@ -31,6 +31,7 @@ public:
 	FVector GetInitialForward();
 	
 	void SetColor(int index);
+	void SetSecondary(bool value);
 
 protected:
 
@@ -50,6 +51,7 @@ protected:
 	const float Yellow = 42.0f;
 	const float Orange = 30.0f;
 	const float Red = 18.0f;
+	bool SecondaryFire;
 	int MyColor;
 	float xValue;
 	float frequency;

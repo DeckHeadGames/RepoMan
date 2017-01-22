@@ -43,6 +43,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 	CurrentColor = Green;
 	CanFire = true;
+	BurstBool = false;
 	IsWithin = false;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
@@ -77,6 +78,8 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
 	PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
+	PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
+	PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
 }
 
 void AcolorepoCharacter::OnResetVR()
@@ -103,8 +106,75 @@ void AcolorepoCharacter::CannotFire() {
 	CanFire = true;
 }
 
+void AcolorepoCharacter::FireLightBurstDown() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
+	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotBurst,
+		0.5f, false);
+}
+
+void AcolorepoCharacter::FireLightBurstUp() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstUp"), true);
+	if (BurstBool) {
+		// try and fire a projectile
+		TSubclassOf<ALightWave> ProjectileClass;
+		switch (CurrentColor) {
+		case 1:
+			ProjectileClass = RedProjectile;
+			break;
+		case 2:
+			ProjectileClass = OrangeProjectile;
+			break;
+		case 3:
+			ProjectileClass = YellowProjectile;
+			break;
+		case 4:
+			ProjectileClass = GreenProjectile;
+			break;
+		case 5:
+			ProjectileClass = BlueProjectile;
+			break;
+		case 6:
+			ProjectileClass = IndigoProjectile;
+			break;
+		case 7:
+			ProjectileClass = VioletProjectile;
+			break;
+		default:
+			break;
+		}
+		if (ProjectileClass != NULL)
+		{
+			UWorld* const World = GetWorld();
+			if (World != NULL)
+			{
+				FVector CurrentLocation = this->GetActorLocation();
+				FVector OurForwards = this->GetActorForwardVector();
+				FVector OurUp = this->GetActorUpVector();
+				OurUp.Normalize();
+				OurForwards.Normalize();
+				FVector DeltaForwards = OurForwards*60.0f;
+				FVector DeltaUp = OurUp*20.0f;
+				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
+				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
+				float magnitude = sqrt(magnitudeSquared);
+				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
+				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
+				ShotWave->SetColor(CurrentColor);
+				ShotWave->SetSecondary(true);
+			}
+		}
+		BurstBool = false;
+		CanFire = true;
+	}
+}
+
+void AcolorepoCharacter::CannotBurst() {
+	BurstBool = true;
+}
+
 void AcolorepoCharacter::FireLightWave() {
 	// try and fire a projectile
+	BurstBool = false;
 	TSubclassOf<ALightWave> ProjectileClass;
 	switch (CurrentColor) {
 	case 1:

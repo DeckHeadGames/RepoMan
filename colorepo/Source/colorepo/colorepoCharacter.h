@@ -79,8 +79,11 @@ protected:
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
 	void FireLightWave();
+	void FireLightBurstDown();
+	void FireLightBurstUp();
 	void FireManager();
 	void CannotFire();
+	void CannotBurst();
 
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class ALightWave> RedProjectile;
@@ -98,6 +101,7 @@ protected:
 		TSubclassOf<class ALightWave> VioletProjectile;
 
 	bool CanFire;
+	bool BurstBool;
 	FTimerHandle Cooldown;
 
 protected:
