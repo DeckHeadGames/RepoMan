@@ -10,6 +10,7 @@ class AcolorepoGameMode : public AGameModeBase
 
 public:
 	AcolorepoGameMode();
+	virtual void BeginPlay() override;
 };
 
 

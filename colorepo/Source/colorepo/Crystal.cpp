@@ -38,7 +38,7 @@ void ACrystal::Tick( float DeltaTime )
 	}
 	if (PlayerTwo != nullptr) {
 		if (BoundingBox->IsOverlappingActor(PlayerTwo)) {
-			PlayerOne->ColorOnDeck = CrystalColor;
+			PlayerTwo->ColorOnDeck = CrystalColor;
 		}
 		else {
 		}

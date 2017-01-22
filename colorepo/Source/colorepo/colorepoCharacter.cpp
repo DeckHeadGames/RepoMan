@@ -17,8 +17,8 @@ AcolorepoCharacter::AcolorepoCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
 	// set our turn rates for input
-	BaseTurnRate = 15.f;
-	BaseLookUpRate = 15.f;
+	BaseTurnRate = 180.0f;
+	BaseLookUpRate = 180.0f;
 
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
