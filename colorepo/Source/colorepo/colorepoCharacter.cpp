@@ -152,7 +152,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				FVector OurUp = this->GetActorUpVector();
 				OurUp.Normalize();
 				OurForwards.Normalize();
-				FVector DeltaForwards = OurForwards*60.0f;
+				FVector DeltaForwards = OurForwards*100.0f;
 				FVector DeltaUp = OurUp*20.0f;
 				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
 				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
@@ -212,7 +212,7 @@ void AcolorepoCharacter::FireLightWave() {
 				FVector OurUp = this->GetActorUpVector();
 				OurUp.Normalize();
 				OurForwards.Normalize();
-				FVector DeltaForwards = OurForwards*60.0f;
+				FVector DeltaForwards = OurForwards*100.0f;
 				FVector DeltaUp = OurUp*20.0f;
 				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
 				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());

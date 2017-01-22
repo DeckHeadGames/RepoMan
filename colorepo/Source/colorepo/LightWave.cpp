@@ -91,7 +91,7 @@ void ALightWave::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimit
 		AcolorepoCharacter*  temp = Cast<AcolorepoCharacter>(OtherActor);
 		FVector Impulse = InitialForward;
 		Impulse.Normalize();
-		temp->LaunchCharacter(Impulse * 3000.0f * MyColor, true, true);
+		temp->LaunchCharacter(Impulse * 4000.0f * MyColor, true, true);
 		this->Destroy();
 	}
 	
