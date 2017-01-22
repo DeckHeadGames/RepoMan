@@ -791,3 +791,472 @@ LogInit: Object subsystem initialized
 [2017.01.22-00.12.55:740][159]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
 [2017.01.22-00.12.55:741][159]LogLoad: Took 0.043188 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
 [2017.01.22-00.12.58:319][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-00.12.58:377][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-00.18.27:276][196]LogSavePackage: Save=114.82ms
+[2017.01.22-00.18.27:276][196]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevel_Auto1069E32C349041CD5551D40A8555D9E63.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto1.umap'
+[2017.01.22-00.18.27:276][196]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Maps/TestLevel_Auto1.umap
+[2017.01.22-00.18.27:280][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.150
+[2017.01.22-00.18.27:280][196]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2017.01.22-00.27.19:625][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/CreditsButton.png)
+[2017.01.22-00.27.19:633][314]LogTexture:Display: Building textures: CreditsButton (BGRA8)
+[2017.01.22-00.27.19:646][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/MenuScreen.png)
+[2017.01.22-00.27.19:709][314]LogTexture:Display: Building textures: MenuScreen (BGRA8)
+[2017.01.22-00.27.19:847][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/PlayButton.png)
+[2017.01.22-00.27.19:856][314]LogTexture:Display: Building textures: PlayButton (BGRA8)
+[2017.01.22-00.27.19:864][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/RulesButton.png)
+[2017.01.22-00.27.19:868][314]LogTexture:Display: Building textures: RulesButton (BGRA8)
+[2017.01.22-00.27.19:876][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/SettingsButton.png)
+[2017.01.22-00.27.19:880][314]LogTexture:Display: Building textures: SettingsButton (BGRA8)
+[2017.01.22-00.27.21:645][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/CreditsButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/CreditsButton.uasset" SILENT=true
+[2017.01.22-00.27.21:650][416]LogSavePackage: Save=4.19ms
+[2017.01.22-00.27.21:650][416]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/CreditsButton32CAD63A4E00B45CEEF4C4AE7BCB8831.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/CreditsButton.uasset'
+[2017.01.22-00.27.21:652][416]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/CreditsButton.uasset
+[2017.01.22-00.27.21:656][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/MenuScreen" FILE="../../../../../../RepoMan/colorepo/Content/Images/MenuScreen.uasset" SILENT=true
+[2017.01.22-00.27.21:750][416]LogSavePackage: Save=93.54ms
+[2017.01.22-00.27.21:750][416]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MenuScreenE28578094483158F3A775F985058E29B.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/MenuScreen.uasset'
+[2017.01.22-00.27.21:751][416]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/MenuScreen.uasset
+[2017.01.22-00.27.21:754][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/PlayButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/PlayButton.uasset" SILENT=true
+[2017.01.22-00.27.21:758][416]LogSavePackage: Save=3.70ms
+[2017.01.22-00.27.21:758][416]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PlayButton403C947140DA17CD128CC89C6D14501E.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/PlayButton.uasset'
+[2017.01.22-00.27.21:759][416]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/PlayButton.uasset
+[2017.01.22-00.27.21:762][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/RulesButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/RulesButton.uasset" SILENT=true
+[2017.01.22-00.27.21:767][416]LogSavePackage: Save=3.95ms
+[2017.01.22-00.27.21:767][416]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/RulesButtonD66CF9474C69276151EDB79C512C5810.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/RulesButton.uasset'
+[2017.01.22-00.27.21:768][416]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/RulesButton.uasset
+[2017.01.22-00.27.21:772][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/SettingsButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/SettingsButton.uasset" SILENT=true
+[2017.01.22-00.27.21:777][416]LogSavePackage: Save=4.02ms
+[2017.01.22-00.27.21:777][416]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/SettingsButton7BE954004718D8A89446ACB098B0F81B.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/SettingsButton.uasset'
+[2017.01.22-00.27.21:778][416]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/SettingsButton.uasset
+[2017.01.22-00.28.12:142][392]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-00.28.13:097][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.28.13:110][443]LogSavePackage: Save=7.50ms
+[2017.01.22-00.28.13:110][443]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu8EA9B0794D91718B9000DE94035E6EDF.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.28.13:111][443]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.28.40:845][ 84]LogEditorTransaction: Undo Resize Widget
+[2017.01.22-00.29.15:477][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/TestLevel' took 0.010
+[2017.01.22-00.29.15:478][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/MainMenu] ([1] browsable assets)...
+[2017.01.22-00.29.15:478][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/MainMenu]
+[2017.01.22-00.29.15:487][129]LogSavePackage: Save=7.59ms
+[2017.01.22-00.29.15:487][129]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu_Auto2227841D0415EFABC85E2F2BE92C63FB5.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MainMenu_Auto2.uasset'
+[2017.01.22-00.29.15:487][129]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MainMenu_Auto2.uasset
+[2017.01.22-00.29.15:487][129]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.01.22-00.29.29:129][927]LogEditorTransaction: Undo Move Widget
+[2017.01.22-00.31.39:411][565]LogEditorTransaction: Undo Edit Specified Color
+[2017.01.22-00.32.31:317][618]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-00.32.31:776][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.32.31:789][639]LogSavePackage: Save=11.32ms
+[2017.01.22-00.32.31:789][639]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu0EC10011491B7109166D88BFC8005668.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.32.31:790][639]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.33.17:976][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.33.17:990][377]LogSavePackage: Save=9.52ms
+[2017.01.22-00.33.17:990][377]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu2585999F40AEFFAB0000CF9199E1C95A.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.33.17:991][377]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.33.19:006][437]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-00.33.19:453][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.33.19:464][457]LogSavePackage: Save=8.63ms
+[2017.01.22-00.33.19:464][457]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu40A464324A374E5E9FF9EBB79FEB9EBA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.33.19:464][457]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.33.52:597][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.33.52:610][597]LogSavePackage: Save=10.74ms
+[2017.01.22-00.33.52:610][597]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu794759F94BC91591106E628CAE534863.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.33.52:611][597]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.34.03:602][251]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-00.34.04:207][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.34.04:219][283]LogSavePackage: Save=10.31ms
+[2017.01.22-00.34.04:219][283]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu2D24D0024A928C2A64C3D9BA0EA338F7.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.34.04:220][283]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.34.08:563][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-00.34.08:576][540]LogSavePackage: Save=11.46ms
+[2017.01.22-00.34.08:577][540]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenuF65BB9724402BD1750BF878E1CF2FD8F.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-00.34.08:577][540]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-00.34.13:455][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/TestLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-00.34.13:579][830]LogSavePackage: Save=103.61ms
+[2017.01.22-00.34.13:579][830]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/TestLevelC43BA3C345D575E331D47091BDDDFDEA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap'
+[2017.01.22-00.34.13:582][830]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap
+[2017.01.22-00.34.13:606][830]LogFileHelpers: Saving map 'TestLevel' took 0.178
+[2017.01.22-00.34.16:967][992]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.01.22-00.34.17:009][994]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.colorepo
+
+[2017.01.22-00.34.17:009][994]LogTemp:Display: CWD: D:\Unreal\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.01.22-00.34.17:009][994]LogTemp:Display: Initial Dir: D:\Unreal\Epic Games\4.14
+
+[2017.01.22-00.34.17:009][994]LogTemp:Display: Env CWD: D:\Unreal\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.01.22-00.34.17:009][994]LogTemp:Display: BranchPath = DESKTOP-E3B0E1K/D/Unreal/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-E3B0E1K/D/Unreal/Epic Games/4.14/Engine/Binaries
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Origin\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.01.22-00.34.17:024][995]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.01.22-00.34.53:309][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/MainMenuLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-00.34.53:328][249]LogSavePackage: Save=6.37ms
+[2017.01.22-00.34.53:328][249]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenuLevel4E31321340BF9C3109EED9B630EC16F1.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap'
+[2017.01.22-00.34.53:329][249]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap
+[2017.01.22-00.34.53:330][249]LogFileHelpers: Saving map 'MainMenuLevel' took 0.048
+[2017.01.22-00.34.54:419][313]Cmd: MAP LOAD FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.22-00.34.54:419][313]LightingResults: New page: Lighting Build
+[2017.01.22-00.34.54:420][313]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2017.01.22-00.34.54:421][313]MapCheck: New page: Map Check
+[2017.01.22-00.34.54:421][313]LightingResults: New page: Lighting Build
+[2017.01.22-00.34.54:454][313]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.22-00.34.54:454][313]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-00.34.54:478][313]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.22-00.34.54:505][313]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.275ms to complete.
+[2017.01.22-00.34.54:506][313]LogFileHelpers: Loading map 'MainMenuLevel' took 0.087
+[2017.01.22-00.36.06:327][872]BlueprintLog: New page: Compile MainMenuLevel
+[2017.01.22-00.36.12:554][241]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-00.36.12:572][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.12:572][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.36.12:572][241]PIE: New page: PIE session: MainMenuLevel (Jan 21, 2017, 8:36:12 AM)
+[2017.01.22-00.36.12:572][241]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel
+[2017.01.22-00.36.12:573][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000614s)
+[2017.01.22-00.36.12:573][241]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-00.36.12:573][241]LogPlayLevel: PIE: World Init took: (0.000387s)
+[2017.01.22-00.36.12:573][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001143s)
+[2017.01.22-00.36.12:589][241]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-00.36.12:593][241]LogInit: FAudioDevice initialized.
+[2017.01.22-00.36.12:632][241]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-00.36.12:633][241]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-16.36.12
+[2017.01.22-00.36.12:633][241]LogWorld: Bringing up level for play took: 0.000699
+[2017.01.22-00.36.12:635][241]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-00.36.12:639][241]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel -0.543
+[2017.01.22-00.36.12:639][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.15:051][384]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-00.36.15:051][384]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-00.36.15:063][384]Cmd: MEM
+[2017.01.22-00.36.15:072][384]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-00.36.15:072][384]LogMemory: Process Physical Memory: 995.23 MB used, 1354.04 MB peak
+[2017.01.22-00.36.15:072][384]LogMemory: Process Virtual Memory: 3102.87 MB used, 3516.23 MB peak
+[2017.01.22-00.36.15:072][384]LogMemory: Physical Memory: 7494.38 MB used,  8850.45 MB free, 16344.84 MB total
+[2017.01.22-00.36.15:072][384]LogMemory: Virtual Memory: 4180.03 MB used,  8850.45 MB free, 134217728.00 MB total
+[2017.01.22-00.36.15:072][384]LogMemory: 
+[2017.01.22-00.36.15:072][384]Allocator Stats for TBB: (not implemented)
+[2017.01.22-00.36.16:154][384]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-00.36.16:154][384]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-00.36.16:158][384]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-16.36.16
+[2017.01.22-00.36.16:159][384]LogWorld: Bringing up level for play took: 0.003592
+[2017.01.22-00.36.16:161][384]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-00.36.16:161][384]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-00.36.16:161][384]LogLoad: Took 1.110092 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/TestLevel)
+[2017.01.22-00.36.23:115][801]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.23:182][801]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.23:201][802]Cmd: SELECT NONE
+[2017.01.22-00.36.24:485][879]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-00.36.24:498][879]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.24:498][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.36.24:498][879]PIE: New page: PIE session: MainMenuLevel (Jan 21, 2017, 8:36:24 AM)
+[2017.01.22-00.36.24:498][879]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel
+[2017.01.22-00.36.24:499][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000594s)
+[2017.01.22-00.36.24:499][879]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-00.36.24:499][879]LogPlayLevel: PIE: World Init took: (0.000370s)
+[2017.01.22-00.36.24:499][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001106s)
+[2017.01.22-00.36.24:515][879]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-00.36.24:518][879]LogInit: FAudioDevice initialized.
+[2017.01.22-00.36.24:556][879]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-00.36.24:557][879]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-16.36.24
+[2017.01.22-00.36.24:557][879]LogWorld: Bringing up level for play took: 0.000599
+[2017.01.22-00.36.24:558][879]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-00.36.24:562][879]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel -0.619
+[2017.01.22-00.36.24:563][879]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.26:751][  9]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-00.36.26:751][  9]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-00.36.26:762][  9]Cmd: MEM
+[2017.01.22-00.36.26:771][  9]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-00.36.26:771][  9]LogMemory: Process Physical Memory: 1214.73 MB used, 1354.04 MB peak
+[2017.01.22-00.36.26:771][  9]LogMemory: Process Virtual Memory: 3177.33 MB used, 3516.23 MB peak
+[2017.01.22-00.36.26:771][  9]LogMemory: Physical Memory: 7666.46 MB used,  8678.37 MB free, 16344.84 MB total
+[2017.01.22-00.36.26:771][  9]LogMemory: Virtual Memory: 4248.66 MB used,  8678.37 MB free, 134217728.00 MB total
+[2017.01.22-00.36.26:771][  9]LogMemory: 
+[2017.01.22-00.36.26:771][  9]Allocator Stats for TBB: (not implemented)
+[2017.01.22-00.36.26:859][  9]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-00.36.26:859][  9]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-00.36.26:862][  9]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-16.36.26
+[2017.01.22-00.36.26:862][  9]LogWorld: Bringing up level for play took: 0.002934
+[2017.01.22-00.36.26:864][  9]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-00.36.26:864][  9]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-00.36.26:865][  9]LogLoad: Took 0.113329 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/TestLevel)
+[2017.01.22-00.36.34:442][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.34:489][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-00.36.38:778][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/MainMenuLevel" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-00.36.38:854][524]LogSavePackage: Save=61.75ms
+[2017.01.22-00.36.38:854][524]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenuLevel4D1CA84F4900942FC69791BFE3F3078F.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap'
+[2017.01.22-00.36.38:855][524]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap
+[2017.01.22-00.36.38:879][524]LogFileHelpers: Saving map 'MainMenuLevel' took 0.132
+[2017.01.22-00.36.39:125][525]Cmd: QUIT_EDITOR
+[2017.01.22-00.36.39:185][525]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.22-00.36.39:220][525]LogExit: Preparing to exit.
+[2017.01.22-00.36.39:572][525]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/' was aborted.
+[2017.01.22-00.36.39:676][525]LogExit: Editor shut down
+[2017.01.22-00.36.39:676][525]LogExit: Transaction tracking system shut down
+[2017.01.22-00.36.39:769][525]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.22-00.36.39:769][525]LogExit: Object subsystem successfully closed.
+[2017.01.22-00.36.39:789][525]LogD3D11RHI: Shutdown
+[2017.01.22-00.36.39:789][525]LogD3D11RHI: CleanupD3DDevice
+[2017.01.22-00.36.39:855][525]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.22-00.36.39:861][525]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.22-00.36.39:861][525]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8B49CCCA-41B4-7B14-F59F-94B4FB7FB7AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.2-3241561%2B%2B%2BUE4%2BRelease-4.14&UserID=1de5576948547c4a3d64389e206d40e9%7C08ec85b453944d8e86d6651d1fcb8040%7C91f838fd-68de-48f1-999f-0aec201f1854&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.22-00.36.39:883][525]LogModuleManager: Shutting down and abandoning module SequencerWidgets (247)
+[2017.01.22-00.36.39:883][525]LogModuleManager: Shutting down and abandoning module BlueprintGraph (246)
+[2017.01.22-00.36.39:883][525]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (245)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (244)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.01.22-00.36.39:885][525]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.01.22-00.36.39:885][525]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.01.22-00.36.39:889][525]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Collections/' was aborted.
+[2017.01.22-00.36.39:889][525]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Developers/Origin/Collections/' was aborted.
+[2017.01.22-00.36.39:889][525]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Saved/Collections/' was aborted.
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.01.22-00.36.39:889][525]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.01.22-00.36.39:890][525]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.01.22-00.36.40:597][525]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.01.22-00.36.40:598][525]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.01.22-00.36.40:599][525]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.01.22-00.36.40:641][525]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.01.22-00.36.40:641][525]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.01.22-00.36.40:641][525]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.01.22-00.36.40:641][525]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.01.22-00.36.40:642][525]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.01.22-00.36.40:642][525]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.01.22-00.36.40:642][525]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.01.22-00.36.40:642][525]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.01.22-00.36.40:642][525]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.01.22-00.36.40:660][525]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.01.22-00.36.40:660][525]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.01.22-00.36.40:663][525]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.01.22-00.36.40:664][525]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.01.22-00.36.40:901][525]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Binaries/Win64' was aborted.
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.01.22-00.36.40:901][525]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.01.22-00.36.40:902][525]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.01.22-00.36.40:902][525]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.01.22-00.36.40:902][525]LogModuleManager: Shutting down and abandoning module colorepo (104)
+[2017.01.22-00.36.40:902][525]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.22-00.36.41:003][525]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.22-00.36.41:104][525]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.22-00.36.41:105][525]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.22-00.36.41:112][525]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.22-00.36.41:112][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.22-00.36.41:113][525]LogDirectoryWatcher: A directory notification for '../../../../../../RepoMan/colorepo/Content/' was aborted.
+[2017.01.22-00.36.41:115][525]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.22-00.36.41:120][525]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.22-00.36.41:257][525]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.22-00.36.41:353][525]LogDerivedDataCache: Shutdown
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.22-00.36.41:353][525]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.22-00.36.41:355][525]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.22-00.36.41:355][525]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.22-00.36.41:358][525]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.22-00.36.41:367][525]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.22-00.36.41:368][525]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.22-00.36.41:370][525]LogExit: Exiting.
+[2017.01.22-00.36.41:395][525]Log file closed, 01/21/17 16:36:41
