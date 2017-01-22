@@ -666,3 +666,920 @@ LogInit: Object subsystem initialized
 [2017.01.22-06.50.07:796][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
 [2017.01.22-06.50.09:106][918]BlueprintLog: New page: Compile MainMenu
 [2017.01.22-06.50.09:630][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-06.50.09:663][942]LogSavePackage: Save=32.83ms
+[2017.01.22-06.50.09:663][942]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenuF7F9F75B4412ABCA56EBAB8C1BC2820A.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-06.50.09:664][942]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-06.54.47:506][ 77]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.55.00:640][560]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/ContinueButton.png)
+[2017.01.22-06.55.00:651][560]LogTexture:Display: Building textures: ContinueButton (BGRA8)
+[2017.01.22-06.55.00:657][560]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/ReturnMenuButton.png)
+[2017.01.22-06.55.00:661][560]LogTexture:Display: Building textures: ReturnMenuButton (BGRA8)
+[2017.01.22-06.55.02:098][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/ContinueButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/ContinueButton.uasset" SILENT=true
+[2017.01.22-06.55.02:103][642]LogSavePackage: Save=4.29ms
+[2017.01.22-06.55.02:103][642]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/ContinueButton298A4FA34D72A57299EBE6858588416A.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/ContinueButton.uasset'
+[2017.01.22-06.55.02:104][642]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/ContinueButton.uasset
+[2017.01.22-06.55.02:106][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/ReturnMenuButton" FILE="../../../../../../RepoMan/colorepo/Content/Images/ReturnMenuButton.uasset" SILENT=true
+[2017.01.22-06.55.02:111][642]LogSavePackage: Save=3.97ms
+[2017.01.22-06.55.02:111][642]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/ReturnMenuButtonAB7A5C994041CE2AB33F23BE1B066138.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/ReturnMenuButton.uasset'
+[2017.01.22-06.55.02:112][642]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/ReturnMenuButton.uasset
+[2017.01.22-06.55.40:023][ 16]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../RepoMan/colorepo/Assets/pausescreenwithtransparency.png)
+[2017.01.22-06.55.40:090][ 16]LogTexture:Display: Building textures: pausescreenwithtransparency (BGRA8)
+[2017.01.22-06.55.41:589][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/pausescreenwithtransparency" FILE="../../../../../../RepoMan/colorepo/Content/Images/pausescreenwithtransparency.uasset" SILENT=true
+[2017.01.22-06.55.41:683][ 88]LogSavePackage: Save=92.73ms
+[2017.01.22-06.55.41:683][ 88]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/pausescreenwithtransparency1C2BC81E42E603371F17359BCC0772BA.tmp' to '../../../../../../RepoMan/colorepo/Content/Images/pausescreenwithtransparency.uasset'
+[2017.01.22-06.55.41:684][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/Images/pausescreenwithtransparency.uasset
+[2017.01.22-06.56.25:987][727]Cmd: TRANSACTION UNDO
+[2017.01.22-06.56.25:987][727]LogEditorTransaction: Undo Edit Content Color and Opacity
+[2017.01.22-06.56.41:745][669]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.56.48:281][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-06.56.48:291][ 55]LogSavePackage: Save=5.24ms
+[2017.01.22-06.56.48:291][ 55]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenuF5841A044EACED74B25BEDB0D74E8CD9.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-06.56.48:292][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-06.56.48:705][ 80]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.58.12:790][ 93]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.58.13:349][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-06.58.13:358][120]LogSavePackage: Save=7.65ms
+[2017.01.22-06.58.13:358][120]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu9DE59B994F584D395D7BB2A5FA1A139A.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-06.58.13:358][120]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-06.58.33:896][343]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.58.34:361][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-06.58.34:369][365]LogSavePackage: Save=7.15ms
+[2017.01.22-06.58.34:369][365]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu06268B4D4BAA6A62B489E0BADAE1736D.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-06.58.34:370][365]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-06.58.49:944][297]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-06.58.50:472][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-06.58.50:481][323]LogSavePackage: Save=7.58ms
+[2017.01.22-06.58.50:481][323]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenuBB4E3BD94C510E566869FDB51FA9EE87.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-06.58.50:482][323]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-06.58.53:412][499]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-06.58.53:426][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-06.58.53:426][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.58.53:426][499]PIE: New page: PIE session: MainMenuLevel (Jan 21, 2017, 2:58:53 PM)
+[2017.01.22-06.58.53:426][499]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel
+[2017.01.22-06.58.53:427][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000618s)
+[2017.01.22-06.58.53:427][499]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-06.58.53:427][499]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2017.01.22-06.58.53:427][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001142s)
+[2017.01.22-06.58.53:442][499]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-06.58.53:446][499]LogInit: FAudioDevice initialized.
+[2017.01.22-06.58.53:481][499]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-06.58.53:483][499]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-22.58.53
+[2017.01.22-06.58.53:483][499]LogWorld: Bringing up level for play took: 0.000807
+[2017.01.22-06.58.53:484][499]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-06.58.53:491][499]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel -0.663
+[2017.01.22-06.58.53:491][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-06.58.55:622][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-06.58.55:648][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.01.22-06.59.11:810][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-06.59.11:818][585]LogSavePackage: Save=7.37ms
+[2017.01.22-06.59.11:818][585]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu55E22BEA40B88F183B0BE4973185CA14.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-06.59.11:819][585]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.00.07:229][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/MainMenuLevel' took 0.012
+[2017.01.22-07.00.07:230][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/PauseMenu] ([1] browsable assets)...
+[2017.01.22-07.00.07:230][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/PauseMenu]
+[2017.01.22-07.00.07:239][228]LogSavePackage: Save=7.81ms
+[2017.01.22-07.00.07:239][228]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu_Auto1AE4706944058A475569247B20409CA0F.tmp' to '../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/PauseMenu_Auto1.uasset'
+[2017.01.22-07.00.07:239][228]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/PauseMenu_Auto1.uasset
+[2017.01.22-07.00.07:239][228]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.01.22-07.00.14:958][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.00.14:967][296]LogSavePackage: Save=7.75ms
+[2017.01.22-07.00.14:967][296]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu3895BB7B448BE7708466509DF2D23ECA.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.00.14:967][296]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.01.21:369][598]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-07.01.22:022][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.01.22:032][633]LogSavePackage: Save=9.17ms
+[2017.01.22-07.01.22:032][633]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu3BD87AF24AACFF2E355906A93A0EE1AD.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.01.22:032][633]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.02.06:964][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.02.06:978][257]LogSavePackage: Save=10.14ms
+[2017.01.22-07.02.06:978][257]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu9D5F2AFB4806DE3DFA4642A5AC228B87.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.02.06:979][257]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.02.23:124][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.02.23:136][ 88]LogSavePackage: Save=10.64ms
+[2017.01.22-07.02.23:136][ 88]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu175E4C2D41EF4A763C8748B752D07F64.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.02.23:137][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.02.35:986][649]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-07.02.38:306][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.02.38:317][784]LogSavePackage: Save=10.42ms
+[2017.01.22-07.02.38:317][784]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu26E1CEA24E789A007F46E3AAA9969449.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.02.38:318][784]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.03.05:963][429]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-07.03.06:321][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.03.06:332][446]LogSavePackage: Save=10.34ms
+[2017.01.22-07.03.06:332][446]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu877DDC384B8C0D9A478EB2A8404BB45B.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.03.06:332][446]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.03.11:520][751]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.03.11:539][751]Cmd: MAP LOAD FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.22-07.03.11:539][751]LightingResults: New page: Lighting Build
+[2017.01.22-07.03.11:539][751]LoadErrors: New page: Loading map: TestLevel.umap
+[2017.01.22-07.03.11:540][751]MapCheck: New page: Map Check
+[2017.01.22-07.03.11:540][751]LightingResults: New page: Lighting Build
+[2017.01.22-07.03.11:554][751]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.22-07.03.11:577][751]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.22-07.03.11:607][751]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.037ms to complete.
+[2017.01.22-07.03.11:607][751]LogFileHelpers: Loading map 'TestLevel' took 0.068
+[2017.01.22-07.06.03:412][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset" SILENT=true
+[2017.01.22-07.06.03:435][114]LogSavePackage: Save=19.70ms
+[2017.01.22-07.06.03:435][114]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter_BP58B4957F4EE82301D80939A9A4B75AD6.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset'
+[2017.01.22-07.06.03:436][114]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset
+[2017.01.22-07.06.57:598][882]LogEditorTransaction: Undo Delete current selection
+[2017.01.22-07.09.19:588][915]BlueprintLog: New page: Compile colorepoCharacter_BP
+[2017.01.22-07.09.20:069][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset" SILENT=true
+[2017.01.22-07.09.20:094][932]LogSavePackage: Save=23.86ms
+[2017.01.22-07.09.20:094][932]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter_BPB45B4DB34167D14639A80CB67502BAD7.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset'
+[2017.01.22-07.09.20:095][932]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset
+[2017.01.22-07.09.56:095][640]BlueprintLog: New page: Compile colorepoCharacter_BP
+[2017.01.22-07.09.56:519][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset" SILENT=true
+[2017.01.22-07.09.56:544][660]LogSavePackage: Save=23.41ms
+[2017.01.22-07.09.56:544][660]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter_BP522800A345168583D54163BEBF99F3D7.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset'
+[2017.01.22-07.09.56:545][660]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset
+[2017.01.22-07.09.59:274][821]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.09.59:289][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.09.59:289][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.09.59:290][821]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:09:59 PM)
+[2017.01.22-07.09.59:290][821]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.09.59:310][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020033s)
+[2017.01.22-07.09.59:310][821]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.09.59:310][821]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2017.01.22-07.09.59:310][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.020700s)
+[2017.01.22-07.09.59:330][821]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.09.59:334][821]LogInit: FAudioDevice initialized.
+[2017.01.22-07.09.59:373][821]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.09.59:375][821]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.09.59
+[2017.01.22-07.09.59:375][821]LogWorld: Bringing up level for play took: 0.001462
+[2017.01.22-07.09.59:377][821]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.09.59:380][821]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.774
+[2017.01.22-07.09.59:381][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.12:369][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.12:414][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.28:474][543]BlueprintLog: New page: Compile colorepoCharacter_BP
+[2017.01.22-07.10.29:001][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset" SILENT=true
+[2017.01.22-07.10.29:025][569]LogSavePackage: Save=23.49ms
+[2017.01.22-07.10.29:025][569]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/colorepoCharacter_BP5B8467444A198F67CF1CEE9B52DBC654.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset'
+[2017.01.22-07.10.29:026][569]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/colorepoCharacter_BP.uasset
+[2017.01.22-07.10.30:524][656]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.10.30:538][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.30:538][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.10.30:538][656]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:10:30 PM)
+[2017.01.22-07.10.30:538][656]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.10.30:553][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014780s)
+[2017.01.22-07.10.30:553][656]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.10.30:553][656]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.01.22-07.10.30:554][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.015616s)
+[2017.01.22-07.10.30:572][656]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.10.30:576][656]LogInit: FAudioDevice initialized.
+[2017.01.22-07.10.30:613][656]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.10.30:615][656]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.10.30
+[2017.01.22-07.10.30:615][656]LogWorld: Bringing up level for play took: 0.001451
+[2017.01.22-07.10.30:616][656]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.10.30:620][656]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.466
+[2017.01.22-07.10.30:621][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.59:848][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.10.59:878][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.00:587][448]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.11.00:600][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.00:600][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.11.00:600][448]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:11:00 PM)
+[2017.01.22-07.11.00:600][448]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.11.00:614][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013605s)
+[2017.01.22-07.11.00:614][448]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.11.00:615][448]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.01.22-07.11.00:615][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014428s)
+[2017.01.22-07.11.00:633][448]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.11.00:636][448]LogInit: FAudioDevice initialized.
+[2017.01.22-07.11.00:677][448]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.00:679][448]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.11.00
+[2017.01.22-07.11.00:680][448]LogWorld: Bringing up level for play took: 0.001506
+[2017.01.22-07.11.00:681][448]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.00:685][448]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.53
+[2017.01.22-07.11.00:685][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.17:699][466]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.11.17:699][466]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.11.17:713][466]Cmd: MEM
+[2017.01.22-07.11.17:723][466]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.11.17:723][466]LogMemory: Process Physical Memory: 1854.13 MB used, 1898.82 MB peak
+[2017.01.22-07.11.17:723][466]LogMemory: Process Virtual Memory: 3418.63 MB used, 3640.15 MB peak
+[2017.01.22-07.11.17:723][466]LogMemory: Physical Memory: 7381.39 MB used,  8963.44 MB free, 16344.84 MB total
+[2017.01.22-07.11.17:723][466]LogMemory: Virtual Memory: 4523.33 MB used,  8963.44 MB free, 134217728.00 MB total
+[2017.01.22-07.11.17:723][466]LogMemory: 
+[2017.01.22-07.11.17:723][466]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.11.17:779][466]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.11.17:779][466]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.17:780][466]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.11.17
+[2017.01.22-07.11.17:780][466]LogWorld: Bringing up level for play took: 0.000576
+[2017.01.22-07.11.17:780][466]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.11.17:781][466]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.11.17:782][466]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.17:782][466]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.11.17:783][466]LogLoad: Took 0.084044 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.11.19:327][559]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.11.19:327][559]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.11.19:339][559]Cmd: MEM
+[2017.01.22-07.11.19:348][559]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.11.19:348][559]LogMemory: Process Physical Memory: 1860.92 MB used, 1904.61 MB peak
+[2017.01.22-07.11.19:348][559]LogMemory: Process Virtual Memory: 3493.94 MB used, 3640.15 MB peak
+[2017.01.22-07.11.19:348][559]LogMemory: Physical Memory: 7378.42 MB used,  8966.42 MB free, 16344.84 MB total
+[2017.01.22-07.11.19:348][559]LogMemory: Virtual Memory: 4601.96 MB used,  8966.42 MB free, 134217728.00 MB total
+[2017.01.22-07.11.19:348][559]LogMemory: 
+[2017.01.22-07.11.19:348][559]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.11.19:348][559]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.11.19:360][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012031s)
+[2017.01.22-07.11.19:360][559]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.11.19:360][559]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2017.01.22-07.11.19:360][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012732s)
+[2017.01.22-07.11.19:361][559]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.19:368][559]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.11.19
+[2017.01.22-07.11.19:368][559]LogWorld: Bringing up level for play took: 0.006222
+[2017.01.22-07.11.19:370][559]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.19:370][559]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.11.19:370][559]LogLoad: Took 0.042303 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.11.22:309][735]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:321][735]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:326][736]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:335][736]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:356][737]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:357][737]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:358][737]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:359][737]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:363][737]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:369][738]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:370][738]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:374][738]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:385][739]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.22:385][739]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2017.01.22-07.11.26:374][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.26:417][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.27:311][ 29]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.11.27:324][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.27:324][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.11.27:324][ 29]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:11:27 PM)
+[2017.01.22-07.11.27:324][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.11.27:336][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011846s)
+[2017.01.22-07.11.27:336][ 29]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.11.27:336][ 29]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2017.01.22-07.11.27:337][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012564s)
+[2017.01.22-07.11.27:355][ 29]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.11.27:358][ 29]LogInit: FAudioDevice initialized.
+[2017.01.22-07.11.27:393][ 29]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.27:395][ 29]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.11.27
+[2017.01.22-07.11.27:395][ 29]LogWorld: Bringing up level for play took: 0.001532
+[2017.01.22-07.11.27:396][ 29]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.27:401][ 29]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.754
+[2017.01.22-07.11.27:401][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.30:665][222]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.11.30:665][222]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.11.30:678][222]Cmd: MEM
+[2017.01.22-07.11.30:687][222]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.11.30:687][222]LogMemory: Process Physical Memory: 1882.11 MB used, 1937.99 MB peak
+[2017.01.22-07.11.30:687][222]LogMemory: Process Virtual Memory: 3391.93 MB used, 3640.15 MB peak
+[2017.01.22-07.11.30:687][222]LogMemory: Physical Memory: 7405.97 MB used,  8938.86 MB free, 16344.84 MB total
+[2017.01.22-07.11.30:687][222]LogMemory: Virtual Memory: 4534.33 MB used,  8938.86 MB free, 134217728.00 MB total
+[2017.01.22-07.11.30:687][222]LogMemory: 
+[2017.01.22-07.11.30:687][222]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.11.30:727][222]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.11.30:728][222]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.30:729][222]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.11.30
+[2017.01.22-07.11.30:729][222]LogWorld: Bringing up level for play took: 0.000621
+[2017.01.22-07.11.30:730][222]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.11.30:730][222]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.11.30:731][222]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.30:731][222]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.11.30:732][222]LogLoad: Took 0.066801 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.11.31:911][293]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.11.31:911][293]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.11.31:923][293]Cmd: MEM
+[2017.01.22-07.11.31:932][293]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.11.31:932][293]LogMemory: Process Physical Memory: 1894.39 MB used, 1937.99 MB peak
+[2017.01.22-07.11.31:932][293]LogMemory: Process Virtual Memory: 3501.53 MB used, 3640.15 MB peak
+[2017.01.22-07.11.31:932][293]LogMemory: Physical Memory: 7418.77 MB used,  8926.06 MB free, 16344.84 MB total
+[2017.01.22-07.11.31:932][293]LogMemory: Virtual Memory: 4610.89 MB used,  8926.06 MB free, 134217728.00 MB total
+[2017.01.22-07.11.31:932][293]LogMemory: 
+[2017.01.22-07.11.31:932][293]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.11.31:932][293]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.11.31:944][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011836s)
+[2017.01.22-07.11.31:945][293]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.11.31:945][293]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2017.01.22-07.11.31:945][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012529s)
+[2017.01.22-07.11.31:945][293]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.31:960][293]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.11.31
+[2017.01.22-07.11.31:961][293]LogWorld: Bringing up level for play took: 0.014803
+[2017.01.22-07.11.31:963][293]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.31:963][293]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.11.31:963][293]LogLoad: Took 0.051880 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.11.38:445][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.38:490][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.55:268][673]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-07.11.55:745][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-07.11.55:783][696]LogSavePackage: Save=32.88ms
+[2017.01.22-07.11.55:783][696]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenu3DC27A704F8B06BFC7D492878DD9967C.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-07.11.55:784][696]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-07.11.57:360][789]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.01.22-07.11.57:363][789]Recompiling colorepo...
+[2017.01.22-07.11.57:363][789]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 8965 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-07.11.57:364][789]Warning: Starting HotReload took  0.0s.
+[2017.01.22-07.11.57:709][810]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 3:11:57 PM
+[2017.01.22-07.11.57:709][810]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-07.11.57:709][810]CompilerResultsLog: Info Target is up to date
+[2017.01.22-07.11.57:709][810]LogMainFrame: MainFrame: Module compiling took 0.350 seconds
+[2017.01.22-07.11.57:901][810]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-07.11.57:902][810]Display: HotReload took  0.5s.
+[2017.01.22-07.11.58:678][857]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.11.58:692][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.11.58:692][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.11.58:692][857]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:11:58 PM)
+[2017.01.22-07.11.58:692][857]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.11.58:707][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015295s)
+[2017.01.22-07.11.58:708][857]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.11.58:708][857]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.01.22-07.11.58:708][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016128s)
+[2017.01.22-07.11.58:748][857]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.11.58:751][857]LogInit: FAudioDevice initialized.
+[2017.01.22-07.11.58:792][857]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.11.58:794][857]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.11.58
+[2017.01.22-07.11.58:794][857]LogWorld: Bringing up level for play took: 0.001574
+[2017.01.22-07.11.58:796][857]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.11.58:800][857]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.646
+[2017.01.22-07.11.58:800][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.12.09:082][471]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.12.09:082][471]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.12.09:108][471]Cmd: MEM
+[2017.01.22-07.12.09:118][471]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.12.09:118][471]LogMemory: Process Physical Memory: 1924.65 MB used, 1947.75 MB peak
+[2017.01.22-07.12.09:118][471]LogMemory: Process Virtual Memory: 3516.21 MB used, 3640.15 MB peak
+[2017.01.22-07.12.09:118][471]LogMemory: Physical Memory: 7442.79 MB used,  8902.05 MB free, 16344.84 MB total
+[2017.01.22-07.12.09:118][471]LogMemory: Virtual Memory: 4661.58 MB used,  8902.05 MB free, 134217728.00 MB total
+[2017.01.22-07.12.09:118][471]LogMemory: 
+[2017.01.22-07.12.09:118][471]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.12.09:164][471]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.12.09:164][471]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.12.09:166][471]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.12.09
+[2017.01.22-07.12.09:166][471]LogWorld: Bringing up level for play took: 0.000573
+[2017.01.22-07.12.09:166][471]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.12.09:167][471]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.12.09:168][471]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.12.09:168][471]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.12.09:169][471]LogLoad: Took 0.086169 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.12.11:497][611]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.12.11:497][611]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.12.11:507][611]Cmd: MEM
+[2017.01.22-07.12.11:517][611]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.12.11:517][611]LogMemory: Process Physical Memory: 1920.48 MB used, 1962.74 MB peak
+[2017.01.22-07.12.11:517][611]LogMemory: Process Virtual Memory: 3540.04 MB used, 3715.45 MB peak
+[2017.01.22-07.12.11:517][611]LogMemory: Physical Memory: 7437.43 MB used,  8907.41 MB free, 16344.84 MB total
+[2017.01.22-07.12.11:517][611]LogMemory: Virtual Memory: 4673.96 MB used,  8907.41 MB free, 134217728.00 MB total
+[2017.01.22-07.12.11:517][611]LogMemory: 
+[2017.01.22-07.12.11:517][611]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.12.11:517][611]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.12.11:529][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011985s)
+[2017.01.22-07.12.11:530][611]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.12.11:530][611]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.01.22-07.12.11:530][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012804s)
+[2017.01.22-07.12.11:530][611]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.12.11:546][611]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.12.11
+[2017.01.22-07.12.11:546][611]LogWorld: Bringing up level for play took: 0.014905
+[2017.01.22-07.12.11:548][611]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.12.11:548][611]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.12.11:548][611]LogLoad: Took 0.050855 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.12.16:497][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.12.16:546][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.12.17:250][949]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.01.22-07.12.17:254][949]Recompiling colorepo...
+[2017.01.22-07.12.17:254][949]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9084 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-07.12.17:255][949]Warning: Starting HotReload took  0.0s.
+[2017.01.22-07.12.17:599][970]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 3:12:17 PM
+[2017.01.22-07.12.17:599][970]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-07.12.17:599][970]CompilerResultsLog: Info Target is up to date
+[2017.01.22-07.12.17:599][970]LogMainFrame: MainFrame: Module compiling took 0.349 seconds
+[2017.01.22-07.12.17:786][970]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-07.12.17:787][970]Display: HotReload took  0.5s.
+[2017.01.22-07.12.45:306][591]BlueprintLog: New page: Compile MainMenu
+[2017.01.22-07.12.45:866][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/MainMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset" SILENT=true
+[2017.01.22-07.12.45:900][617]LogSavePackage: Save=32.78ms
+[2017.01.22-07.12.45:900][617]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/MainMenuFEAFE33C4F12BA12218BAD844DD3D88D.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2017.01.22-07.12.45:901][617]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset
+[2017.01.22-07.12.47:992][741]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.01.22-07.12.47:996][741]Recompiling colorepo...
+[2017.01.22-07.12.47:996][741]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9144 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-07.12.47:997][741]Warning: Starting HotReload took  0.0s.
+[2017.01.22-07.12.48:342][762]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 3:12:48 PM
+[2017.01.22-07.12.48:342][762]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-07.12.48:342][762]CompilerResultsLog: Info Target is up to date
+[2017.01.22-07.12.48:342][762]LogMainFrame: MainFrame: Module compiling took 0.350 seconds
+[2017.01.22-07.12.48:542][762]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-07.12.48:542][762]Display: HotReload took  0.6s.
+[2017.01.22-07.12.49:007][790]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.12.49:020][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.12.49:020][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.12.49:020][790]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:12:49 PM)
+[2017.01.22-07.12.49:020][790]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.12.49:036][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015488s)
+[2017.01.22-07.12.49:036][790]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.12.49:036][790]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2017.01.22-07.12.49:036][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016169s)
+[2017.01.22-07.12.49:076][790]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.12.49:079][790]LogInit: FAudioDevice initialized.
+[2017.01.22-07.12.49:121][790]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.12.49:126][790]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.12.49
+[2017.01.22-07.12.49:126][790]LogWorld: Bringing up level for play took: 0.002898
+[2017.01.22-07.12.49:129][790]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.12.49:137][790]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel 0.983
+[2017.01.22-07.12.49:138][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.12.53:627][ 55]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.12.53:627][ 55]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.12.53:650][ 55]Cmd: MEM
+[2017.01.22-07.12.53:659][ 55]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.12.53:659][ 55]LogMemory: Process Physical Memory: 1976.88 MB used, 1982.94 MB peak
+[2017.01.22-07.12.53:659][ 55]LogMemory: Process Virtual Memory: 3587.54 MB used, 3715.45 MB peak
+[2017.01.22-07.12.53:659][ 55]LogMemory: Physical Memory: 7494.78 MB used,  8850.06 MB free, 16344.84 MB total
+[2017.01.22-07.12.53:659][ 55]LogMemory: Virtual Memory: 4677.08 MB used,  8850.06 MB free, 134217728.00 MB total
+[2017.01.22-07.12.53:659][ 55]LogMemory: 
+[2017.01.22-07.12.53:659][ 55]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.12.53:702][ 55]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.12.53:702][ 55]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.12.53:704][ 55]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.12.53
+[2017.01.22-07.12.53:704][ 55]LogWorld: Bringing up level for play took: 0.000624
+[2017.01.22-07.12.53:704][ 55]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.12.53:705][ 55]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.12.53:706][ 55]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.12.53:706][ 55]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.12.53:707][ 55]LogLoad: Took 0.079716 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.12.57:918][308]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.12.57:918][308]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.12.57:930][308]Cmd: MEM
+[2017.01.22-07.12.57:938][308]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.12.57:938][308]LogMemory: Process Physical Memory: 1871.89 MB used, 2026.93 MB peak
+[2017.01.22-07.12.57:938][308]LogMemory: Process Virtual Memory: 3351.72 MB used, 3797.71 MB peak
+[2017.01.22-07.12.57:938][308]LogMemory: Physical Memory: 7394.59 MB used,  8950.24 MB free, 16344.84 MB total
+[2017.01.22-07.12.57:938][308]LogMemory: Virtual Memory: 4597.27 MB used,  8950.24 MB free, 134217728.00 MB total
+[2017.01.22-07.12.57:938][308]LogMemory: 
+[2017.01.22-07.12.57:938][308]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.12.57:938][308]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.12.57:951][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012549s)
+[2017.01.22-07.12.57:951][308]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.12.57:951][308]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.01.22-07.12.57:952][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013378s)
+[2017.01.22-07.12.57:952][308]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.12.57:964][308]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.12.57
+[2017.01.22-07.12.57:964][308]LogWorld: Bringing up level for play took: 0.011777
+[2017.01.22-07.12.57:966][308]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.12.57:966][308]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.12.57:966][308]LogLoad: Took 0.048126 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.13.06:280][807]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.13.06:280][807]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.13.06:292][807]Cmd: MEM
+[2017.01.22-07.13.06:301][807]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.13.06:301][807]LogMemory: Process Physical Memory: 1878.55 MB used, 2026.93 MB peak
+[2017.01.22-07.13.06:301][807]LogMemory: Process Virtual Memory: 3406.08 MB used, 3797.71 MB peak
+[2017.01.22-07.13.06:301][807]LogMemory: Physical Memory: 7403.83 MB used,  8941.01 MB free, 16344.84 MB total
+[2017.01.22-07.13.06:301][807]LogMemory: Virtual Memory: 4565.27 MB used,  8941.01 MB free, 134217728.00 MB total
+[2017.01.22-07.13.06:301][807]LogMemory: 
+[2017.01.22-07.13.06:301][807]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.13.06:340][807]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.13.06:340][807]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.13.06:342][807]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.13.06
+[2017.01.22-07.13.06:342][807]LogWorld: Bringing up level for play took: 0.000620
+[2017.01.22-07.13.06:342][807]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.13.06:343][807]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.13.06:344][807]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.13.06:344][807]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.13.06:345][807]LogLoad: Took 0.065103 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.13.07:122][854]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.13.07:122][854]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.13.07:133][854]Cmd: MEM
+[2017.01.22-07.13.07:143][854]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.13.07:143][854]LogMemory: Process Physical Memory: 1904.26 MB used, 2026.93 MB peak
+[2017.01.22-07.13.07:143][854]LogMemory: Process Virtual Memory: 3515.45 MB used, 3797.71 MB peak
+[2017.01.22-07.13.07:143][854]LogMemory: Physical Memory: 7429.58 MB used,  8915.25 MB free, 16344.84 MB total
+[2017.01.22-07.13.07:143][854]LogMemory: Virtual Memory: 4597.27 MB used,  8915.25 MB free, 134217728.00 MB total
+[2017.01.22-07.13.07:143][854]LogMemory: 
+[2017.01.22-07.13.07:143][854]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.13.07:143][854]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.13.07:155][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011862s)
+[2017.01.22-07.13.07:155][854]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.13.07:155][854]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.01.22-07.13.07:155][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012856s)
+[2017.01.22-07.13.07:156][854]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.13.07:158][854]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.13.07
+[2017.01.22-07.13.07:158][854]LogWorld: Bringing up level for play took: 0.001741
+[2017.01.22-07.13.07:161][854]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.13.07:161][854]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.13.07:161][854]LogLoad: Took 0.039429 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.13.31:976][342]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.13.31:976][342]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.13.31:989][342]Cmd: MEM
+[2017.01.22-07.13.31:999][342]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.13.31:999][342]LogMemory: Process Physical Memory: 1941.97 MB used, 2026.93 MB peak
+[2017.01.22-07.13.31:999][342]LogMemory: Process Virtual Memory: 3400.70 MB used, 3797.71 MB peak
+[2017.01.22-07.13.31:999][342]LogMemory: Physical Memory: 7464.35 MB used,  8880.49 MB free, 16344.84 MB total
+[2017.01.22-07.13.31:999][342]LogMemory: Virtual Memory: 4552.33 MB used,  8880.49 MB free, 134217728.00 MB total
+[2017.01.22-07.13.31:999][342]LogMemory: 
+[2017.01.22-07.13.31:999][342]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.13.32:039][342]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.13.32:039][342]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.13.32:041][342]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.13.32
+[2017.01.22-07.13.32:041][342]LogWorld: Bringing up level for play took: 0.000574
+[2017.01.22-07.13.32:041][342]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.13.32:041][342]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.13.32:043][342]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.13.32:043][342]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.13.32:044][342]LogLoad: Took 0.067029 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.13.39:587][795]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.13.39:588][795]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.13.39:600][795]Cmd: MEM
+[2017.01.22-07.13.39:608][795]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.13.39:608][795]LogMemory: Process Physical Memory: 1868.36 MB used, 2026.93 MB peak
+[2017.01.22-07.13.39:608][795]LogMemory: Process Virtual Memory: 3382.33 MB used, 3797.71 MB peak
+[2017.01.22-07.13.39:608][795]LogMemory: Physical Memory: 7386.38 MB used,  8958.46 MB free, 16344.84 MB total
+[2017.01.22-07.13.39:608][795]LogMemory: Virtual Memory: 4573.27 MB used,  8958.46 MB free, 134217728.00 MB total
+[2017.01.22-07.13.39:608][795]LogMemory: 
+[2017.01.22-07.13.39:608][795]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.13.39:608][795]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.13.39:620][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011875s)
+[2017.01.22-07.13.39:620][795]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.13.39:621][795]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.01.22-07.13.39:621][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012638s)
+[2017.01.22-07.13.39:621][795]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.13.39:634][795]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.13.39
+[2017.01.22-07.13.39:635][795]LogWorld: Bringing up level for play took: 0.013120
+[2017.01.22-07.13.39:637][795]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.13.39:637][795]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.13.39:637][795]LogLoad: Took 0.049518 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.13.46:618][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.13.46:666][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.13.47:646][270]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.01.22-07.13.47:650][270]Recompiling colorepo...
+[2017.01.22-07.13.47:650][270]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 9733 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-07.13.47:651][270]Warning: Starting HotReload took  0.0s.
+[2017.01.22-07.13.48:012][292]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 3:13:48 PM
+[2017.01.22-07.13.48:012][292]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-07.13.48:012][292]CompilerResultsLog: Info Target is up to date
+[2017.01.22-07.13.48:012][292]LogMainFrame: MainFrame: Module compiling took 0.366 seconds
+[2017.01.22-07.13.48:201][292]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-07.13.48:202][292]Display: HotReload took  0.6s.
+[2017.01.22-07.14.07:713][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.14.07:728][444]LogSavePackage: Save=10.75ms
+[2017.01.22-07.14.07:728][444]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenuA6DFEFA94EA8D1A17B3F12B5358FA629.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.14.07:729][444]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.14.08:507][491]BlueprintLog: New page: Compile PauseMenu
+[2017.01.22-07.14.08:901][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/PauseMenu" FILE="../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset" SILENT=true
+[2017.01.22-07.14.08:912][508]LogSavePackage: Save=10.76ms
+[2017.01.22-07.14.08:912][508]LogSavePackage: Moving '../../../../../../RepoMan/colorepo/Saved/PauseMenu0FB431E14645161CBAD2598D3DA5ECF6.tmp' to '../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2017.01.22-07.14.08:913][508]LogSavePackage:Display: Finished SavePackage ../../../../../../RepoMan/colorepo/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset
+[2017.01.22-07.14.11:729][676]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.01.22-07.14.11:743][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.14.11:743][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-07.14.11:743][676]PIE: New page: PIE session: TestLevel (Jan 21, 2017, 3:14:11 PM)
+[2017.01.22-07.14.11:743][676]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.14.11:756][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013281s)
+[2017.01.22-07.14.11:756][676]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.14.11:757][676]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.01.22-07.14.11:757][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.013992s)
+[2017.01.22-07.14.11:787][676]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-07.14.11:790][676]LogInit: FAudioDevice initialized.
+[2017.01.22-07.14.11:830][676]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.14.11:832][676]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.14.11
+[2017.01.22-07.14.11:833][676]LogWorld: Bringing up level for play took: 0.001621
+[2017.01.22-07.14.11:834][676]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.14.11:838][676]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel -0.316
+[2017.01.22-07.14.11:839][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.14.18:190][ 54]LogNet: Browse: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.14.18:190][ 54]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/MainMenuLevel
+[2017.01.22-07.14.18:204][ 54]Cmd: MEM
+[2017.01.22-07.14.18:213][ 54]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.14.18:213][ 54]LogMemory: Process Physical Memory: 1917.17 MB used, 2026.93 MB peak
+[2017.01.22-07.14.18:213][ 54]LogMemory: Process Virtual Memory: 3591.46 MB used, 3797.71 MB peak
+[2017.01.22-07.14.18:213][ 54]LogMemory: Physical Memory: 7431.53 MB used,  8913.30 MB free, 16344.84 MB total
+[2017.01.22-07.14.18:213][ 54]LogMemory: Virtual Memory: 4724.39 MB used,  8913.30 MB free, 134217728.00 MB total
+[2017.01.22-07.14.18:213][ 54]LogMemory: 
+[2017.01.22-07.14.18:213][ 54]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.14.18:253][ 54]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.01.22-07.14.18:253][ 54]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.14.18:254][ 54]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.01.21-23.14.18
+[2017.01.22-07.14.18:255][ 54]LogWorld: Bringing up level for play took: 0.000632
+[2017.01.22-07.14.18:255][ 54]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.14.18:256][ 54]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.22-07.14.18:256][ 54]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.14.18:256][ 54]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.14.18:258][ 54]LogLoad: Took 0.066848 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/MainMenuLevel)
+[2017.01.22-07.14.19:085][104]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.14.19:085][104]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.14.19:097][104]Cmd: MEM
+[2017.01.22-07.14.19:107][104]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.14.19:107][104]LogMemory: Process Physical Memory: 1916.57 MB used, 2026.93 MB peak
+[2017.01.22-07.14.19:107][104]LogMemory: Process Virtual Memory: 3619.74 MB used, 3811.39 MB peak
+[2017.01.22-07.14.19:107][104]LogMemory: Physical Memory: 7431.95 MB used,  8912.88 MB free, 16344.84 MB total
+[2017.01.22-07.14.19:107][104]LogMemory: Virtual Memory: 4718.46 MB used,  8912.88 MB free, 134217728.00 MB total
+[2017.01.22-07.14.19:107][104]LogMemory: 
+[2017.01.22-07.14.19:107][104]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.14.19:107][104]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.14.19:119][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011877s)
+[2017.01.22-07.14.19:119][104]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.14.19:119][104]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2017.01.22-07.14.19:120][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012583s)
+[2017.01.22-07.14.19:120][104]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.14.19:122][104]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.14.19
+[2017.01.22-07.14.19:122][104]LogWorld: Bringing up level for play took: 0.001766
+[2017.01.22-07.14.19:125][104]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.14.19:125][104]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.14.19:125][104]LogLoad: Took 0.040262 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.14.45:786][703]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.14.45:786][703]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TestLevel
+[2017.01.22-07.14.45:799][703]Cmd: MEM
+[2017.01.22-07.14.45:810][703]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-07.14.45:810][703]LogMemory: Process Physical Memory: 1952.37 MB used, 2026.93 MB peak
+[2017.01.22-07.14.45:810][703]LogMemory: Process Virtual Memory: 3418.96 MB used, 3811.39 MB peak
+[2017.01.22-07.14.45:810][703]LogMemory: Physical Memory: 7460.29 MB used,  8884.54 MB free, 16344.84 MB total
+[2017.01.22-07.14.45:810][703]LogMemory: Virtual Memory: 4614.96 MB used,  8884.54 MB free, 134217728.00 MB total
+[2017.01.22-07.14.45:810][703]LogMemory: 
+[2017.01.22-07.14.45:810][703]Allocator Stats for TBB: (not implemented)
+[2017.01.22-07.14.45:811][703]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel
+[2017.01.22-07.14.45:822][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011908s)
+[2017.01.22-07.14.45:823][703]LogAIModule: Creating AISystem for world TestLevel
+[2017.01.22-07.14.45:823][703]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.01.22-07.14.45:823][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TestLevel.TestLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel (0.012769s)
+[2017.01.22-07.14.45:823][703]LogLoad: Game class is 'colorepoGameMode'
+[2017.01.22-07.14.45:835][703]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2017.01.21-23.14.45
+[2017.01.22-07.14.45:835][703]LogWorld: Bringing up level for play took: 0.010791
+[2017.01.22-07.14.45:837][703]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.01.22-07.14.45:837][703]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.01.22-07.14.45:837][703]LogLoad: Took 0.051135 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_TestLevel)
+[2017.01.22-07.14.49:554][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.14.49:603][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.01.22-07.14.52:090][ 73]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.01.22-07.14.52:093][ 73]Recompiling colorepo...
+[2017.01.22-07.14.52:093][ 73]Launching UnrealBuildTool... [D:/Unreal/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe colorepo -ModuleWithSuffix colorepo 8768 Win64 Development -editorrecompile -canskiplink "D:/RepoMan/colorepo/colorepo.uproject" ]
+[2017.01.22-07.14.52:094][ 73]Warning: Starting HotReload took  0.0s.
+[2017.01.22-07.14.52:439][ 94]CompilerResultsLog: New page: Compilation - Jan 21, 2017, 3:14:52 PM
+[2017.01.22-07.14.52:439][ 94]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.01.22-07.14.52:439][ 94]CompilerResultsLog: Info Target is up to date
+[2017.01.22-07.14.52:439][ 94]LogMainFrame: MainFrame: Module compiling took 0.349 seconds
+[2017.01.22-07.14.52:626][ 94]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2196 classes and 434 folders.
+[2017.01.22-07.14.52:627][ 94]Display: HotReload took  0.5s.
+[2017.01.22-07.14.55:038][224]Cmd: QUIT_EDITOR
+[2017.01.22-07.14.55:417][224]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.22-07.14.55:460][224]LogExit: Preparing to exit.
+[2017.01.22-07.14.56:092][224]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/' was aborted.
+[2017.01.22-07.14.56:132][224]LogExit: Editor shut down
+[2017.01.22-07.14.56:132][224]LogExit: Transaction tracking system shut down
+[2017.01.22-07.14.56:207][224]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.22-07.14.56:207][224]LogExit: Object subsystem successfully closed.
+[2017.01.22-07.14.56:221][224]LogD3D11RHI: Shutdown
+[2017.01.22-07.14.56:221][224]LogD3D11RHI: CleanupD3DDevice
+[2017.01.22-07.14.56:281][224]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.22-07.14.56:286][224]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.22-07.14.56:286][224]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B13CBBEC3-428C-F215-66A2-46BBD05E5C83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.2-3241561%2B%2B%2BUE4%2BRelease-4.14&UserID=1de5576948547c4a3d64389e206d40e9%7C08ec85b453944d8e86d6651d1fcb8040%7C91f838fd-68de-48f1-999f-0aec201f1854&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (246)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module SequencerWidgets (245)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.01.22-07.14.56:290][224]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.01.22-07.14.56:290][224]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.22-07.14.56:291][224]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.01.22-07.14.56:291][224]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.01.22-07.14.56:291][224]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.01.22-07.14.56:291][224]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Collections/' was aborted.
+[2017.01.22-07.14.56:292][224]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Content/Developers/Origin/Collections/' was aborted.
+[2017.01.22-07.14.56:292][224]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Saved/Collections/' was aborted.
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.01.22-07.14.56:292][224]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.01.22-07.14.56:395][224]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.01.22-07.14.56:396][224]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.01.22-07.14.56:438][224]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.01.22-07.14.56:449][224]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.01.22-07.14.56:449][224]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.01.22-07.14.56:451][224]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.01.22-07.14.56:452][224]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.01.22-07.14.56:581][224]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (121)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module UObjectPlugin (120)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (119)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (118)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module SourceControl (117)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module GitSourceControl (116)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (115)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (114)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (113)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module MeshPaint (112)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (111)
+[2017.01.22-07.14.56:582][224]LogModuleManager: Shutting down and abandoning module HotReload (110)
+[2017.01.22-07.14.56:582][224]LogDirectoryWatcher: A directory notification for 'D:/RepoMan/colorepo/Binaries/Win64' was aborted.
+[2017.01.22-07.14.56:583][224]LogModuleManager: Shutting down and abandoning module MainFrame (109)
+[2017.01.22-07.14.56:583][224]LogModuleManager: Shutting down and abandoning module LevelEditor (108)
+[2017.01.22-07.14.56:584][224]LogModuleManager: Shutting down and abandoning module ContentBrowser (107)
+[2017.01.22-07.14.56:585][224]LogModuleManager: Shutting down and abandoning module Paper2DEditor (106)
+[2017.01.22-07.14.56:585][224]LogModuleManager: Shutting down and abandoning module colorepo (105)
+[2017.01.22-07.14.56:585][224]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.01.22-07.14.56:686][224]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (102)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module Paper2D (101)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (100)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module WmfMedia (99)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module MediaAssets (98)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (96)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module VREditor (95)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (94)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (93)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module FunctionalTesting (92)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (91)
+[2017.01.22-07.14.56:786][224]LogModuleManager: Shutting down and abandoning module Sequencer (90)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module AssetTools (87)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module UMGEditor (86)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module UMG (85)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module Slate (83)
+[2017.01.22-07.14.56:787][224]LogModuleManager: Shutting down and abandoning module EditorStyle (82)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (81)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (80)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module XAudio2 (79)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module Networking (77)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module Core (76)
+[2017.01.22-07.14.56:792][224]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (75)
+[2017.01.22-07.14.56:792][224]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.22-07.14.56:792][224]LogDirectoryWatcher: A directory notification for '../../../../../../RepoMan/colorepo/Content/' was aborted.
+[2017.01.22-07.14.56:793][224]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.22-07.14.56:794][224]LogModuleManager: Shutting down and abandoning module AssetRegistry (74)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module KismetCompiler (73)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module PhysXFormats (72)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (71)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (70)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (69)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module MeshUtilities (67)
+[2017.01.22-07.14.56:980][224]LogModuleManager: Shutting down and abandoning module DerivedDataCache (66)
+[2017.01.22-07.14.56:981][224]LogDerivedDataCache: Shutdown
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (65)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (64)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (63)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (62)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (61)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (60)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (59)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (58)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module ImageWrapper (57)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (56)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (55)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (54)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (53)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (52)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (51)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (50)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (49)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (48)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (47)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Messaging (46)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (45)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (44)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (43)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (42)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (41)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (40)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (39)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (38)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (37)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (36)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (35)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (34)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (33)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (32)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (31)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (30)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (29)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (28)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (27)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module TargetPlatform (26)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module InputCore (25)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module Settings (24)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module OculusRift (23)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (22)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (21)
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.22-07.14.56:981][224]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.22-07.14.56:981][224]LogModuleManager: Shutting down and abandoning module SSL (18)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.22-07.14.56:983][224]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.22-07.14.56:986][224]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.22-07.14.56:988][224]LogExit: Exiting.
+[2017.01.22-07.14.57:003][224]Log file closed, 01/21/17 23:14:57
