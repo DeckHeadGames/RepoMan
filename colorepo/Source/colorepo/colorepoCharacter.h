@@ -32,6 +32,10 @@ public:
 	bool GetIsWithin();
 	void SetIsWithin(bool value);
 	bool DoDestroy;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class USoundCue* FireSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class USoundCue* BurstSound;
 	
 
 
@@ -48,6 +52,8 @@ protected:
 	const int Blue = 5;
 	const int Indigo = 6;
 	const int Violet = 7;
+
+	UAudioComponent* PlaySound(class USoundCue *Sound);
 
 	void SetCurrentColor(float number);
 	float GetCurrentColor();

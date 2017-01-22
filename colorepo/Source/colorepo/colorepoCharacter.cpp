@@ -118,13 +118,22 @@ void AcolorepoCharacter::CannotFire() {
 }
 
 void AcolorepoCharacter::FireLightBurstDown() {
-	GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotBurst,
 		0.5f, false);
 }
 
+UAudioComponent* AcolorepoCharacter::PlaySound(class USoundCue* Sound) {
+	UAudioComponent* AC = NULL;
+	if (Sound)
+	{
+		AC = UGameplayStatics::SpawnSoundAttached(Sound, this->GetMesh());
+	}
+	return AC;
+}
+
 void AcolorepoCharacter::FireLightBurstUp() {
-	GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstUp"), true);
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstUp"), true);
 	if (BurstBool) {
 		// try and fire a projectile
 		TSubclassOf<ALightWave> ProjectileClass;
@@ -172,6 +181,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
 				ShotWave->SetColor(CurrentColor);
 				ShotWave->SetSecondary(true);
+				auto temp = PlaySound(BurstSound);
 			}
 		}
 		BurstBool = false;
@@ -217,7 +227,7 @@ void AcolorepoCharacter::FireLightWave() {
 		UWorld* const World = GetWorld();
 		if (World != NULL)
 		{
-				GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
+				//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
 				FVector CurrentLocation = this->GetActorLocation();
 				FVector OurForwards = this->GetActorForwardVector();
 				FVector OurUp = this->GetActorUpVector();
@@ -237,6 +247,7 @@ void AcolorepoCharacter::FireLightWave() {
 				else {
 					//CurrentColor++;
 				}
+				auto temp = PlaySound(FireSound);
 				FireManager();
 		}
 	}
