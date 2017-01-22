@@ -103,6 +103,7 @@ protected:
 	bool CanFire;
 	bool BurstBool;
 	FTimerHandle Cooldown;
+	float SpeedModifier;
 
 protected:
 	// APawn interface

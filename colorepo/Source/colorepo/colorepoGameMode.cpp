@@ -10,11 +10,13 @@ AcolorepoGameMode::AcolorepoGameMode()
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
-		DefaultPawnClass = PlayerPawnBPClass.Class;
+		//DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
 
 void AcolorepoGameMode::BeginPlay() {
+	
 	UGameplayStatics::CreatePlayer(GetWorld(), 0, true);
 	UGameplayStatics::CreatePlayer(GetWorld(), 1, true);
 }
+

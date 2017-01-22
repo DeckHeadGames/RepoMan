@@ -8,6 +8,7 @@ class AcolorepoGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
+
 public:
 	AcolorepoGameMode();
 	virtual void BeginPlay() override;

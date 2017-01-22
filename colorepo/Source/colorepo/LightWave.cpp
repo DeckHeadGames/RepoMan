@@ -64,7 +64,12 @@ void ALightWave::Tick( float DeltaTime )
 		}
 	}
 	else {
-		ProjectileMovement->Velocity = InitialForward + FVector(0.0f, 1000.0f * sin(xValue*frequency), 0.0f);
+		FVector temp = InitialForward;
+		temp.Normalize();
+		FVector forcross = FVector(0, 0, 1);
+		FVector ResultVector = FVector::CrossProduct(temp, forcross);
+		ResultVector.Normalize();
+		ProjectileMovement->Velocity = InitialForward + ((2500.0f * sin(xValue*frequency))* ResultVector);
 	}
 	
 

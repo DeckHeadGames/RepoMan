@@ -45,7 +45,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	CanFire = true;
 	BurstBool = false;
 	IsWithin = false;
-
+	SpeedModifier = 1.0f;
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -212,12 +212,12 @@ void AcolorepoCharacter::FireLightWave() {
 				FVector OurUp = this->GetActorUpVector();
 				OurUp.Normalize();
 				OurForwards.Normalize();
-				FVector DeltaForwards = OurForwards*100.0f;
+				FVector DeltaForwards = OurForwards*150.0f;
 				FVector DeltaUp = OurUp*20.0f;
 				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
 				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
 				float magnitude = sqrt(magnitudeSquared);
-				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
+				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
 				ShotWave->SetColor(CurrentColor);
 				if (CurrentColor == Violet) {
@@ -242,6 +242,9 @@ void AcolorepoCharacter::SetIsWithin(bool value) {
 void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 	CurrentColor = ColorOnDeck;
+	if (SpeedModifier <= 5.0f) {
+		SpeedModifier += (DeltaSeconds / 20);
+	}
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
@@ -277,6 +280,7 @@ void AcolorepoCharacter::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
+		//GetCharacterMovement()->MaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed + 0.1f;
 	}
 }
 
