@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 2164707978);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 1174023827);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
@@ -81,6 +81,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_OrangeProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OrangeProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(OrangeProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_RedProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RedProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(RedProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, AcolorepoCharacter), 0x00200800000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
+				UProperty* NewProp_PickupSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PickupSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PickupSound, AcolorepoCharacter), 0x0010000000000005, Z_Construct_UClass_USoundCue_NoRegister());
 				UProperty* NewProp_BurstSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BurstSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BurstSound, AcolorepoCharacter), 0x0010000000000005, Z_Construct_UClass_USoundCue_NoRegister());
 				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AcolorepoCharacter), 0x0010000000000005, Z_Construct_UClass_USoundCue_NoRegister());
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, AcolorepoCharacter), 0x0010000000020015);
@@ -112,6 +113,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("Category"), TEXT("colorepoCharacter"));
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_PickupSound, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_PickupSound, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_BurstSound, TEXT("Category"), TEXT("Gameplay"));
 				MetaData->SetValue(NewProp_BurstSound, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_FireSound, TEXT("Category"), TEXT("Gameplay"));
@@ -306,7 +309,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xDC6D6BBE;
+			Guid.A = 0xCF60593C;
 			Guid.B = 0xE50C2391;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

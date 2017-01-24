@@ -36,6 +36,8 @@ public:
 		class USoundCue* FireSound;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		class USoundCue* BurstSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class USoundCue* PickupSound;
 	
 
 

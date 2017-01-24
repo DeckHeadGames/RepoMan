@@ -104,6 +104,7 @@ void AcolorepoCharacter::xPressed() {
 
 void AcolorepoCharacter::xReleased() {
 	DoDestroy = false;
+	auto temp = PlaySound(PickupSound);
 }
 
 void AcolorepoCharacter::FireManager() {

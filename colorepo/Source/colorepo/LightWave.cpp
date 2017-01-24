@@ -55,7 +55,7 @@ void ALightWave::Tick( float DeltaTime )
 	xValue += DeltaTime;
 	FMath::Clamp(frequency, 10.0f, 100.0f);
 	if (SecondaryFire) {
-		if ((5.0f - xValue) < 0) {
+		if ((10.0f - xValue) < 0) {
 			this->Destroy();
 		}
 		else {
