@@ -52,6 +52,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	IsWithin = false;
 	SpeedModifier = 1.0f;
 	DoDestroy = false;
+	Delay = 1.5f;
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -92,6 +93,62 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
 	PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
 	PlayerInputComponent->BindAction("RemoveCrystal", IE_Released, this, &AcolorepoCharacter::xReleased);
+	PlayerInputComponent->BindAction("FireCircle", IE_Pressed, this, &AcolorepoCharacter::FireCircle);
+}
+
+void AcolorepoCharacter::FireCircle() {
+	// try and fire a projectile
+	TSubclassOf<ALightWave> ProjectileClass;
+	switch (CurrentColor) {
+	case 1:
+		ProjectileClass = RedProjectile;
+		break;
+	case 2:
+		ProjectileClass = OrangeProjectile;
+		break;
+	case 3:
+		ProjectileClass = YellowProjectile;
+		break;
+	case 4:
+		ProjectileClass = GreenProjectile;
+		break;
+	case 5:
+		ProjectileClass = BlueProjectile;
+		break;
+	case 6:
+		ProjectileClass = IndigoProjectile;
+		break;
+	case 7:
+		ProjectileClass = VioletProjectile;
+		break;
+	default:
+		break;
+	}
+	if (ProjectileClass != NULL)
+	{
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+			//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
+			FVector CurrentLocation = this->GetActorLocation();
+			FVector OurForwards = this->GetActorForwardVector();
+			FVector OurUp = this->GetActorUpVector();
+			OurUp.Normalize();
+			OurForwards.Normalize();
+			FVector DeltaForwards = OurForwards*150.0f;
+			FVector DeltaUp = OurUp*20.0f;
+			ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
+			float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
+			float magnitude = sqrt(magnitudeSquared);
+			ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
+			ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
+			ShotWave->SetColor(CurrentColor);
+			ShotWave->SetSecondary(true);
+			auto temp = PlaySound(BurstSound);
+
+		}
+	}
+
 }
 
 void AcolorepoCharacter::OnResetVR()
@@ -116,11 +173,11 @@ void AcolorepoCharacter::xReleased() {
 	auto temp = PlaySound(PickupSound);
 }
 
-void AcolorepoCharacter::FireManager() {
+void AcolorepoCharacter::FireManager(float moretime) {
 	CanFire = false;
 	int Value = 8 - CurrentColor;
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotFire,
-		0.2f * Value, false);
+		(0.2f * Value) + moretime, false);
 }
 
 void AcolorepoCharacter::CannotFire() {
@@ -130,7 +187,7 @@ void AcolorepoCharacter::CannotFire() {
 void AcolorepoCharacter::FireLightBurstDown() {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotBurst,
-		0.1f, false);
+		Delay, false);
 }
 
 UAudioComponent* AcolorepoCharacter::PlaySound(class USoundCue* Sound) {
@@ -172,7 +229,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 		default:
 			break;
 		}
-		if (ProjectileClass != NULL)
+		if (ProjectileClass != NULL )
 		{
 			UWorld* const World = GetWorld();
 			if (World != NULL)
@@ -190,12 +247,33 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
 				ShotWave->SetColor(CurrentColor);
-				ShotWave->SetSecondary(true);
-				auto temp = PlaySound(BurstSound);
+				FVector Right = this->GetActorRightVector();
+				FVector DeltaRight = Right * 100;
+				FVector MoreRight = Right * 200;
+				FVector DeltaLeft = Right * -100;
+				FVector MoreLeft = Right * -200;
+				ALightWave* RWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + DeltaRight, this->GetActorRotation());
+				ALightWave* SWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + DeltaLeft, this->GetActorRotation());
+				ALightWave* RRWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + MoreRight, this->GetActorRotation());
+				ALightWave* SSWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + MoreLeft, this->GetActorRotation());
+				RWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 300.0f, 0.0f));
+				SWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, -300.0f, 0.0f));
+				RRWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 600.0f, 0.0f));
+				SSWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, -600.0f, 0.0f));
+				RWave->SetInitialForward(RWave->ProjectileMovement->Velocity);
+				SWave->SetInitialForward(SWave->ProjectileMovement->Velocity);
+				RWave->SetColor(CurrentColor);
+				SWave->SetColor(CurrentColor);
+				RRWave->SetInitialForward(RRWave->ProjectileMovement->Velocity);
+				SSWave->SetInitialForward(SSWave->ProjectileMovement->Velocity);
+				RRWave->SetColor(CurrentColor);
+				SSWave->SetColor(CurrentColor);
+				//ShotWave->SetSecondary(true);
+				//auto temp = PlaySound(BurstSound);
+				BurstBool = false;
+				CanFire = true;
 			}
 		}
-		BurstBool = false;
-		CanFire = true;
 	}
 }
 
@@ -204,8 +282,7 @@ void AcolorepoCharacter::CannotBurst() {
 }
 
 void AcolorepoCharacter::FireLightWave() {
-	// try and fire a projectile
-	BurstBool = false;
+	// try and fire a projectilerstBool = false;
 	TSubclassOf<ALightWave> ProjectileClass;
 	switch (CurrentColor) {
 	case 1:
@@ -258,7 +335,7 @@ void AcolorepoCharacter::FireLightWave() {
 					//CurrentColor++;
 				}
 				auto temp = PlaySound(FireSound);
-				FireManager();
+				FireManager(0.0f);
 		}
 	}
 }

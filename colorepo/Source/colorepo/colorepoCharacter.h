@@ -93,11 +93,11 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
-
+	void FireCircle();
 	void FireLightWave();
 	void FireLightBurstDown();
 	void FireLightBurstUp();
-	void FireManager();
+	void FireManager(float moretime);
 	void CannotFire();
 	void CannotBurst();
 
@@ -122,6 +122,7 @@ protected:
 	float SpeedModifier;
 	void xPressed();
 	void xReleased();
+	float Delay;
 	
 
 protected:
