@@ -38,6 +38,13 @@ public:
 		class USoundCue* BurstSound;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		class USoundCue* PickupSound;
+
+	static const FName MoveForwardBinding;
+	static const FName MoveRightBinding;
+	static const FName FireForwardBinding;
+	static const FName FireRightBinding;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		float MoveSpeed;
 	
 
 

@@ -11,6 +11,11 @@
 //////////////////////////////////////////////////////////////////////////
 // AcolorepoCharacter
 
+const FName AcolorepoCharacter::MoveForwardBinding("MoveForward");
+const FName AcolorepoCharacter::MoveRightBinding("MoveRight");
+const FName AcolorepoCharacter::FireForwardBinding("LookUp");
+const FName AcolorepoCharacter::FireRightBinding("Turn");
+
 AcolorepoCharacter::AcolorepoCharacter()
 {
 	// Set size for collision capsule
@@ -61,15 +66,19 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAxis("MoveForward", this, &AcolorepoCharacter::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AcolorepoCharacter::MoveRight);
+	//PlayerInputComponent->BindAxis("MoveForward", this, &AcolorepoCharacter::MoveForward);
+	//PlayerInputComponent->BindAxis("MoveRight", this, &AcolorepoCharacter::MoveRight);
+	PlayerInputComponent->BindAxis(MoveForwardBinding);
+	PlayerInputComponent->BindAxis(MoveRightBinding);
+	PlayerInputComponent->BindAxis(FireForwardBinding);
+	PlayerInputComponent->BindAxis(FireRightBinding);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AcolorepoCharacter::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AcolorepoCharacter::LookUpAtRate);
 
 	// handle touch devices
@@ -121,7 +130,7 @@ void AcolorepoCharacter::CannotFire() {
 void AcolorepoCharacter::FireLightBurstDown() {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotBurst,
-		0.5f, false);
+		0.1f, false);
 }
 
 UAudioComponent* AcolorepoCharacter::PlaySound(class USoundCue* Sound) {
@@ -264,6 +273,50 @@ void AcolorepoCharacter::SetIsWithin(bool value) {
 
 void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
+	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
+	const float RightValue = GetInputAxisValue(MoveRightBinding);
+
+	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
+	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
+	// Calculate  movement
+	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
+	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
+	const float FireRightValue = GetInputAxisValue(FireRightBinding);
+	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
+
+	// If non-zero size, move this actor
+	if (Movement.SizeSquared() > 0.0f)
+	{
+		//const FRotator NewRotation = Movement.Rotation();
+		if (FireDirection.SizeSquared() > 0.0f) {
+			FHitResult Hit(1.f);
+
+			RootComponent->MoveComponent(Movement, FireDirection.Rotation(), true, &Hit);
+
+			if (Hit.IsValidBlockingHit())
+			{
+				const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
+				const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
+				RootComponent->MoveComponent(Deflection, FireDirection.Rotation(), true);
+			}
+		}
+		else {
+			FHitResult Hit(1.f);
+
+			RootComponent->MoveComponent(Movement, this->GetActorRotation(), true, &Hit);
+
+			if (Hit.IsValidBlockingHit())
+			{
+				const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
+				const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
+				RootComponent->MoveComponent(Deflection, this->GetActorRotation(), true);
+			}
+		}
+	}
+	else if (FireDirection.SizeSquared() > 0.0f) {
+		this->SetActorRotation(FireDirection.Rotation());
+	}
+	
 	CurrentColor = ColorOnDeck;
 	if (SpeedModifier <= 5.0f) {
 		SpeedModifier += (DeltaSeconds / 20);
@@ -283,41 +336,41 @@ void AcolorepoCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Loc
 void AcolorepoCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	//AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
 void AcolorepoCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
-	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+	//AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
 void AcolorepoCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
-	{
-		// find out which way is forward
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+	//if ((Controller != NULL) && (Value != 0.0f))
+	//{
+	//	// find out which way is forward
+	//	const FRotator Rotation = Controller->GetControlRotation();
+	//	const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// get forward vector
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
-		//GetCharacterMovement()->MaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed + 0.1f;
-	}
+	//	// get forward vector
+	//	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+	//	AddMovementInput(Direction, Value);
+	//	//GetCharacterMovement()->MaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed + 0.1f;
+	//}
 }
 
 void AcolorepoCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
-	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-	
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, Value);
-	}
+	//if ( (Controller != NULL) && (Value != 0.0f) )
+	//{
+	//	// find out which way is right
+	//	const FRotator Rotation = Controller->GetControlRotation();
+	//	const FRotator YawRotation(0, Rotation.Yaw, 0);
+	//
+	//	// get right vector 
+	//	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+	//	// add movement in that direction
+	//	AddMovementInput(Direction, Value);
+	//}
 }
