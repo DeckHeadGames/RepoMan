@@ -88,7 +88,7 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
-	PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
+	//PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
 	PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
 	PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
 	PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
@@ -397,6 +397,10 @@ void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	CurrentColor = ColorOnDeck;
 	if (SpeedModifier <= 5.0f) {
 		SpeedModifier += (DeltaSeconds / 20);
+	}
+	
+	if (FireDirection != FVector(0.0f, 0.0f, 0.0f)) {
+		FireLightWave();
 	}
 }
 

@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoGameMode, 4232732752);
+	IMPLEMENT_CLASS(AcolorepoGameMode, 2893810289);
 	void ACrystal::StaticRegisterNativesACrystal()
 	{
 	}
@@ -164,6 +164,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->ClassFlags |= 0x20880288;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(WhichPlayerWins, AcolorepoGameMode, bool);
+				UProperty* NewProp_WhichPlayerWins = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WhichPlayerWins"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(WhichPlayerWins, AcolorepoGameMode), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(WhichPlayerWins, AcolorepoGameMode), sizeof(bool), true);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -171,6 +175,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("colorepoGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("colorepoGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_WhichPlayerWins, TEXT("Category"), TEXT("colorepoGameMode"));
+				MetaData->SetValue(NewProp_WhichPlayerWins, TEXT("ModuleRelativePath"), TEXT("colorepoGameMode.h"));
 #endif
 			}
 		}
@@ -312,7 +318,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x93DACEC7;
+			Guid.A = 0xE3FFA14A;
 			Guid.B = 0xE50C2391;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

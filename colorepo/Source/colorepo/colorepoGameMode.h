@@ -11,6 +11,8 @@ class AcolorepoGameMode : public AGameModeBase
 
 public:
 	AcolorepoGameMode();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool WhichPlayerWins;
 	virtual void BeginPlay() override;
 };
 
