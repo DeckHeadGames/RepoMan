@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 537799971);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 689636464);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
@@ -81,6 +81,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_OrangeProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OrangeProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(OrangeProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_RedProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RedProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(RedProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, AcolorepoCharacter), 0x00200800000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(DoDestroy, AcolorepoCharacter, bool);
+				UProperty* NewProp_DoDestroy = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DoDestroy"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(DoDestroy, AcolorepoCharacter), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(DoDestroy, AcolorepoCharacter), sizeof(bool), true);
+				UProperty* NewProp_ColorOnDeck = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ColorOnDeck"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(ColorOnDeck, AcolorepoCharacter), 0x0010000000000005);
 				UProperty* NewProp_MoveSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MoveSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(MoveSpeed, AcolorepoCharacter), 0x0010000000000005);
 				UProperty* NewProp_PickupSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PickupSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PickupSound, AcolorepoCharacter), 0x0010000000000005, Z_Construct_UClass_USoundCue_NoRegister());
 				UProperty* NewProp_BurstSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BurstSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BurstSound, AcolorepoCharacter), 0x0010000000000005, Z_Construct_UClass_USoundCue_NoRegister());
@@ -114,6 +117,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("Category"), TEXT("colorepoCharacter"));
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_BoundingBox, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_DoDestroy, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_DoDestroy, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+				MetaData->SetValue(NewProp_ColorOnDeck, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_ColorOnDeck, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_MoveSpeed, TEXT("Category"), TEXT("Gameplay"));
 				MetaData->SetValue(NewProp_MoveSpeed, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 				MetaData->SetValue(NewProp_PickupSound, TEXT("Category"), TEXT("Gameplay"));
@@ -318,7 +325,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xE3FFA14A;
+			Guid.A = 0xE62ADD8C;
 			Guid.B = 0xE50C2391;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

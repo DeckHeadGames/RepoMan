@@ -3,7 +3,9 @@
 #pragma once
 
 #include "GameFramework/Actor.h"
+#include "colorepoCharacter.h"
 #include "Crystal.generated.h"
+
 
 UCLASS()
 class COLOREPO_API ACrystal : public AActor
@@ -27,6 +29,9 @@ private:
 	//	class USphereComponent* CollisionComp;
 	UPROPERTY(VisibleAnywhere)
 		class UBoxComponent* BoundingBox;
+
+	AcolorepoCharacter* PlayerOne;
+	AcolorepoCharacter* PlayerTwo;
 
 	
 };

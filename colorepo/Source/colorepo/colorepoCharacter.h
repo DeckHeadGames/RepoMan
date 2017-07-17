@@ -28,10 +28,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 	int CurrentColor;
-	int ColorOnDeck;
 	bool GetIsWithin();
 	void SetIsWithin(bool value);
-	bool DoDestroy;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		class USoundCue* FireSound;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
@@ -46,6 +45,11 @@ public:
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		float MoveSpeed;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	int ColorOnDeck;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool DoDestroy;
 
 
 

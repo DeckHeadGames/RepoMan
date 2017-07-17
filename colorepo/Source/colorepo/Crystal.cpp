@@ -2,7 +2,6 @@
 
 #include "colorepo.h"
 #include "Crystal.h"
-#include "colorepoCharacter.h"
 #include "Engine.h"
 
 
@@ -20,6 +19,8 @@ ACrystal::ACrystal()
 void ACrystal::BeginPlay()
 {
 	Super::BeginPlay();
+	PlayerOne = Cast<AcolorepoCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	PlayerTwo = Cast<AcolorepoCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 1));
 	
 }
 
@@ -27,8 +28,6 @@ void ACrystal::BeginPlay()
 void ACrystal::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-	AcolorepoCharacter* PlayerOne = Cast<AcolorepoCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-	AcolorepoCharacter* PlayerTwo = Cast<AcolorepoCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 1));
 	if (PlayerOne != nullptr) {
 		if (BoundingBox->IsOverlappingActor(PlayerOne)) {
 			if (PlayerOne->DoDestroy) {
