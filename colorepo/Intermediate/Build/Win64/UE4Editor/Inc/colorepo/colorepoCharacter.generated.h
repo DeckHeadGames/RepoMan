@@ -11,8 +11,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COLOREPO_colorepoCharacter_generated_h
 
-#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS
-#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFireCircle) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->FireCircle(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFireLightWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->FireLightWave(); \
+		P_NATIVE_END; \
+	}
+
+
+#define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFireCircle) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->FireCircle(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFireLightWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->FireLightWave(); \
+		P_NATIVE_END; \
+	}
+
+
 #define colorepo_Source_colorepo_colorepoCharacter_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAcolorepoCharacter(); \

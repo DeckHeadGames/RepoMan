@@ -12,8 +12,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "FireCircle",(Native)&AcolorepoCharacter::execFireCircle);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "FireLightWave",(Native)&AcolorepoCharacter::execFireLightWave);
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 689636464);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 3760785745);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
@@ -44,6 +46,8 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireCircle();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireLightWave();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
@@ -54,6 +58,40 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave();
 	COLOREPO_API class UPackage* Z_Construct_UPackage__Script_colorepo();
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireCircle()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("FireCircle"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireLightWave()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("FireLightWave"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister()
 	{
 		return AcolorepoCharacter::StaticClass();
@@ -71,6 +109,8 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20800080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_FireCircle());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_FireLightWave());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_VioletProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("VioletProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(VioletProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
@@ -93,6 +133,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
 				UProperty* NewProp_CameraBoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CameraBoom"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CameraBoom, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_FireCircle(), "FireCircle"); // 2572979525
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_FireLightWave(), "FireLightWave"); // 3502482450
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -325,8 +367,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xE62ADD8C;
-			Guid.B = 0xE50C2391;
+			Guid.A = 0xF134EE02;
+			Guid.B = 0x307888B8;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
