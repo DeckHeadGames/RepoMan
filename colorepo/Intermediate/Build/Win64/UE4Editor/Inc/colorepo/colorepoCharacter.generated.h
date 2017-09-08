@@ -6,12 +6,50 @@
 ===========================================================================*/
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef COLOREPO_colorepoCharacter_generated_h
 #error "colorepoCharacter.generated.h already included, missing '#pragma once' in colorepoCharacter.h"
 #endif
 #define COLOREPO_colorepoCharacter_generated_h
 
 #define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdateFireDirection) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaSeconds); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->UpdateFireDirection(Z_Param_FireDirection,Z_Param_DeltaSeconds); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveColorepoCharacter) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_Movement); \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->MoveColorepoCharacter(Z_Param_Movement,Z_Param_FireDirection); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetFireDirection) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=this->GetFireDirection(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMoveDirection) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaSeconds); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=this->GetMoveDirection(Z_Param_DeltaSeconds); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFireCircle) \
 	{ \
@@ -31,6 +69,43 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define colorepo_Source_colorepo_colorepoCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdateFireDirection) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaSeconds); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->UpdateFireDirection(Z_Param_FireDirection,Z_Param_DeltaSeconds); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveColorepoCharacter) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_Movement); \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->MoveColorepoCharacter(Z_Param_Movement,Z_Param_FireDirection); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetFireDirection) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=this->GetFireDirection(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMoveDirection) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaSeconds); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=this->GetMoveDirection(Z_Param_DeltaSeconds); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFireCircle) \
 	{ \

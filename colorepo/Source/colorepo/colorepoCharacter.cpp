@@ -64,11 +64,6 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
-	//PlayerInputComponent->BindAxis("MoveForward", this, &AcolorepoCharacter::MoveForward);
-	//PlayerInputComponent->BindAxis("MoveRight", this, &AcolorepoCharacter::MoveRight);
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
 	PlayerInputComponent->BindAxis(FireForwardBinding);
@@ -348,19 +343,23 @@ void AcolorepoCharacter::SetIsWithin(bool value) {
 	IsWithin = value;
 }
 
-void AcolorepoCharacter::Tick(float DeltaSeconds) {
-	Super::Tick(DeltaSeconds);
+FVector AcolorepoCharacter::GetMoveDirection(float DeltaSeconds) {
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
-
 	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
 	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
 	// Calculate  movement
-	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
+	return (MoveDirection * MoveSpeed * DeltaSeconds);
+}
+
+FVector AcolorepoCharacter::GetFireDirection() {
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
 	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
+	return FireDirection;
+}
 
+void AcolorepoCharacter::MoveColorepoCharacter(FVector Movement, FVector FireDirection) {
 	// If non-zero size, move this actor
 	if (Movement.SizeSquared() > 0.0f)
 	{
@@ -393,15 +392,27 @@ void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	else if (FireDirection.SizeSquared() > 0.0f) {
 		this->SetActorRotation(FireDirection.Rotation());
 	}
-	
+}
+
+void AcolorepoCharacter::UpdateFireDirection(FVector FireDirection, float DeltaSeconds) {
 	CurrentColor = ColorOnDeck;
 	if (SpeedModifier <= 5.0f) {
 		SpeedModifier += (DeltaSeconds / 20);
 	}
-	
+
 	if (FireDirection != FVector(0.0f, 0.0f, 0.0f)) {
 		FireLightWave();
 	}
+}
+
+void AcolorepoCharacter::Tick(float DeltaSeconds) {
+	Super::Tick(DeltaSeconds);
+	const FVector Movement = GetMoveDirection(DeltaSeconds);
+	const FVector FireDirection = GetFireDirection();
+
+
+	MoveColorepoCharacter(Movement, FireDirection);
+	UpdateFireDirection(FireDirection, DeltaSeconds);
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)

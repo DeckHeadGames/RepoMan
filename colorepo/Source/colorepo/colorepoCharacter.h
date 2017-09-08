@@ -57,6 +57,17 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Laser")
 		void FireCircle();
 
+	UFUNCTION(BlueprintCallable, Category = "Movement")
+		FVector GetMoveDirection(float DeltaSeconds);
+
+	UFUNCTION(BlueprintCallable, Category = "Movement")
+		FVector GetFireDirection();
+
+	UFUNCTION(BlueprintCallable, Category = "Movement")
+		void MoveColorepoCharacter(FVector Movement, FVector FireDirection);
+
+	UFUNCTION(BlueprintCallable, Category = "Movement")
+		void UpdateFireDirection(FVector FireDirection, float DeltaSeconds);
 
 
 protected:
