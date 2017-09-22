@@ -8,6 +8,9 @@
 #ifndef COLOREPO_colorepoCharacter_generated_h
 	#include "colorepoCharacter.h"
 #endif
+#ifndef COLOREPO_ColorepoCharacterController_generated_h
+	#include "ColorepoCharacterController.h"
+#endif
 #ifndef COLOREPO_colorepoGameMode_generated_h
 	#include "colorepoGameMode.h"
 #endif

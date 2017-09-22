@@ -64,31 +64,31 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAxis(MoveForwardBinding);
-	PlayerInputComponent->BindAxis(MoveRightBinding);
-	PlayerInputComponent->BindAxis(FireForwardBinding);
-	PlayerInputComponent->BindAxis(FireRightBinding);
+	////PlayerInputComponent->BindAxis(MoveForwardBinding);
+	////PlayerInputComponent->BindAxis(MoveRightBinding);
+	////PlayerInputComponent->BindAxis(FireForwardBinding);
+	////PlayerInputComponent->BindAxis(FireRightBinding);
 
-	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &AcolorepoCharacter::TurnAtRate);
-	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("LookUpRate", this, &AcolorepoCharacter::LookUpAtRate);
+	//// We have 2 versions of the rotation bindings to handle different kinds of devices differently
+	//// "turn" handles devices that provide an absolute delta, such as a mouse.
+	//// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
+	////PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("TurnRate", this, &AcolorepoCharacter::TurnAtRate);
+	////PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("LookUpRate", this, &AcolorepoCharacter::LookUpAtRate);
 
-	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &AcolorepoCharacter::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &AcolorepoCharacter::TouchStopped);
+	//// handle touch devices
+	//PlayerInputComponent->BindTouch(IE_Pressed, this, &AcolorepoCharacter::TouchStarted);
+	//PlayerInputComponent->BindTouch(IE_Released, this, &AcolorepoCharacter::TouchStopped);
 
-	// VR headset functionality
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
-	//PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
-	PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
-	PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
-	PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
-	PlayerInputComponent->BindAction("RemoveCrystal", IE_Released, this, &AcolorepoCharacter::xReleased);
-	PlayerInputComponent->BindAction("FireCircle", IE_Pressed, this, &AcolorepoCharacter::FireCircle);
+	//// VR headset functionality
+	//PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
+	////PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
+	//PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
+	//PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
+	//PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
+	//PlayerInputComponent->BindAction("RemoveCrystal", IE_Released, this, &AcolorepoCharacter::xReleased);
+	//PlayerInputComponent->BindAction("FireCircle", IE_Pressed, this, &AcolorepoCharacter::FireCircle);
 }
 
 void AcolorepoCharacter::FireCircle() {
@@ -160,6 +160,7 @@ float AcolorepoCharacter::GetCurrentColor() {
 }
 
 void AcolorepoCharacter::xPressed() {
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString("E button pressed"));
 	DoDestroy = true;
 }
 
@@ -407,12 +408,12 @@ void AcolorepoCharacter::UpdateFireDirection(FVector FireDirection, float DeltaS
 
 void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
-	const FVector Movement = GetMoveDirection(DeltaSeconds);
-	const FVector FireDirection = GetFireDirection();
+	//const FVector Movement = GetMoveDirection(DeltaSeconds);
+	//const FVector FireDirection = GetFireDirection();
 
 
-	MoveColorepoCharacter(Movement, FireDirection);
-	UpdateFireDirection(FireDirection, DeltaSeconds);
+	//MoveColorepoCharacter(Movement, FireDirection);
+	//UpdateFireDirection(FireDirection, DeltaSeconds);
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)

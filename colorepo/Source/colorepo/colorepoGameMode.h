@@ -13,6 +13,8 @@ public:
 	AcolorepoGameMode();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool WhichPlayerWins;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FName CurrentLevel;
 	virtual void BeginPlay() override;
 };
 

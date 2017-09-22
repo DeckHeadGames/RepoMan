@@ -3,15 +3,19 @@
 #include "colorepo.h"
 #include "colorepoGameMode.h"
 #include "colorepoCharacter.h"
+#include "ColorepoCharacterController.h"
 
 AcolorepoGameMode::AcolorepoGameMode()
 {
+
+	PlayerControllerClass = AColorepoCharacterController::StaticClass();
 	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPersonCPP/Blueprints/colorepoCharacter_BP"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		//DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	CurrentLevel = FName("Main");
 }
 
 void AcolorepoGameMode::BeginPlay() {

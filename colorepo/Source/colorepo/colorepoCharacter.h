@@ -69,6 +69,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Movement")
 		void UpdateFireDirection(FVector FireDirection, float DeltaSeconds);
 
+	void FireLightBurstDown();
+	void FireLightBurstUp();
+	void xPressed();
+	void xReleased();
+
 
 protected:
 	virtual void Tick(float DeltaSeconds) override;
@@ -114,8 +119,6 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
-	void FireLightBurstDown();
-	void FireLightBurstUp();
 	void FireManager(float moretime);
 	void CannotFire();
 	void CannotBurst();
@@ -139,8 +142,6 @@ protected:
 	bool BurstBool;
 	FTimerHandle Cooldown;
 	float SpeedModifier;
-	void xPressed();
-	void xReleased();
 	float Delay;
 	
 

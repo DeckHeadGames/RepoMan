@@ -20,10 +20,17 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "UpdateFireDirection",(Native)&AcolorepoCharacter::execUpdateFireDirection);
 	}
 	IMPLEMENT_CLASS(AcolorepoCharacter, 1580874660);
+	void AColorepoCharacterController::StaticRegisterNativesAColorepoCharacterController()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "GetFireDirection",(Native)&AColorepoCharacterController::execGetFireDirection);
+		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "GetMoveDirection",(Native)&AColorepoCharacterController::execGetMoveDirection);
+		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "MoveColorepoCharacter",(Native)&AColorepoCharacterController::execMoveColorepoCharacter);
+	}
+	IMPLEMENT_CLASS(AColorepoCharacterController, 1396109818);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
-	IMPLEMENT_CLASS(AcolorepoGameMode, 2893810289);
+	IMPLEMENT_CLASS(AcolorepoGameMode, 3188446778);
 	void ACrystal::StaticRegisterNativesACrystal()
 	{
 	}
@@ -41,6 +48,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	ENGINE_API class UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -58,6 +66,11 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_UpdateFireDirection();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AColorepoCharacterController_GetMoveDirection();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AColorepoCharacterController_MoveColorepoCharacter();
+	COLOREPO_API class UClass* Z_Construct_UClass_AColorepoCharacterController_NoRegister();
+	COLOREPO_API class UClass* Z_Construct_UClass_AColorepoCharacterController();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode();
 	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal_NoRegister();
@@ -305,6 +318,117 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AcolorepoCharacter(Z_Construct_UClass_AcolorepoCharacter, &AcolorepoCharacter::StaticClass, TEXT("AcolorepoCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AcolorepoCharacter);
+	UFunction* Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection()
+	{
+		struct ColorepoCharacterController_eventGetFireDirection_Parms
+		{
+			FVector ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_AColorepoCharacterController();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetFireDirection"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04880401, 65535, sizeof(ColorepoCharacterController_eventGetFireDirection_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(ReturnValue, ColorepoCharacterController_eventGetFireDirection_Parms), 0x0010000000000580, Z_Construct_UScriptStruct_FVector());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Movement"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AColorepoCharacterController_GetMoveDirection()
+	{
+		struct ColorepoCharacterController_eventGetMoveDirection_Parms
+		{
+			float DeltaSeconds;
+			FVector ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_AColorepoCharacterController();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetMoveDirection"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04880401, 65535, sizeof(ColorepoCharacterController_eventGetMoveDirection_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(ReturnValue, ColorepoCharacterController_eventGetMoveDirection_Parms), 0x0010000000000580, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_DeltaSeconds = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("DeltaSeconds"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DeltaSeconds, ColorepoCharacterController_eventGetMoveDirection_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Movement"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AColorepoCharacterController_MoveColorepoCharacter()
+	{
+		struct ColorepoCharacterController_eventMoveColorepoCharacter_Parms
+		{
+			FVector Movement;
+			FVector FireDirection;
+			float DeltaTime;
+		};
+		UObject* Outer=Z_Construct_UClass_AColorepoCharacterController();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("MoveColorepoCharacter"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04880401, 65535, sizeof(ColorepoCharacterController_eventMoveColorepoCharacter_Parms));
+			UProperty* NewProp_DeltaTime = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("DeltaTime"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DeltaTime, ColorepoCharacterController_eventMoveColorepoCharacter_Parms), 0x0010000000000080);
+			UProperty* NewProp_FireDirection = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("FireDirection"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(FireDirection, ColorepoCharacterController_eventMoveColorepoCharacter_Parms), 0x0010000000000080, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_Movement = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Movement"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Movement, ColorepoCharacterController_eventMoveColorepoCharacter_Parms), 0x0010000000000080, Z_Construct_UScriptStruct_FVector());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Movement"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AColorepoCharacterController_NoRegister()
+	{
+		return AColorepoCharacterController::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AColorepoCharacterController()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APlayerController();
+			Z_Construct_UPackage__Script_colorepo();
+			OuterClass = AColorepoCharacterController::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900284;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection());
+				OuterClass->LinkChild(Z_Construct_UFunction_AColorepoCharacterController_GetMoveDirection());
+				OuterClass->LinkChild(Z_Construct_UFunction_AColorepoCharacterController_MoveColorepoCharacter());
+
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection(), "GetFireDirection"); // 405105757
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AColorepoCharacterController_GetMoveDirection(), "GetMoveDirection"); // 2113284902
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AColorepoCharacterController_MoveColorepoCharacter(), "MoveColorepoCharacter"); // 2026308305
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ColorepoCharacterController.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AColorepoCharacterController(Z_Construct_UClass_AColorepoCharacterController, &AColorepoCharacterController::StaticClass, TEXT("AColorepoCharacterController"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AColorepoCharacterController);
 	UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister()
 	{
 		return AcolorepoGameMode::StaticClass();
@@ -324,6 +448,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_CurrentLevel = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentLevel"), RF_Public|RF_Transient|RF_MarkAsNative) UNameProperty(CPP_PROPERTY_BASE(CurrentLevel, AcolorepoGameMode), 0x0010000000000005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(WhichPlayerWins, AcolorepoGameMode, bool);
 				UProperty* NewProp_WhichPlayerWins = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WhichPlayerWins"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(WhichPlayerWins, AcolorepoGameMode), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(WhichPlayerWins, AcolorepoGameMode), sizeof(bool), true);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
@@ -334,6 +459,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("colorepoGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("colorepoGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_CurrentLevel, TEXT("Category"), TEXT("colorepoGameMode"));
+				MetaData->SetValue(NewProp_CurrentLevel, TEXT("ModuleRelativePath"), TEXT("colorepoGameMode.h"));
 				MetaData->SetValue(NewProp_WhichPlayerWins, TEXT("Category"), TEXT("colorepoGameMode"));
 				MetaData->SetValue(NewProp_WhichPlayerWins, TEXT("ModuleRelativePath"), TEXT("colorepoGameMode.h"));
 #endif
@@ -477,8 +604,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x5DEF75FE;
-			Guid.B = 0x36545AD6;
+			Guid.A = 0x11462831;
+			Guid.B = 0xC42B5896;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

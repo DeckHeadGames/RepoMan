@@ -420,6 +420,8 @@
 		<ClInclude Include="..\..\Source\colorepo\colorepo.h" />
 		<ClCompile Include="..\..\Source\colorepo\colorepoCharacter.cpp" />
 		<ClInclude Include="..\..\Source\colorepo\colorepoCharacter.h" />
+		<ClCompile Include="..\..\Source\colorepo\ColorepoCharacterController.cpp" />
+		<ClInclude Include="..\..\Source\colorepo\ColorepoCharacterController.h" />
 		<ClCompile Include="..\..\Source\colorepo\colorepoGameMode.cpp" />
 		<ClInclude Include="..\..\Source\colorepo\colorepoGameMode.h" />
 		<ClCompile Include="..\..\Source\colorepo\Crystal.cpp" />
