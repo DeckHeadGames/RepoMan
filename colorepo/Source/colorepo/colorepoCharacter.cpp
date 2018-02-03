@@ -160,7 +160,7 @@ float AcolorepoCharacter::GetCurrentColor() {
 }
 
 void AcolorepoCharacter::xPressed() {
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString("E button pressed"));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString("E button pressed"));
 	DoDestroy = true;
 }
 

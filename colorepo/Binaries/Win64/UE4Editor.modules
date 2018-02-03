@@ -1,9 +1,9 @@
 {
-	"Changelist" : 3249277,
-	"CompatibleChangelist" : 3195953,
-	"BuildId" : "",
+	"Changelist" : 3450819,
+	"CompatibleChangelist" : 3299760,
+	"BuildId" : "1ddcddb2-7ec6-4aa9-8a33-fc32d2a526e5",
 	"Modules" : 
 	{
-		"colorepo" : "UE4Editor-colorepo-7065.dll"
+		"colorepo" : "UE4Editor-colorepo-7428.dll"
 	}
 }

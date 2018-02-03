@@ -57,6 +57,7 @@ FVector AColorepoCharacterController::GetFireDirection() {
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
 	FVector FireDirection = FVector(0.0f, 0.0f, 0.0f);
+	//GEngine->AddOnScreenDebugMessage(-1 ,1.0f, FColor::Yellow, FString::SanitizeFloat(FireForwardValue),false);
 	if (FireForwardValue != 0.0f && FireRightValue != 0.0f) {
 		FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 	}

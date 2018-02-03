@@ -1,3 +1,3 @@
-D:\ColorepoProject\colorepo\Source\colorepo\colorepo.Build.cs
-D:\ColorepoProject\colorepo\Source\colorepo.Target.cs
-D:\ColorepoProject\colorepo\Source\colorepoEditor.Target.cs
+C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Source\colorepo\colorepo.Build.cs
+C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Source\colorepo.Target.cs
+C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Source\colorepoEditor.Target.cs

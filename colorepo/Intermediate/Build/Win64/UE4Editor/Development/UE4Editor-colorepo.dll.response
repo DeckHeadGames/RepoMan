@@ -1,12 +1,41 @@
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepo.h.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepo.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepoCharacter.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepoGameMode.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\Crystal.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\LightWave.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepo.generated.cpp.obj"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\PCLaunch.rc.res"
-"D:\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\ModuleVersionResource.rc.inl.res"
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\PCH.colorepo.h.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepo.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepoCharacter.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\ColorepoCharacterController.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepoGameMode.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\Crystal.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\LightWave.cpp.obj"
+"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\colorepo\colorepo.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\colorepo\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -31,8 +60,12 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\Unreal\Epic Games\4.14\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
-"D:\Unreal\Epic Games\4.14\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
-"D:\Unreal\Epic Games\4.14\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
-"D:\Unreal\Epic Games\4.14\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
-"D:\Unreal\Epic Games\4.14\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HeadMountedDisplay.lib"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HeadMountedDisplay.lib"
+/OUT:"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Binaries\Win64\UE4Editor-colorepo.dll"
+/IMPLIB:"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-colorepo.suppressed.lib"
+/PDB:"C:\Users\Treym\Desktop\Colorepo\RepoMan\colorepo\Binaries\Win64\UE4Editor-colorepo.pdb"
+/ignore:4078
