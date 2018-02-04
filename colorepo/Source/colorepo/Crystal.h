@@ -19,12 +19,17 @@ public:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
+	UFUNCTION(BlueprintImplementableEvent)
+		void BeingDestroyed();
+
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int CrystalColor;
 
 private:
+
+
 	//UPROPERTY(VisibleDefaultsOnly)
 	//	class USphereComponent* CollisionComp;
 	UPROPERTY(VisibleAnywhere)

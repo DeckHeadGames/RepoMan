@@ -24,6 +24,7 @@ void ACrystal::BeginPlay()
 	
 }
 
+
 // Called every frame
 void ACrystal::Tick( float DeltaTime )
 {
@@ -32,6 +33,7 @@ void ACrystal::Tick( float DeltaTime )
 		if (BoundingBox->IsOverlappingActor(PlayerOne)) {
 			if (PlayerOne->DoDestroy) {
 				PlayerOne->ColorOnDeck = CrystalColor;
+				BeingDestroyed();
 				this->Destroy();
 			}
 		}
@@ -42,6 +44,7 @@ void ACrystal::Tick( float DeltaTime )
 		if (BoundingBox->IsOverlappingActor(PlayerTwo)) {
 			if (PlayerTwo->DoDestroy) {
 				PlayerTwo->ColorOnDeck = CrystalColor;
+				BeingDestroyed();
 				this->Destroy();
 			}
 		}

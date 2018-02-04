@@ -11,6 +11,7 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1colorepo() {}
+FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "FireCircle",(Native)&AcolorepoCharacter::execFireCircle);
@@ -32,10 +33,14 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	{
 	}
 	IMPLEMENT_CLASS(AcolorepoGameMode, 353730239);
+	void ACrystal::BeingDestroyed()
+	{
+		ProcessEvent(FindFunctionChecked(COLOREPO_BeingDestroyed),NULL);
+	}
 	void ACrystal::StaticRegisterNativesACrystal()
 	{
 	}
-	IMPLEMENT_CLASS(ACrystal, 2919091314);
+	IMPLEMENT_CLASS(ACrystal, 3357060745);
 	void ALightWave::StaticRegisterNativesALightWave()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ALightWave::StaticClass(), "OnHit",(Native)&ALightWave::execOnHit);
@@ -74,6 +79,7 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 	COLOREPO_API class UClass* Z_Construct_UClass_AColorepoCharacterController();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_ACrystal_BeingDestroyed();
 	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_ALightWave_OnHit();
@@ -475,6 +481,22 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AcolorepoGameMode(Z_Construct_UClass_AcolorepoGameMode, &AcolorepoGameMode::StaticClass, TEXT("AcolorepoGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AcolorepoGameMode);
+	UFunction* Z_Construct_UFunction_ACrystal_BeingDestroyed()
+	{
+		UObject* Outer=Z_Construct_UClass_ACrystal();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("BeingDestroyed"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x08020800, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("Crystal.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ACrystal_NoRegister()
 	{
 		return ACrystal::StaticClass();
@@ -492,11 +514,13 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_ACrystal_BeingDestroyed());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, ACrystal), 0x00400000000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_CrystalColor = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CrystalColor"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(CrystalColor, ACrystal), 0x0010000000000005);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ACrystal_BeingDestroyed(), "BeingDestroyed"); // 4018156856
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -608,8 +632,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xFB25C0C0;
-			Guid.B = 0xC42B5896;
+			Guid.A = 0x3904F259;
+			Guid.B = 0x2814E2C7;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
