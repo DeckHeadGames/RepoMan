@@ -107,6 +107,7 @@ void ALightWave::SetFrequency(float number) {
 }
 
 void ALightWave::SetColor(int index) {
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow,FString::SanitizeFloat((float)index), false);
 	switch (index) {
 	case 1:
 		SetFrequency(Red);

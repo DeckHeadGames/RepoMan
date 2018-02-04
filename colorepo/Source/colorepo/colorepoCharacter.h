@@ -90,13 +90,11 @@ protected:
 
 	UAudioComponent* PlaySound(class USoundCue *Sound);
 
-	void SetCurrentColor(float number);
-	float GetCurrentColor();
 
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 
-	/** Called for forwards/backward input */
+	///** Called for forwards/backward input */
 	void MoveForward(float Value);
 
 	/** Called for side to side input */

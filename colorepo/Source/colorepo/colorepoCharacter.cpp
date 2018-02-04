@@ -36,17 +36,7 @@ AcolorepoCharacter::AcolorepoCharacter()
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
-	// Create a camera boom (pulls in towards the player if there is a collision)
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
-	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
-	BoundingBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
-	// Create a follow camera
-	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
-	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-	CurrentColor = Green;
+
 	CanFire = true;
 	BurstBool = false;
 	IsWithin = false;
@@ -62,39 +52,13 @@ AcolorepoCharacter::AcolorepoCharacter()
 
 void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
-	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	////PlayerInputComponent->BindAxis(MoveForwardBinding);
-	////PlayerInputComponent->BindAxis(MoveRightBinding);
-	////PlayerInputComponent->BindAxis(FireForwardBinding);
-	////PlayerInputComponent->BindAxis(FireRightBinding);
-
-	//// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	//// "turn" handles devices that provide an absolute delta, such as a mouse.
-	//// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	////PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	//PlayerInputComponent->BindAxis("TurnRate", this, &AcolorepoCharacter::TurnAtRate);
-	////PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	//PlayerInputComponent->BindAxis("LookUpRate", this, &AcolorepoCharacter::LookUpAtRate);
-
-	//// handle touch devices
-	//PlayerInputComponent->BindTouch(IE_Pressed, this, &AcolorepoCharacter::TouchStarted);
-	//PlayerInputComponent->BindTouch(IE_Released, this, &AcolorepoCharacter::TouchStopped);
-
-	//// VR headset functionality
-	//PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AcolorepoCharacter::OnResetVR);
-	////PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
-	//PlayerInputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AcolorepoCharacter::FireLightBurstDown);
-	//PlayerInputComponent->BindAction("FireLightBurst", IE_Released, this, &AcolorepoCharacter::FireLightBurstUp);
-	//PlayerInputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AcolorepoCharacter::xPressed);
-	//PlayerInputComponent->BindAction("RemoveCrystal", IE_Released, this, &AcolorepoCharacter::xReleased);
-	//PlayerInputComponent->BindAction("FireCircle", IE_Pressed, this, &AcolorepoCharacter::FireCircle);
 }
 
 void AcolorepoCharacter::FireCircle() {
 	// try and fire a projectile
 	TSubclassOf<ALightWave> ProjectileClass;
-	switch (CurrentColor) {
+	switch (ColorOnDeck) {
 	case 1:
 		ProjectileClass = RedProjectile;
 		break;
@@ -137,9 +101,9 @@ void AcolorepoCharacter::FireCircle() {
 			float magnitude = sqrt(magnitudeSquared);
 			ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
 			ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-			ShotWave->SetColor(CurrentColor);
+			ShotWave->SetColor(ColorOnDeck);
 			ShotWave->SetSecondary(true);
-			auto temp = PlaySound(BurstSound);
+			UAudioComponent* temp = PlaySound(BurstSound);
 
 		}
 	}
@@ -151,13 +115,6 @@ void AcolorepoCharacter::OnResetVR()
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
 
-void AcolorepoCharacter::SetCurrentColor(float number) {
-	CurrentColor = number;
-}
-
-float AcolorepoCharacter::GetCurrentColor() {
-	return CurrentColor;
-}
 
 void AcolorepoCharacter::xPressed() {
 	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString("E button pressed"));
@@ -166,12 +123,12 @@ void AcolorepoCharacter::xPressed() {
 
 void AcolorepoCharacter::xReleased() {
 	DoDestroy = false;
-	auto temp = PlaySound(PickupSound);
+	UAudioComponent* temp = PlaySound(PickupSound);
 }
 
 void AcolorepoCharacter::FireManager(float moretime) {
 	CanFire = false;
-	int Value = 8 - CurrentColor;
+	int Value = 8 - ColorOnDeck;
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotFire,
 		(0.2f * Value) + moretime, false);
 }
@@ -200,7 +157,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 	if (BurstBool) {
 		// try and fire a projectile
 		TSubclassOf<ALightWave> ProjectileClass;
-		switch (CurrentColor) {
+		switch (ColorOnDeck) {
 		case 1:
 			ProjectileClass = RedProjectile;
 			break;
@@ -242,7 +199,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				float magnitude = sqrt(magnitudeSquared);
 				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-				ShotWave->SetColor(CurrentColor);
+				ShotWave->SetColor(ColorOnDeck);
 				FVector Right = this->GetActorRightVector();
 				FVector DeltaRight = Right * 100;
 				FVector MoreRight = Right * 200;
@@ -258,14 +215,14 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				SSWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, -600.0f, 0.0f));
 				RWave->SetInitialForward(RWave->ProjectileMovement->Velocity);
 				SWave->SetInitialForward(SWave->ProjectileMovement->Velocity);
-				RWave->SetColor(CurrentColor);
-				SWave->SetColor(CurrentColor);
+				RWave->SetColor(ColorOnDeck);
+				SWave->SetColor(ColorOnDeck);
 				RRWave->SetInitialForward(RRWave->ProjectileMovement->Velocity);
 				SSWave->SetInitialForward(SSWave->ProjectileMovement->Velocity);
-				RRWave->SetColor(CurrentColor);
-				SSWave->SetColor(CurrentColor);
-				//ShotWave->SetSecondary(true);
-				//auto temp = PlaySound(BurstSound);
+				RRWave->SetColor(ColorOnDeck);
+				SSWave->SetColor(ColorOnDeck);
+				ShotWave->SetSecondary(true);
+				auto temp = PlaySound(BurstSound);
 				BurstBool = false;
 				CanFire = true;
 			}
@@ -280,7 +237,7 @@ void AcolorepoCharacter::CannotBurst() {
 void AcolorepoCharacter::FireLightWave() {
 	// try and fire a projectilerstBool = false;
 	TSubclassOf<ALightWave> ProjectileClass;
-	switch (CurrentColor) {
+	switch (ColorOnDeck) {
 	case 1:
 		ProjectileClass = RedProjectile;
 		break;
@@ -310,27 +267,20 @@ void AcolorepoCharacter::FireLightWave() {
 		UWorld* const World = GetWorld();
 		if (World != NULL)
 		{
-				//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
 				FVector CurrentLocation = this->GetActorLocation();
 				FVector OurForwards = this->GetActorForwardVector();
 				FVector OurUp = this->GetActorUpVector();
 				OurUp.Normalize();
 				OurForwards.Normalize();
-				FVector DeltaForwards = OurForwards*150.0f;
+				FVector OurVel = this->GetVelocity();
+				OurVel.Normalize();
+				FVector DeltaForwards = (OurForwards*100.0f) + (FVector::DotProduct(OurVel, OurForwards) * OurForwards * 30.0f);
 				FVector DeltaUp = OurUp*20.0f;
 				ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
-				float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
-				float magnitude = sqrt(magnitudeSquared);
-				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
+				ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f), 0.0f, 0.0f));
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-				ShotWave->SetColor(CurrentColor);
-				if (CurrentColor == Violet) {
-					//CurrentColor = Red;
-				}
-				else {
-					//CurrentColor++;
-				}
-				auto temp = PlaySound(FireSound);
+				ShotWave->SetColor(ColorOnDeck);
+				UAudioComponent* temp = PlaySound(FireSound);
 				FireManager(0.0f);
 		}
 	}
@@ -408,12 +358,6 @@ void AcolorepoCharacter::UpdateFireDirection(FVector FireDirection, float DeltaS
 
 void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
-	//const FVector Movement = GetMoveDirection(DeltaSeconds);
-	//const FVector FireDirection = GetFireDirection();
-
-
-	//MoveColorepoCharacter(Movement, FireDirection);
-	//UpdateFireDirection(FireDirection, DeltaSeconds);
 }
 
 void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
@@ -426,44 +370,3 @@ void AcolorepoCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Loc
 		StopJumping();
 }
 
-void AcolorepoCharacter::TurnAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	//AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
-}
-
-void AcolorepoCharacter::LookUpAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	//AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-void AcolorepoCharacter::MoveForward(float Value)
-{
-	//if ((Controller != NULL) && (Value != 0.0f))
-	//{
-	//	// find out which way is forward
-	//	const FRotator Rotation = Controller->GetControlRotation();
-	//	const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-	//	// get forward vector
-	//	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	//	AddMovementInput(Direction, Value);
-	//	//GetCharacterMovement()->MaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed + 0.1f;
-	//}
-}
-
-void AcolorepoCharacter::MoveRight(float Value)
-{
-	//if ( (Controller != NULL) && (Value != 0.0f) )
-	//{
-	//	// find out which way is right
-	//	const FRotator Rotation = Controller->GetControlRotation();
-	//	const FRotator YawRotation(0, Rotation.Yaw, 0);
-	//
-	//	// get right vector 
-	//	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-	//	// add movement in that direction
-	//	AddMovementInput(Direction, Value);
-	//}
-}
