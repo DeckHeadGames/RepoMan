@@ -16,6 +16,8 @@ AcolorepoGameMode::AcolorepoGameMode()
 		//DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 	CurrentLevel = FName("Main");
+	NumberOfAI = 1;
+	WhichPlayerWins = true;
 }
 
 void AcolorepoGameMode::BeginPlay() {

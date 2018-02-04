@@ -15,6 +15,8 @@ public:
 		bool WhichPlayerWins;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName CurrentLevel;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int NumberOfAI;
 	virtual void BeginPlay() override;
 };
 
