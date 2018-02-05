@@ -33,14 +33,16 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	{
 	}
 	IMPLEMENT_CLASS(AcolorepoGameMode, 353730239);
-	void ACrystal::BeingDestroyed()
+	void ACrystal::BeingDestroyed(int32 color)
 	{
-		ProcessEvent(FindFunctionChecked(COLOREPO_BeingDestroyed),NULL);
+		Crystal_eventBeingDestroyed_Parms Parms;
+		Parms.color=color;
+		ProcessEvent(FindFunctionChecked(COLOREPO_BeingDestroyed),&Parms);
 	}
 	void ACrystal::StaticRegisterNativesACrystal()
 	{
 	}
-	IMPLEMENT_CLASS(ACrystal, 3357060745);
+	IMPLEMENT_CLASS(ACrystal, 2039755506);
 	void ALightWave::StaticRegisterNativesALightWave()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ALightWave::StaticClass(), "OnHit",(Native)&ALightWave::execOnHit);
@@ -487,7 +489,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("BeingDestroyed"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x08020800, 65535);
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("BeingDestroyed"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x08020800, 65535, sizeof(Crystal_eventBeingDestroyed_Parms));
+			UProperty* NewProp_color = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("color"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(color, Crystal_eventBeingDestroyed_Parms), 0x0010000000000080);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -520,7 +523,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_BoundingBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoundingBox"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BoundingBox, ACrystal), 0x00400000000a0009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_CrystalColor = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CrystalColor"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(CrystalColor, ACrystal), 0x0010000000000005);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ACrystal_BeingDestroyed(), "BeingDestroyed"); // 4018156856
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ACrystal_BeingDestroyed(), "BeingDestroyed"); // 1997049457
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -632,7 +635,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x3904F259;
+			Guid.A = 0x2960D149;
 			Guid.B = 0x2814E2C7;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

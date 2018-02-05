@@ -33,7 +33,7 @@ void ACrystal::Tick( float DeltaTime )
 		if (BoundingBox->IsOverlappingActor(PlayerOne)) {
 			if (PlayerOne->DoDestroy) {
 				PlayerOne->ColorOnDeck = CrystalColor;
-				BeingDestroyed();
+				BeingDestroyed(CrystalColor);
 				this->Destroy();
 			}
 		}
@@ -44,7 +44,7 @@ void ACrystal::Tick( float DeltaTime )
 		if (BoundingBox->IsOverlappingActor(PlayerTwo)) {
 			if (PlayerTwo->DoDestroy) {
 				PlayerTwo->ColorOnDeck = CrystalColor;
-				BeingDestroyed();
+				BeingDestroyed(CrystalColor);
 				this->Destroy();
 			}
 		}

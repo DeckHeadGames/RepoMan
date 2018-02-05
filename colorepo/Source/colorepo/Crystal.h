@@ -20,7 +20,7 @@ public:
 	virtual void BeginPlay() override;
 	
 	UFUNCTION(BlueprintImplementableEvent)
-		void BeingDestroyed();
+		void BeingDestroyed(int color);
 
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;

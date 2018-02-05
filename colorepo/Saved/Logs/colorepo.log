@@ -1,9 +1,9 @@
-﻿Log file open, 02/04/18 21:55:51
+﻿Log file open, 02/05/18 11:05:30
 LogInit:Display: Running engine for game: colorepo
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1691881912) SRandInit(-1691881912).
+LogInit:Display: RandInit(-614157060) SRandInit(-614157060).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.077339
+LogStats: Stats thread started at 0.081517
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,9 +20,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
-OCULUS: Debug: Connected to the server running version (prod = 1).1.22.0(build = 520733) feature version = 0. Client runs version (prod = 1).1.22.0(build = 520733) feature version = 0
-LogHMD: GearVR: Emulating GearVR using Oculus Rift!
 LogInit: Build: ++UE4+Release-4.15-CL-3450819
 LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
 LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
@@ -46,232 +43,530 @@ LogInit: Compiled (64-bit): May 21 2017 11:02:34
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.05-05.55.53:184][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.05-05.55.53:184][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.05-05.55.53:196][  0]LogInit: Computer: DESKTOP-6PO0U0M
-[2018.02.05-05.55.53:196][  0]LogInit: User: Treym
-[2018.02.05-05.55.53:196][  0]LogInit: CPU Page size=65536, Cores=4
-[2018.02.05-05.55.53:196][  0]LogInit: High frequency timer resolution =2.742190 MHz
-[2018.02.05-05.55.53:197][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.05-05.55.53:197][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.05-05.55.53:197][  0]LogMemory: Process Physical Memory: 271.22 MB used, 271.22 MB peak
-[2018.02.05-05.55.53:197][  0]LogMemory: Process Virtual Memory: 266.14 MB used, 266.14 MB peak
-[2018.02.05-05.55.53:197][  0]LogMemory: Physical Memory: 4886.85 MB used,  11451.77 MB free, 16338.62 MB total
-[2018.02.05-05.55.53:197][  0]LogMemory: Virtual Memory: 721.38 MB used,  11451.77 MB free, 134217728.00 MB total
-[2018.02.05-05.55.53:755][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2018.02.05-05.55.54:362][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.05-05.55.54:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (Feature Level 11_0)
-[2018.02.05-05.55.54:404][  0]LogD3D11RHI:       8105/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.05-05.55.54:408][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.05-05.55.54:408][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.05-05.55.54:408][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.05-05.55.54:417][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.05-05.55.54:417][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.05-05.55.54:417][  0]LogWindows: EnumDisplayDevices:
-[2018.02.05-05.55.54:417][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:1 D:1)
-[2018.02.05-05.55.54:417][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2018.02.05-05.55.54:417][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2018.02.05-05.55.54:418][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
-[2018.02.05-05.55.54:418][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.05-05.55.54:418][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 with Max-Q Design
-[2018.02.05-05.55.54:418][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.05-05.55.54:418][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.05-05.55.54:418][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.05-05.55.54:440][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.05-05.55.54:453][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.05-05.55.54:500][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Intermediate/Shaders/WorkingDirectory/18012/).
-[2018.02.05-05.55.54:500][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Treym/AppData/Local/Temp/UnrealShaderWorkingDir/CC05B93646B955A8456B62967647156C/'.
-[2018.02.05-05.55.54:500][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.05-05.55.55:554][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.05-05.55.55:611][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.02.05-05.55.55:668][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.05-05.55.55:722][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.02.05-05.55.55:780][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.02.05-05.55.55:836][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.05-05.55.55:891][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.05-05.55.55:947][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.05-05.55.55:992][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.05-05.55.56:043][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.05-05.55.56:092][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.05-05.55.56:145][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.05-05.55.56:194][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.05-05.55.56:246][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.05-05.55.56:297][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.05-05.55.56:400][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.05-05.55.56:400][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.05-05.55.56:437][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.05-05.55.56:535][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.05-05.55.56:568][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.02.05-05.55.56:617][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.05-05.55.56:671][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.05-05.55.56:723][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.05-05.55.56:774][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.05-05.55.56:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.05-05.55.57:197][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache: Loaded boot cache 0.05s 64MB C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.05-05.55.57:247][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.05-05.55.57:262][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.05-05.55.57:275][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Treym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.05-05.55.57:293][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.05-05.55.57:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.05-05.55.57:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.05-05.55.57:558][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.05-05.55.57:560][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.05-05.55.57:754][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.05-05.55.57:797][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.05-05.55.57:844][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.05-05.55.57:844][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.05-05.55.57:844][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.05-05.55.58:324][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: colorepo, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3283589291
-[2018.02.05-05.55.58:370][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
-[2018.02.05-05.55.58:423][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032853 seconds
-[2018.02.05-05.55.58:428][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2018.02.05-05.55.58:428][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2018.02.05-05.55.58:428][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.05-05.55.58:485][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.05-05.56.00:061][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.02.05-05.56.00:091][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.05-05.56.00:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.05-05.56.00:846][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.05-05.56.01:215][  0]SourceControl: Info Source control is disabled
-[2018.02.05-05.56.01:285][  0]SourceControl: Info Source control is disabled
-[2018.02.05-05.56.01:333][  0]SourceControl: Info Source control is disabled
-[2018.02.05-05.56.01:382][  0]SourceControl: Info Source control is disabled
-[2018.02.05-05.56.02:665][  0]LogEngine: Initializing Engine...
-[2018.02.05-05.56.02:665][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.22.0, SDK: 1.10.0, built May 21 2017, 11:08:57
-[2018.02.05-05.56.02:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.05-05.56.02:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.05-05.56.02:884][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.05-05.56.02:897][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
-[2018.02.05-05.56.03:151][  0]LogInit: FAudioDevice initialized.
-[2018.02.05-05.56.03:181][  0]LogDerivedDataCache: Saved boot cache 0.03s 64MB C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.02.05-05.56.03:188][  0]LogInit: Texture streaming: Enabled
-[2018.02.05-05.56.03:275][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.05-05.56.03:364][  0]LogInit: Transaction tracking system initialized
-[2018.02.05-05.56.03:691][  0]BlueprintLog: New page: Editor Load
-[2018.02.05-05.56.04:575][  0]LocalizationService: Info Localization service is disabled
-[2018.02.05-05.56.05:211][  0]LogConsoleResponse:Display: 
-[2018.02.05-05.56.05:331][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.05-05.56.05:331][  0]LogCook:Display: Mobile HDR setting 1
-[2018.02.05-05.56.05:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/' took 0.01s
-[2018.02.05-05.56.06:346][  0]SourceControl: Info Source control is disabled
-[2018.02.05-05.56.06:346][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.05-05.56.06:347][  0]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.06:386][  0]MapCheck: New page: Map Check
-[2018.02.05-05.56.06:386][  0]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.06:528][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2018.02.05-05.56.06:546][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.05-05.56.06:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.05-05.56.06:588][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.837ms to complete.
-[2018.02.05-05.56.06:588][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.242
-[2018.02.05-05.56.06:774][  0]LogCollectionManager: Loaded 0 collections in 0.001265 seconds
-[2018.02.05-05.56.06:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Collections/' took 0.01s
-[2018.02.05-05.56.06:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Developers/Treym/Collections/' took 0.01s
-[2018.02.05-05.56.06:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Collections/' took 0.01s
-[2018.02.05-05.56.06:854][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.02.05-05.56.06:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2264 classes and 461 folders.
-[2018.02.05-05.56.06:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.02.05-05.56.06:966][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2018.02.05-05.56.07:008][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.02.05-05.56.07:055][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.05-05.56.07:153][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.02.05-05.56.07:153][  0]LogLoad: (Engine Initialization) Total time: 16.89 seconds
-[2018.02.05-05.56.07:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
-[2018.02.05-05.56.07:153][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.05-05.56.07:153][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.05-05.56.07:172][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.05-05.56.07:173][  0]LogOcInput: OculusInput pre-init called
-[2018.02.05-05.56.07:192][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.22.0
-[2018.02.05-05.56.07:210][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.05-05.56.07:211][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.05-05.56.07:213][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.05-05.56.07:219][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.05-05.56.07:344][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
-[2018.02.05-05.56.07:377][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.05-05.56.07:429][  1]LogAssetRegistry: Asset discovery search completed in 9.0813 seconds
-[2018.02.05-05.56.07:429][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2018.02.05-05.56.07:429][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2018.02.05-05.56.10:860][201]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.05-05.56.11:535][201]LogAIModule: Creating AISystem for world SinglePlayerMode
-[2018.02.05-05.56.11:591][201]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/SinglePlayerMode.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.05-05.56.11:591][201]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.11:592][201]LoadErrors: New page: Loading map: SinglePlayerMode.umap
-[2018.02.05-05.56.11:592][201]MapCheck: New page: Map Check
-[2018.02.05-05.56.11:592][201]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.11:619][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.05-05.56.11:669][201]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.05-05.56.11:726][201]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.782ms to complete.
-[2018.02.05-05.56.11:726][201]LogFileHelpers: Loading map 'SinglePlayerMode' took 0.136
-[2018.02.05-05.56.17:684][542]LogAIModule: Creating AISystem for world MainMenuLevel
-[2018.02.05-05.56.17:696][542]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.05-05.56.17:697][542]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.17:698][542]LoadErrors: New page: Loading map: MainMenuLevel.umap
-[2018.02.05-05.56.17:700][542]MapCheck: New page: Map Check
-[2018.02.05-05.56.17:700][542]LightingResults: New page: Lighting Build
-[2018.02.05-05.56.17:713][542]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.05-05.56.17:764][542]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.05-05.56.17:821][542]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.889ms to complete.
-[2018.02.05-05.56.17:821][542]LogFileHelpers: Loading map 'MainMenuLevel' took 0.125
-[2018.02.05-05.56.18:934][608]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.02.05-05.56.18:962][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2018.02.05-05.56.18:962][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.05-05.56.18:962][608]PIE: New page: PIE session: MainMenuLevel (Feb 4, 2018, 1:56:18 PM)
-[2018.02.05-05.56.18:963][608]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel
-[2018.02.05-05.56.18:964][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001027s)
-[2018.02.05-05.56.18:964][608]LogAIModule: Creating AISystem for world MainMenuLevel
-[2018.02.05-05.56.18:964][608]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2018.02.05-05.56.18:965][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel to /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001883s)
-[2018.02.05-05.56.18:986][608]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
-[2018.02.05-05.56.19:034][608]LogInit: FAudioDevice initialized.
-[2018.02.05-05.56.19:094][608]LogLoad: Game class is 'colorepoGameMode'
-[2018.02.05-05.56.19:097][608]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2018.02.04-21.56.19
-[2018.02.05-05.56.19:097][608]LogWorld: Bringing up level for play took: 0.000914
-[2018.02.05-05.56.19:140][608]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
-[2018.02.05-05.56.19:141][608]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.02.05-05.56.19:143][608]Cmd: r.setRes 1920x1080
-[2018.02.05-05.56.19:143][608]r.SetRes = "1920x1080"
-[2018.02.05-05.56.19:177][608]LogRenderer: Reallocating scene render targets to support 1548x852 NumSamples 1 (Frame:10).
-[2018.02.05-05.56.19:216][608]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenuLevel 0.756
-[2018.02.05-05.56.19:216][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2018.02.05-05.56.23:613][870]LogNet: Browse: /Game/ThirdPersonCPP/ColorepoLevel/SinglePlayerMode
-[2018.02.05-05.56.23:613][870]LogLoadingSplash: Loading begins
-[2018.02.05-05.56.23:613][870]LogHMD: FOculusRiftSplash::PushBlackFrame
-[2018.02.05-05.56.23:613][870]LogHMD: FOculusRiftSplash::Show
-[2018.02.05-05.56.23:613][870]LogLoad: LoadMap: /Game/ThirdPersonCPP/ColorepoLevel/SinglePlayerMode
-[2018.02.05-05.56.23:625][870]Cmd: MEM
-[2018.02.05-05.56.23:633][870]LogMemory: Platform Memory Stats for Windows
-[2018.02.05-05.56.23:633][870]LogMemory: Process Physical Memory: 1040.71 MB used, 1142.59 MB peak
-[2018.02.05-05.56.23:633][870]LogMemory: Process Virtual Memory: 1539.29 MB used, 1704.81 MB peak
-[2018.02.05-05.56.23:633][870]LogMemory: Physical Memory: 5734.48 MB used,  10604.14 MB free, 16338.62 MB total
-[2018.02.05-05.56.23:633][870]LogMemory: Virtual Memory: 2518.86 MB used,  10604.14 MB free, 134217728.00 MB total
-[2018.02.05-05.56.23:633][870]LogMemory: 
-[2018.02.05-05.56.23:633][870]Allocator Stats for TBB: (not implemented)
-[2018.02.05-05.56.24:026][870]LogAIModule: Creating AISystem for world SinglePlayerMode
-[2018.02.05-05.56.24:026][870]LogLoad: Game class is 'colorepoGameMode'
-[2018.02.05-05.56.24:040][870]LogWorld: Bringing World /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_SinglePlayerMode.SinglePlayerMode up for play (max tick rate 60) at 2018.02.04-21.56.24
-[2018.02.05-05.56.24:041][870]LogWorld: Bringing up level for play took: 0.013390
-[2018.02.05-05.56.24:041][870]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.02.05-05.56.24:041][870]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.02.05-05.56.24:042][870]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.02.05-05.56.24:042][870]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2018.02.05-05.56.24:053][870]LogLoadingSplash: Loading ends
-[2018.02.05-05.56.24:053][870]LogHMD: FOculusRiftSplash::Hide
-[2018.02.05-05.56.24:053][870]LogHMD: FOculusRiftSplash::PushBlackFrame
-[2018.02.05-05.56.24:053][870]LogLoad: Took 0.440677 seconds to LoadMap(/Game/ThirdPersonCPP/ColorepoLevel/SinglePlayerMode)
-[2018.02.05-05.57.44:249][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2018.02.05-05.57.44:281][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2018.02.05-05.57.50:921][ 12]LogSavePackage: Save=70.30ms
-[2018.02.05-05.57.50:921][ 12]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainMenuLevel9902F5CA4D81D9E982707A80ED33E182.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap'
-[2018.02.05-05.57.50:923][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap
-[2018.02.05-05.57.50:997][ 12]LogSavePackage: Save=5.43ms
-[2018.02.05-05.57.50:997][ 12]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainMenuLevel_BuiltData3011FAB04AF4F2CACC7FE8B7CAB08247.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel_BuiltData.uasset'
-[2018.02.05-05.57.50:999][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel_BuiltData.uasset
+[2018.02.05-19.05.31:461][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.05-19.05.31:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.05-19.05.31:473][  0]LogInit: Computer: DESKTOP-6PO0U0M
+[2018.02.05-19.05.31:473][  0]LogInit: User: Treym
+[2018.02.05-19.05.31:473][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.02.05-19.05.31:473][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.02.05-19.05.31:473][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.05-19.05.31:473][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.05-19.05.31:473][  0]LogMemory: Process Physical Memory: 265.81 MB used, 265.81 MB peak
+[2018.02.05-19.05.31:473][  0]LogMemory: Process Virtual Memory: 262.38 MB used, 262.38 MB peak
+[2018.02.05-19.05.31:473][  0]LogMemory: Physical Memory: 6460.97 MB used,  9877.65 MB free, 16338.62 MB total
+[2018.02.05-19.05.31:473][  0]LogMemory: Virtual Memory: 683.25 MB used,  9877.65 MB free, 134217728.00 MB total
+[2018.02.05-19.05.32:071][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.02.05-19.05.32:662][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.05-19.05.32:706][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (Feature Level 11_0)
+[2018.02.05-19.05.32:706][  0]LogD3D11RHI:       8105/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.05-19.05.32:708][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.05-19.05.32:708][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.05-19.05.32:708][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.05-19.05.32:716][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.05-19.05.32:716][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.05-19.05.32:716][  0]LogWindows: EnumDisplayDevices:
+[2018.02.05-19.05.32:716][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:1 D:1)
+[2018.02.05-19.05.32:716][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2018.02.05-19.05.32:717][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2018.02.05-19.05.32:717][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 with Max-Q Design' (P:0 D:0)
+[2018.02.05-19.05.32:717][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.05-19.05.32:717][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 with Max-Q Design
+[2018.02.05-19.05.32:717][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.05-19.05.32:717][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.05-19.05.32:717][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.05-19.05.32:739][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.05-19.05.32:751][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.05-19.05.32:797][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Intermediate/Shaders/WorkingDirectory/17760/).
+[2018.02.05-19.05.32:797][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Treym/AppData/Local/Temp/UnrealShaderWorkingDir/6269C5C94DC851F390A07E99F6A1FA7D/'.
+[2018.02.05-19.05.32:797][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.05-19.05.33:874][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.05-19.05.33:926][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.05-19.05.33:979][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.05-19.05.34:030][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.05-19.05.34:084][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.05-19.05.34:136][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.05-19.05.34:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.05-19.05.34:241][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.05-19.05.34:286][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.05-19.05.34:341][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.05-19.05.34:393][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.05-19.05.34:446][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.05-19.05.34:504][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.05-19.05.34:563][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.05-19.05.34:616][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.05-19.05.34:718][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.05-19.05.34:718][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.05-19.05.34:754][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.05-19.05.34:847][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.05-19.05.34:883][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.05-19.05.34:934][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.05-19.05.34:985][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.05-19.05.35:036][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.05-19.05.35:087][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.05-19.05.35:087][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.05-19.05.35:509][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache: Loaded boot cache 0.05s 64MB C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.05-19.05.35:563][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.05-19.05.35:579][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.05-19.05.35:591][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Treym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.05-19.05.35:599][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.05-19.05.35:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.05-19.05.35:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.05-19.05.35:891][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.05-19.05.35:894][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.05-19.05.36:098][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.05-19.05.36:139][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.05-19.05.36:185][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.05-19.05.36:185][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.05-19.05.36:185][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.05-19.05.36:674][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: colorepo, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3283589291
+[2018.02.05-19.05.36:719][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2018.02.05-19.05.36:775][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.036495 seconds
+[2018.02.05-19.05.36:782][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.02.05-19.05.36:782][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.02.05-19.05.36:782][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.05-19.05.36:844][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.05-19.05.38:428][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.02.05-19.05.38:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.05-19.05.38:500][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.05-19.05.39:208][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.05-19.05.39:589][  0]SourceControl: Info Source control is disabled
+[2018.02.05-19.05.39:687][  0]SourceControl: Info Source control is disabled
+[2018.02.05-19.05.39:732][  0]SourceControl: Info Source control is disabled
+[2018.02.05-19.05.39:778][  0]SourceControl: Info Source control is disabled
+[2018.02.05-19.05.41:066][  0]LogEngine: Initializing Engine...
+[2018.02.05-19.05.41:066][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.05-19.05.41:165][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.05-19.05.41:165][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.05-19.05.41:279][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.05-19.05.41:292][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2018.02.05-19.05.41:538][  0]LogInit: FAudioDevice initialized.
+[2018.02.05-19.05.41:568][  0]LogDerivedDataCache: Saved boot cache 0.03s 64MB C:/Users/Treym/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.02.05-19.05.41:575][  0]LogInit: Texture streaming: Enabled
+[2018.02.05-19.05.41:663][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.05-19.05.41:663][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={8833ADB5-4B90-3448-BC51-9B9CEF4D95A8}
+[2018.02.05-19.05.41:748][  0]LogInit: Transaction tracking system initialized
+[2018.02.05-19.05.42:090][  0]BlueprintLog: New page: Editor Load
+[2018.02.05-19.05.42:966][  0]LocalizationService: Info Localization service is disabled
+[2018.02.05-19.05.43:621][  0]LogConsoleResponse:Display: 
+[2018.02.05-19.05.43:740][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.05-19.05.43:740][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.05-19.05.44:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/' took 0.01s
+[2018.02.05-19.05.44:757][  0]SourceControl: Info Source control is disabled
+[2018.02.05-19.05.44:757][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.05-19.05.44:757][  0]LightingResults: New page: Lighting Build
+[2018.02.05-19.05.44:794][  0]MapCheck: New page: Map Check
+[2018.02.05-19.05.44:794][  0]LightingResults: New page: Lighting Build
+[2018.02.05-19.05.44:938][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2018.02.05-19.05.44:956][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.05-19.05.44:956][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.05-19.05.44:998][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.468ms to complete.
+[2018.02.05-19.05.44:998][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.241
+[2018.02.05-19.05.45:190][  0]LogCollectionManager: Loaded 0 collections in 0.001335 seconds
+[2018.02.05-19.05.45:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Collections/' took 0.01s
+[2018.02.05-19.05.45:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Developers/Treym/Collections/' took 0.01s
+[2018.02.05-19.05.45:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Collections/' took 0.01s
+[2018.02.05-19.05.45:267][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.05-19.05.45:277][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2264 classes and 461 folders.
+[2018.02.05-19.05.45:342][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.02.05-19.05.45:375][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.02.05-19.05.45:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.02.05-19.05.45:464][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.05-19.05.45:559][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.02.05-19.05.45:560][  0]LogLoad: (Engine Initialization) Total time: 16.58 seconds
+[2018.02.05-19.05.45:560][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2018.02.05-19.05.45:560][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.05-19.05.45:560][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.05-19.05.45:569][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.05-19.05.45:570][  0]LogOcInput: OculusInput pre-init called
+[2018.02.05-19.05.45:588][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.05-19.05.45:589][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.05-19.05.45:591][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.05-19.05.45:597][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.05-19.05.45:722][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2018.02.05-19.05.45:752][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.05-19.05.45:803][  1]LogAssetRegistry: Asset discovery search completed in 9.1059 seconds
+[2018.02.05-19.05.45:803][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2018.02.05-19.05.45:803][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.02.05-19.05.46:604][ 85]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.05-19.06.00:141][241]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.05-19.06.00:778][241]LogAIModule: Creating AISystem for world MainScene
+[2018.02.05-19.06.00:827][241]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.05-19.06.00:827][241]LightingResults: New page: Lighting Build
+[2018.02.05-19.06.00:828][241]LoadErrors: New page: Loading map: MainScene.umap
+[2018.02.05-19.06.00:828][241]MapCheck: New page: Map Check
+[2018.02.05-19.06.00:828][241]LightingResults: New page: Lighting Build
+[2018.02.05-19.06.00:857][241]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.05-19.06.00:908][241]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.05-19.06.00:968][241]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.338ms to complete.
+[2018.02.05-19.06.00:968][241]LogFileHelpers: Loading map 'MainScene' took 0.142
+[2018.02.05-19.06.12:910][528]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2018.02.05-19.06.13:555][528]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.05-19.06.14:427][529]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.05-19.08.16:313][817]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.08.19:616][982]LogSavePackage: Save=496.30ms
+[2018.02.05-19.08.19:616][982]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainSceneDFA0F41740677B557BDFA89AA68BAD47.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap'
+[2018.02.05-19.08.19:620][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap
+[2018.02.05-19.08.19:671][982]LogFileHelpers: Saving map 'MainScene' took 0.638
+[2018.02.05-19.20.57:805][397]LogSavePackage: Save=555.62ms
+[2018.02.05-19.20.57:805][397]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainScene_Auto13AF8240443F71C513C17C8933EA35A29.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/ColorepoLevel/MainScene_Auto1.umap'
+[2018.02.05-19.20.57:808][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/ColorepoLevel/MainScene_Auto1.umap
+[2018.02.05-19.20.57:811][397]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/ColorepoLevel/MainScene' took 0.616
+[2018.02.05-19.20.57:811][397]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.616
+[2018.02.05-19.28.47:528][165]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.29.41:222][585]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.31.14:802][150]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.31.41:736][938]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.31.46:745][249]LogSavePackage: Save=509.50ms
+[2018.02.05-19.31.46:745][249]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainScene799DF77047AA428A9BAF9CA41669B132.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap'
+[2018.02.05-19.31.46:750][249]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap
+[2018.02.05-19.48.31:522][970]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.05-19.52.16:404][552]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.52.33:729][598]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.52.59:221][333]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.53.00:224][372]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.05-19.53.00:251][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.53.00:251][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.05-19.53.00:251][372]PIE: New page: PIE session: MainScene (Feb 5, 2018, 3:53:00 AM)
+[2018.02.05-19.53.00:252][372]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene
+[2018.02.05-19.53.00:274][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021241s)
+[2018.02.05-19.53.00:274][372]LogAIModule: Creating AISystem for world MainScene
+[2018.02.05-19.53.00:275][372]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2018.02.05-19.53.00:275][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene to /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.023096s)
+[2018.02.05-19.53.00:307][372]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2018.02.05-19.53.00:361][372]LogInit: FAudioDevice initialized.
+[2018.02.05-19.53.00:431][372]LogLoad: Game class is 'colorepoGameMode'
+[2018.02.05-19.53.00:437][372]LogWorld: Bringing World /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 0) at 2018.02.05-11.53.00
+[2018.02.05-19.53.00:439][372]LogWorld: Bringing up level for play took: 0.005741
+[2018.02.05-19.53.00:489][372]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2018.02.05-19.53.00:490][372]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.02.05-19.53.00:512][372]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene -0.01
+[2018.02.05-19.53.00:512][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.53.00:560][372]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:59).
+[2018.02.05-19.53.43:392][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.53.43:514][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.54.31:228][592]BlueprintLog: New page: Compile MainScene
+[2018.02.05-19.54.41:213][100]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.05-19.54.41:240][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.54.41:240][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.05-19.54.41:240][100]PIE: New page: PIE session: MainScene (Feb 5, 2018, 3:54:41 AM)
+[2018.02.05-19.54.41:241][100]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene
+[2018.02.05-19.54.41:255][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014376s)
+[2018.02.05-19.54.41:256][100]LogAIModule: Creating AISystem for world MainScene
+[2018.02.05-19.54.41:256][100]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2018.02.05-19.54.41:256][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene to /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene.MainScene (0.015403s)
+[2018.02.05-19.54.41:289][100]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2018.02.05-19.54.41:344][100]LogInit: FAudioDevice initialized.
+[2018.02.05-19.54.41:393][100]LogLoad: Game class is 'colorepoGameMode'
+[2018.02.05-19.54.41:397][100]LogWorld: Bringing World /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene.MainScene up for play (max tick rate 60) at 2018.02.05-11.54.41
+[2018.02.05-19.54.41:397][100]LogWorld: Bringing up level for play took: 0.003094
+[2018.02.05-19.54.41:398][100]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.02.05-19.54.41:409][100]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/ColorepoLevel/UEDPIE_0_MainScene 0.887
+[2018.02.05-19.54.41:409][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.55.23:929][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.55.24:034][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene' with GeneratedClass '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/ColorepoLevel/MainScene.MainScene:PersistentLevel.MainScene'
+[2018.02.05-19.56.00:593][527]LogSavePackage: Save=424.07ms
+[2018.02.05-19.56.00:593][527]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainScene_Auto2506BA7E84F4C2F87F52F55B44081F1CA.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/ColorepoLevel/MainScene_Auto2.umap'
+[2018.02.05-19.56.00:595][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Autosaves/Game/ThirdPersonCPP/ColorepoLevel/MainScene_Auto2.umap
+[2018.02.05-19.56.00:598][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/ColorepoLevel/MainScene' took 0.470
+[2018.02.05-19.56.00:598][527]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.470
+[2018.02.05-19.56.11:583][650]LogSavePackage: Save=399.26ms
+[2018.02.05-19.56.11:583][650]LogSavePackage: Moving '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/MainScene139CC59648C8BE4AD0FD75B826FB2146.tmp' to '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap'
+[2018.02.05-19.56.11:597][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap
+[2018.02.05-19.56.11:661][650]LogFileHelpers: Saving map 'MainScene' took 0.557
+[2018.02.05-19.56.12:425][693]Cmd: MAP LOAD FILE="../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/ThirdPersonCPP/ColorepoLevel/MainScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.05-19.56.12:425][693]LightingResults: New page: Lighting Build
+[2018.02.05-19.56.12:426][693]LoadErrors: New page: Loading map: MainScene.umap
+[2018.02.05-19.56.12:428][693]MapCheck: New page: Map Check
+[2018.02.05-19.56.12:428][693]LightingResults: New page: Lighting Build
+[2018.02.05-19.56.12:658][693]LogAIModule: Creating AISystem for world MainScene
+[2018.02.05-19.56.12:679][693]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.05-19.56.12:733][693]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.05-19.56.12:785][693]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.287ms to complete.
+[2018.02.05-19.56.12:786][693]LogFileHelpers: Loading map 'MainScene' took 0.362
+[2018.02.05-19.56.34:112][483]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.05-19.56.34:307][484]Cmd: QUIT_EDITOR
+[2018.02.05-19.56.34:900][484]LogExit: Preparing to exit.
+[2018.02.05-19.56.35:676][484]LogDirectoryWatcher: A directory notification for 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/' was aborted.
+[2018.02.05-19.56.35:712][484]LogExit: Editor shut down
+[2018.02.05-19.56.35:713][484]LogExit: Transaction tracking system shut down
+[2018.02.05-19.56.35:804][484]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.05-19.56.35:804][484]LogExit: Object subsystem successfully closed.
+[2018.02.05-19.56.35:814][484]LogD3D11RHI: Shutdown
+[2018.02.05-19.56.35:814][484]LogD3D11RHI: CleanupD3DDevice
+[2018.02.05-19.56.35:890][484]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.05-19.56.35:914][484]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (510)
+[2018.02.05-19.56.35:914][484]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2018.02.05-19.56.35:914][484]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2018.02.05-19.56.35:915][484]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2018.02.05-19.56.35:915][484]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2018.02.05-19.56.35:915][484]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2018.02.05-19.56.35:915][484]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2018.02.05-19.56.35:915][484]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2018.02.05-19.56.35:916][484]LogDirectoryWatcher: A directory notification for 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Collections/' was aborted.
+[2018.02.05-19.56.35:916][484]LogDirectoryWatcher: A directory notification for 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/Developers/Treym/Collections/' was aborted.
+[2018.02.05-19.56.35:916][484]LogDirectoryWatcher: A directory notification for 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Saved/Collections/' was aborted.
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module BspMode (476)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2018.02.05-19.56.35:916][484]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module Media (449)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2018.02.05-19.56.35:917][484]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2018.02.05-19.56.35:918][484]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2018.02.05-19.56.36:442][484]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2018.02.05-19.56.36:442][484]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2018.02.05-19.56.36:442][484]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2018.02.05-19.56.36:442][484]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2018.02.05-19.56.36:444][484]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2018.02.05-19.56.36:444][484]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2018.02.05-19.56.36:444][484]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2018.02.05-19.56.36:444][484]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2018.02.05-19.56.36:444][484]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2018.02.05-19.56.36:445][484]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2018.02.05-19.56.36:446][484]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2018.02.05-19.56.36:446][484]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2018.02.05-19.56.36:446][484]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2018.02.05-19.56.36:446][484]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2018.02.05-19.56.36:446][484]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2018.02.05-19.56.36:447][484]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2018.02.05-19.56.36:447][484]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2018.02.05-19.56.36:491][484]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2018.02.05-19.56.36:491][484]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2018.02.05-19.56.36:491][484]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2018.02.05-19.56.36:492][484]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2018.02.05-19.56.36:492][484]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2018.02.05-19.56.36:492][484]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2018.02.05-19.56.36:492][484]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2018.02.05-19.56.36:493][484]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2018.02.05-19.56.36:493][484]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2018.02.05-19.56.36:499][484]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2018.02.05-19.56.36:499][484]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2018.02.05-19.56.36:500][484]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2018.02.05-19.56.36:500][484]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2018.02.05-19.56.36:501][484]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2018.02.05-19.56.36:504][484]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2018.02.05-19.56.36:511][484]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module SubstanceEditor (308)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module SteamVRController (306)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module SteamVR (304)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (302)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (300)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module OculusLibrary (298)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module OculusInput (296)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
+[2018.02.05-19.56.36:513][484]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2018.02.05-19.56.36:514][484]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2018.02.05-19.56.36:515][484]LogDirectoryWatcher: A directory notification for 'C:/Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Binaries/Win64' was aborted.
+[2018.02.05-19.56.36:515][484]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2018.02.05-19.56.36:516][484]LogModuleManager: Shutting down and abandoning module colorepo (226)
+[2018.02.05-19.56.36:516][484]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2018.02.05-19.56.36:516][484]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2018.02.05-19.56.36:516][484]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2018.02.05-19.56.36:516][484]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2018.02.05-19.56.36:618][484]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2018.02.05-19.56.36:718][484]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2018.02.05-19.56.36:720][484]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.02.05-19.56.36:720][484]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.02.05-19.56.36:720][484]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.02.05-19.56.36:720][484]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.02.05-19.56.36:720][484]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.02.05-19.56.36:721][484]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.02.05-19.56.36:721][484]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.02.05-19.56.36:723][484]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.02.05-19.56.36:724][484]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.02.05-19.56.36:724][484]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.02.05-19.56.36:724][484]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.02.05-19.56.36:724][484]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.02.05-19.56.36:724][484]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.02.05-19.56.36:725][484]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.02.05-19.56.36:726][484]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.02.05-19.56.36:726][484]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.02.05-19.56.36:726][484]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.02.05-19.56.36:726][484]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.02.05-19.56.36:726][484]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.02.05-19.56.36:728][484]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.02.05-19.56.36:823][484]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.05-19.56.36:823][484]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Treym/Desktop/Colorepo/RepoMan/colorepo/Content/' was aborted.
+[2018.02.05-19.56.36:823][484]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.05-19.56.36:823][484]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.02.05-19.56.36:824][484]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.02.05-19.56.36:840][484]LogDerivedDataCache: Shutdown
+[2018.02.05-19.56.36:840][484]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.02.05-19.56.36:840][484]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.02.05-19.56.36:840][484]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.02.05-19.56.36:840][484]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.02.05-19.56.36:840][484]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.02.05-19.56.36:841][484]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.02.05-19.56.36:841][484]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.02.05-19.56.36:841][484]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.02.05-19.56.36:841][484]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.02.05-19.56.36:842][484]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.05-19.56.36:842][484]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.02.05-19.56.36:843][484]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.02.05-19.56.36:843][484]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.05-19.56.36:843][484]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBAB1D3C5-4C40-3C8C-6734-70A4A55ABD7F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=bd3320cb45b57486d7a0d2a02f576e0d%7C08ec85b453944d8e86d6651d1fcb8040%7C5b7f909b-f924-4439-b929-2ff472a0c63b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.05-19.56.36:846][484]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.02.05-19.56.36:847][484]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.05-19.56.36:847][484]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.05-19.56.36:847][484]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.05-19.56.36:847][484]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.05-19.56.36:847][484]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.05-19.56.36:849][484]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.05-19.56.36:850][484]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.05-19.56.36:852][484]LogExit: Exiting.
+[2018.02.05-19.56.36:853][484]Log file closed, 02/05/18 11:56:36
