@@ -3,6 +3,6 @@ Global game jam game
 
 
 TODO:
-Add number of AI menu option, 
+Port crystal respawning functionality from multiplayer map to singleplayer map
 UI overhaul
 Implement color specific mechanics
