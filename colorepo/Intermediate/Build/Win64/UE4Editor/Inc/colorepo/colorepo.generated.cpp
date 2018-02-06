@@ -33,6 +33,10 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	{
 	}
 	IMPLEMENT_CLASS(AcolorepoGameMode, 353730239);
+	void UColorepoInstance::StaticRegisterNativesUColorepoInstance()
+	{
+	}
+	IMPLEMENT_CLASS(UColorepoInstance, 556053418);
 	void ACrystal::BeingDestroyed(int32 color)
 	{
 		Crystal_eventBeingDestroyed_Parms Parms;
@@ -58,6 +62,7 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UClass* Z_Construct_UClass_UGameInstance();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -81,6 +86,8 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	COLOREPO_API class UClass* Z_Construct_UClass_AColorepoCharacterController();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoGameMode();
+	COLOREPO_API class UClass* Z_Construct_UClass_UColorepoInstance_NoRegister();
+	COLOREPO_API class UClass* Z_Construct_UClass_UColorepoInstance();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_ACrystal_BeingDestroyed();
 	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_ACrystal();
@@ -483,6 +490,45 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AcolorepoGameMode(Z_Construct_UClass_AcolorepoGameMode, &AcolorepoGameMode::StaticClass, TEXT("AcolorepoGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AcolorepoGameMode);
+	UClass* Z_Construct_UClass_UColorepoInstance_NoRegister()
+	{
+		return UColorepoInstance::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UColorepoInstance()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UGameInstance();
+			Z_Construct_UPackage__Script_colorepo();
+			OuterClass = UColorepoInstance::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100088;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_NumberOfEnemies = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("NumberOfEnemies"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(NumberOfEnemies, UColorepoInstance), 0x0010000000000005);
+				UProperty* NewProp_CurrentLevel = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentLevel"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(CurrentLevel, UColorepoInstance), 0x0010000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ColorepoInstance.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ColorepoInstance.h"));
+				MetaData->SetValue(NewProp_NumberOfEnemies, TEXT("Category"), TEXT("ColorepoInstance"));
+				MetaData->SetValue(NewProp_NumberOfEnemies, TEXT("ModuleRelativePath"), TEXT("ColorepoInstance.h"));
+				MetaData->SetValue(NewProp_CurrentLevel, TEXT("Category"), TEXT("ColorepoInstance"));
+				MetaData->SetValue(NewProp_CurrentLevel, TEXT("ModuleRelativePath"), TEXT("ColorepoInstance.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UColorepoInstance(Z_Construct_UClass_UColorepoInstance, &UColorepoInstance::StaticClass, TEXT("UColorepoInstance"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UColorepoInstance);
 	UFunction* Z_Construct_UFunction_ACrystal_BeingDestroyed()
 	{
 		UObject* Outer=Z_Construct_UClass_ACrystal();
@@ -635,8 +681,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x2960D149;
-			Guid.B = 0x2814E2C7;
+			Guid.A = 0x4C54D8F8;
+			Guid.B = 0x40C73C37;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

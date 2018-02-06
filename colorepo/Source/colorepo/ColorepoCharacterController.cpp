@@ -2,6 +2,7 @@
 
 #include "colorepo.h"
 #include "Engine.h"
+#include "ColorepoInstance.h"
 #include "colorepoGameMode.h"
 #include "ColorepoCharacterController.h"
 #include "colorepoCharacter.h"
@@ -30,17 +31,23 @@ void AColorepoCharacterController::PlayerTick(float DeltaTime) {
 
 void AColorepoCharacterController::SetupInputComponent( ) {
 	Super::SetupInputComponent();
-	InputComponent->BindAxis(MoveForwardBinding);
-	InputComponent->BindAxis(MoveRightBinding);
-	InputComponent->BindAxis(FireForwardBinding);
-	InputComponent->BindAxis(FireRightBinding);
-	
-	//PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
-	InputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AColorepoCharacterController::FireLightBurstDown);
-	InputComponent->BindAction("FireLightBurst", IE_Released, this, &AColorepoCharacterController::FireLightBurstUp);
-	InputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AColorepoCharacterController::xPressed);
-	InputComponent->BindAction("RemoveCrystal", IE_Released, this, &AColorepoCharacterController::xReleased);
-	InputComponent->BindAction("FireCircle", IE_Pressed, this, &AColorepoCharacterController::FireCircle);
+
+	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
+	FString Levelname = ginstance->CurrentLevel;
+
+	if (Levelname != FString("Main")) {
+		InputComponent->BindAxis(MoveForwardBinding);
+		InputComponent->BindAxis(MoveRightBinding);
+		InputComponent->BindAxis(FireForwardBinding);
+		InputComponent->BindAxis(FireRightBinding);
+
+		//PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
+		InputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AColorepoCharacterController::FireLightBurstDown);
+		InputComponent->BindAction("FireLightBurst", IE_Released, this, &AColorepoCharacterController::FireLightBurstUp);
+		InputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AColorepoCharacterController::xPressed);
+		InputComponent->BindAction("RemoveCrystal", IE_Released, this, &AColorepoCharacterController::xReleased);
+		InputComponent->BindAction("FireCircle", IE_Pressed, this, &AColorepoCharacterController::FireCircle);
+	}
 }
 
 FVector AColorepoCharacterController::GetMoveDirection(float DeltaSeconds) {
