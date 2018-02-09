@@ -5,6 +5,7 @@
 #include "GameFramework/PlayerController.h"
 #include "ColorepoCharacterController.generated.h"
 
+
 /**
  * 
  */
@@ -18,6 +19,8 @@ public:
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
+	UPROPERTY(BlueprintReadWrite)
+		FString Levelname;
 
 protected:
 	virtual void PlayerTick(float DeltaTime) override;

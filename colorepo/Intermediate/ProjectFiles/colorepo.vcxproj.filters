@@ -1,85 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\colorepo.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{C3547879-3739-4274-8629-0B4AF2222423}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\colorepo.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\colorepoEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{85932CF8-D1B2-4B91-8D69-A8ACE890D204}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\colorepo">
-      <UniqueIdentifier>{4C3A0296-BDD6-4BC4-8A48-AF026DB65C37}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\colorepo\colorepo.Build.cs">
-      <Filter>Source\colorepo</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\colorepo\colorepo.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\colorepo.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\colorepo\colorepoCharacter.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\colorepoCharacter.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\colorepo\ColorepoCharacterController.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\ColorepoCharacterController.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\colorepo\colorepoGameMode.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\colorepoGameMode.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\colorepo\Crystal.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\Crystal.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\colorepo\LightWave.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\colorepo\LightWave.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\colorepo\ColorepoInstance.h">
-      <Filter>Source\colorepo</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\colorepo\ColorepoInstance.cpp">
-      <Filter>Source\colorepo</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\colorepo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DF423EA8-E80E-40F3-A937-8CB68B6E3E8F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\colorepo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\colorepoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F48D0C16-61B3-4AC6-8C56-C12082311E82}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\colorepo">
+			<UniqueIdentifier>{C3F2DA4C-DFB0-41A2-826C-66298C04A655}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\colorepo\colorepo.Build.cs">
+			<Filter>Source\colorepo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\colorepo\colorepo.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\colorepo.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\colorepoCharacter.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\colorepoCharacter.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\ColorepoCharacterController.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\ColorepoCharacterController.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\colorepoGameMode.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\colorepoGameMode.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\ColorepoInstance.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\ColorepoInstance.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\Crystal.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\Crystal.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\colorepo\LightWave.cpp">
+			<Filter>Source\colorepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\colorepo\LightWave.h">
+			<Filter>Source\colorepo</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
