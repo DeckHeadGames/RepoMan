@@ -21,7 +21,7 @@ void AColorepoCharacterController::PlayerTick(float DeltaTime) {
 	Super::PlayerTick(DeltaTime);
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		const FVector Movement = GetMoveDirection(DeltaTime);
 		const FVector FireDirection = GetFireDirection();
@@ -87,7 +87,7 @@ void AColorepoCharacterController::MoveColorepoCharacter(FVector Movement, FVect
 void AColorepoCharacterController::FireLightBurstDown() {
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->FireLightBurstDown();
 	}
@@ -97,7 +97,7 @@ void AColorepoCharacterController::FireLightBurstDown() {
 void AColorepoCharacterController::FireLightBurstUp() {
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->FireLightBurstUp();
 	}
@@ -106,7 +106,7 @@ void AColorepoCharacterController::FireLightBurstUp() {
 void AColorepoCharacterController::xPressed() {
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->xPressed();
 	}
@@ -116,7 +116,7 @@ void AColorepoCharacterController::xPressed() {
 void AColorepoCharacterController::xReleased() {
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->xReleased();
 	}
@@ -126,7 +126,7 @@ void AColorepoCharacterController::xReleased() {
 void AColorepoCharacterController::FireCircle() {
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	Levelname = ginstance->CurrentLevel;
-	if (Levelname != FString("Main")) {
+	if (Levelname != FString("Main") && Levelname != FString("End")) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->FireCircle();
 	}
