@@ -28,7 +28,7 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "GetMoveDirection",(Native)&AColorepoCharacterController::execGetMoveDirection);
 		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "MoveColorepoCharacter",(Native)&AColorepoCharacterController::execMoveColorepoCharacter);
 	}
-	IMPLEMENT_CLASS(AColorepoCharacterController, 2363540530);
+	IMPLEMENT_CLASS(AColorepoCharacterController, 4052847579);
 	void AcolorepoGameMode::StaticRegisterNativesAcolorepoGameMode()
 	{
 	}
@@ -429,7 +429,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_FireVector = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireVector"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(FireVector, AColorepoCharacterController), 0x0010000000000004, Z_Construct_UScriptStruct_FVector());
-				UProperty* NewProp_Levelname = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Levelname"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(Levelname, AColorepoCharacterController), 0x0010000000000004);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection(), "GetFireDirection"); // 405105757
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AColorepoCharacterController_GetMoveDirection(), "GetMoveDirection"); // 2113284902
@@ -443,8 +442,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
 				MetaData->SetValue(NewProp_FireVector, TEXT("Category"), TEXT("ColorepoCharacterController"));
 				MetaData->SetValue(NewProp_FireVector, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
-				MetaData->SetValue(NewProp_Levelname, TEXT("Category"), TEXT("ColorepoCharacterController"));
-				MetaData->SetValue(NewProp_Levelname, TEXT("ModuleRelativePath"), TEXT("ColorepoCharacterController.h"));
 #endif
 			}
 		}
@@ -693,7 +690,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x8D7CCDF5;
+			Guid.A = 0x204F0EA9;
 			Guid.B = 0x40C73C37;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

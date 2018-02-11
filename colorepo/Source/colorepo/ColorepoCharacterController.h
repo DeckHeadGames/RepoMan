@@ -20,8 +20,6 @@ public:
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
 	UPROPERTY(BlueprintReadWrite)
-		FString Levelname;
-	UPROPERTY(BlueprintReadWrite)
 		FVector FireVector;
 
 protected:
@@ -36,6 +34,7 @@ protected:
 		void MoveColorepoCharacter(FVector Movement, FVector FireDirection, float DeltaTime);
 	void FireLightBurstDown();
 	void FireLightBurstUp();
+	bool CanPlay();
 	void xPressed();
 	void xReleased();
 	void FireCircle();
