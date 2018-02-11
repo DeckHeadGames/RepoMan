@@ -17,6 +17,8 @@ public:
 		FString CurrentLevel = FString("Main");
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int NumberOfEnemies;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool KeyboardMouse = true;
 	
 	
 	

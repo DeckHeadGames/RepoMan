@@ -15,6 +15,7 @@ const FName AColorepoCharacterController::FireRightBinding("Turn");
 AColorepoCharacterController::AColorepoCharacterController() {
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	FireVector = FVector(0.0f, 0.0f, 0.0f);
 }
 
 void AColorepoCharacterController::PlayerTick(float DeltaTime) {
@@ -59,21 +60,23 @@ FVector AColorepoCharacterController::GetMoveDirection(float DeltaSeconds) {
 FVector AColorepoCharacterController::GetFireDirection() {
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
-	FVector FireDirection = FVector(0.0f, 0.0f, 0.0f);
-	if (FireForwardValue != 0.0f && FireRightValue != 0.0f) {
-		FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
-	}
-	else {
+	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
+	if (ginstance->KeyboardMouse) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		FHitResult Hit;
 		GetHitResultUnderCursor(ECC_Visibility, false, Hit);
 		if (Hit.bBlockingHit)
 		{
-			FireDirection = Hit.ImpactPoint - MyColorepoCharacter->GetActorLocation();
-			FireDirection.Z = 0.0f;
+			FireVector = Hit.ImpactPoint - MyColorepoCharacter->GetActorLocation();
+			FireVector.Z = 0.0f;
 		}
 	}
-	return FireDirection;
+	else {
+		if (FireForwardValue != 0.0f && FireRightValue != 0.0f) {
+			FireVector = FVector(FireForwardValue, FireRightValue, 0.f);
+		}
+	}
+	return FireVector;
 }
 
 void AColorepoCharacterController::MoveColorepoCharacter(FVector Movement, FVector FireDirection, float DeltaTime) {

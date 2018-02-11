@@ -21,6 +21,8 @@ public:
 	static const FName FireRightBinding;
 	UPROPERTY(BlueprintReadWrite)
 		FString Levelname;
+	UPROPERTY(BlueprintReadWrite)
+		FVector FireVector;
 
 protected:
 	virtual void PlayerTick(float DeltaTime) override;

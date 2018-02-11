@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\colorepo.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{DF423EA8-E80E-40F3-A937-8CB68B6E3E8F}</UniqueIdentifier>
+			<UniqueIdentifier>{15555B90-14B8-47A3-8654-2109C0F048D5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\colorepo.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{F48D0C16-61B3-4AC6-8C56-C12082311E82}</UniqueIdentifier>
+			<UniqueIdentifier>{7F3C598A-3906-48C9-9157-DFE07B6ECECD}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\colorepo">
-			<UniqueIdentifier>{C3F2DA4C-DFB0-41A2-826C-66298C04A655}</UniqueIdentifier>
+			<UniqueIdentifier>{C15E276E-0C74-489A-B4EC-6137976C0A4F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\colorepo\colorepo.Build.cs">
 			<Filter>Source\colorepo</Filter>
