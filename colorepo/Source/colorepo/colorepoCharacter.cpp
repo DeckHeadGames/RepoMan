@@ -55,60 +55,117 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	check(PlayerInputComponent);
 }
 
-void AcolorepoCharacter::FireCircle() {
-	// try and fire a projectile
-	TSubclassOf<ALightWave> ProjectileClass;
-	switch (ColorOnDeck) {
+void AcolorepoCharacter::SecondaryFireManager() {
+	switch (CurrentColor) {
 	case 1:
-		ProjectileClass = RedProjectile;
+		RedSecondary();
 		break;
 	case 2:
-		ProjectileClass = OrangeProjectile;
+		OrangeSecondary();
 		break;
 	case 3:
-		ProjectileClass = YellowProjectile;
+		YellowSecondary();
 		break;
 	case 4:
-		ProjectileClass = GreenProjectile;
+		GreenSecondary();
 		break;
 	case 5:
-		ProjectileClass = BlueProjectile;
+		BlueSecondary();
 		break;
 	case 6:
-		ProjectileClass = IndigoProjectile;
+		IndigoSecondary();
 		break;
 	case 7:
-		ProjectileClass = VioletProjectile;
+		VioletSecondary();
 		break;
 	default:
 		break;
 	}
-	if (ProjectileClass != NULL)
-	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
-		{
-			//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
-			FVector CurrentLocation = this->GetActorLocation();
-			FVector OurForwards = this->GetActorForwardVector();
-			FVector OurUp = this->GetActorUpVector();
-			OurUp.Normalize();
-			OurForwards.Normalize();
-			FVector DeltaForwards = OurForwards*150.0f;
-			FVector DeltaUp = OurUp*20.0f;
-			ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
-			float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
-			float magnitude = sqrt(magnitudeSquared);
-			ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
-			ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-			ShotWave->SetColor(ColorOnDeck);
-			ShotWave->SetSecondary(true);
-			UAudioComponent* temp = PlaySound(BurstSound);
-
-		}
-	}
-
 }
+
+void AcolorepoCharacter::RedSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = RedProjectile;
+}
+void AcolorepoCharacter::OrangeSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = OrangeProjectile;
+}
+void AcolorepoCharacter::YellowSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = YellowProjectile;
+}
+void AcolorepoCharacter::GreenSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = GreenProjectile;
+}
+void AcolorepoCharacter::BlueSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = BlueProjectile;
+}
+void AcolorepoCharacter::IndigoSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = IndigoProjectile;
+}
+void AcolorepoCharacter::VioletSecondary() {
+	TSubclassOf<ALightWave> ProjectileClass;
+	ProjectileClass = VioletProjectile;
+}
+
+//void AcolorepoCharacter::FireCircle() {
+//	// try and fire a projectile
+//	TSubclassOf<ALightWave> ProjectileClass;
+//	switch (ColorOnDeck) {
+//	case 1:
+//		ProjectileClass = RedProjectile;
+//		break;
+//	case 2:
+//		ProjectileClass = OrangeProjectile;
+//		break;
+//	case 3:
+//		ProjectileClass = YellowProjectile;
+//		break;
+//	case 4:
+//		ProjectileClass = GreenProjectile;
+//		break;
+//	case 5:
+//		ProjectileClass = BlueProjectile;
+//		break;
+//	case 6:
+//		ProjectileClass = IndigoProjectile;
+//		break;
+//	case 7:
+//		ProjectileClass = VioletProjectile;
+//		break;
+//	default:
+//		break;
+//	}
+//	if (ProjectileClass != NULL)
+//	{
+//		UWorld* const World = GetWorld();
+//		if (World != NULL)
+//		{
+//			//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
+//			FVector CurrentLocation = this->GetActorLocation();
+//			FVector OurForwards = this->GetActorForwardVector();
+//			FVector OurUp = this->GetActorUpVector();
+//			OurUp.Normalize();
+//			OurForwards.Normalize();
+//			FVector DeltaForwards = OurForwards*150.0f;
+//			FVector DeltaUp = OurUp*20.0f;
+//			ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
+//			float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
+//			float magnitude = sqrt(magnitudeSquared);
+//			ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
+//			ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
+//			ShotWave->SetColor(ColorOnDeck);
+//			ShotWave->SetSecondary(true);
+//			UAudioComponent* temp = PlaySound(BurstSound);
+//
+//		}
+//	}
+//
+//}
 
 void AcolorepoCharacter::OnResetVR()
 {
@@ -360,13 +417,4 @@ void AcolorepoCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 }
 
-void AcolorepoCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
-{
-		Jump();
-}
-
-void AcolorepoCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
-{
-		StopJumping();
-}
 

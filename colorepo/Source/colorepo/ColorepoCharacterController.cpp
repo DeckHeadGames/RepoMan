@@ -116,10 +116,13 @@ void AColorepoCharacterController::xReleased() {
 
 }
 
+
+
+
 void AColorepoCharacterController::FireCircle() {
 	if (CanPlay()) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
-		MyColorepoCharacter->FireCircle();
+		MyColorepoCharacter->SecondaryFireManager();
 	}
 
 }

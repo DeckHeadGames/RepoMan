@@ -48,14 +48,37 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		int ColorOnDeck;
 
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		bool DoDestroy;
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void SecondaryFireManager();
 
 	UFUNCTION(BlueprintCallable, Category = "Laser")
 		void FireLightWave();
 
 	UFUNCTION(BlueprintCallable, Category = "Laser")
-		void FireCircle();
+		void RedSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void OrangeSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void YellowSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void GreenSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void BlueSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void IndigoSecondary();
+
+	UFUNCTION(BlueprintCallable, Category = "Laser")
+		void VioletSecondary();
+
 
 	UFUNCTION(BlueprintCallable, Category = "Movement")
 		FVector GetMoveDirection(float DeltaSeconds);

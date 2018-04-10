@@ -14,14 +14,21 @@ void EmptyLinkFunctionForGeneratedCode1colorepo() {}
 FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	void AcolorepoCharacter::StaticRegisterNativesAcolorepoCharacter()
 	{
-		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "FireCircle",(Native)&AcolorepoCharacter::execFireCircle);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "BlueSecondary",(Native)&AcolorepoCharacter::execBlueSecondary);
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "FireLightWave",(Native)&AcolorepoCharacter::execFireLightWave);
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "GetFireDirection",(Native)&AcolorepoCharacter::execGetFireDirection);
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "GetMoveDirection",(Native)&AcolorepoCharacter::execGetMoveDirection);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "GreenSecondary",(Native)&AcolorepoCharacter::execGreenSecondary);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "IndigoSecondary",(Native)&AcolorepoCharacter::execIndigoSecondary);
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "MoveColorepoCharacter",(Native)&AcolorepoCharacter::execMoveColorepoCharacter);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "OrangeSecondary",(Native)&AcolorepoCharacter::execOrangeSecondary);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "RedSecondary",(Native)&AcolorepoCharacter::execRedSecondary);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "SecondaryFireManager",(Native)&AcolorepoCharacter::execSecondaryFireManager);
 		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "UpdateFireDirection",(Native)&AcolorepoCharacter::execUpdateFireDirection);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "VioletSecondary",(Native)&AcolorepoCharacter::execVioletSecondary);
+		FNativeFunctionRegistrar::RegisterFunction(AcolorepoCharacter::StaticClass(), "YellowSecondary",(Native)&AcolorepoCharacter::execYellowSecondary);
 	}
-	IMPLEMENT_CLASS(AcolorepoCharacter, 861753750);
+	IMPLEMENT_CLASS(AcolorepoCharacter, 133900653);
 	void AColorepoCharacterController::StaticRegisterNativesAColorepoCharacterController()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AColorepoCharacterController::StaticClass(), "GetFireDirection",(Native)&AColorepoCharacterController::execGetFireDirection);
@@ -71,12 +78,19 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	ENGINE_API class UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 
-	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireCircle();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_BlueSecondary();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireLightWave();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_GetFireDirection();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_GetMoveDirection();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_GreenSecondary();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_IndigoSecondary();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_MoveColorepoCharacter();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_OrangeSecondary();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_RedSecondary();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_SecondaryFireManager();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_UpdateFireDirection();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_VioletSecondary();
+	COLOREPO_API class UFunction* Z_Construct_UFunction_AcolorepoCharacter_YellowSecondary();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_AcolorepoCharacter();
 	COLOREPO_API class UFunction* Z_Construct_UFunction_AColorepoCharacterController_GetFireDirection();
@@ -95,13 +109,13 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave_NoRegister();
 	COLOREPO_API class UClass* Z_Construct_UClass_ALightWave();
 	COLOREPO_API class UPackage* Z_Construct_UPackage__Script_colorepo();
-	UFunction* Z_Construct_UFunction_AcolorepoCharacter_FireCircle()
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_BlueSecondary()
 	{
 		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("FireCircle"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("BlueSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -175,6 +189,40 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_GreenSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GreenSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_IndigoSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("IndigoSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_AcolorepoCharacter_MoveColorepoCharacter()
 	{
 		struct colorepoCharacter_eventMoveColorepoCharacter_Parms
@@ -194,6 +242,57 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 #if WITH_METADATA
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Movement"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_OrangeSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OrangeSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_RedSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("RedSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_SecondaryFireManager()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SecondaryFireManager"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
 #endif
 		}
@@ -223,6 +322,40 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_VioletSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("VioletSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AcolorepoCharacter_YellowSecondary()
+	{
+		UObject* Outer=Z_Construct_UClass_AcolorepoCharacter();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("YellowSecondary"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Laser"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("colorepoCharacter.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AcolorepoCharacter_NoRegister()
 	{
 		return AcolorepoCharacter::StaticClass();
@@ -240,12 +373,19 @@ FName COLOREPO_BeingDestroyed = FName(TEXT("BeingDestroyed"));
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20800080;
 
-				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_FireCircle());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_BlueSecondary());
 				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_FireLightWave());
 				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_GetFireDirection());
 				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_GetMoveDirection());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_GreenSecondary());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_IndigoSecondary());
 				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_MoveColorepoCharacter());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_OrangeSecondary());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_RedSecondary());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_SecondaryFireManager());
 				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_UpdateFireDirection());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_VioletSecondary());
+				OuterClass->LinkChild(Z_Construct_UFunction_AcolorepoCharacter_YellowSecondary());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_VioletProjectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("VioletProjectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(VioletProjectile, AcolorepoCharacter), 0x0024080000010001, Z_Construct_UClass_ALightWave_NoRegister(), UClass::StaticClass());
@@ -268,12 +408,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
 				UProperty* NewProp_CameraBoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CameraBoom"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CameraBoom, AcolorepoCharacter), 0x00400000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_FireCircle(), "FireCircle"); // 2572979525
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_BlueSecondary(), "BlueSecondary"); // 1097733368
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_FireLightWave(), "FireLightWave"); // 3502482450
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_GetFireDirection(), "GetFireDirection"); // 2448423245
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_GetMoveDirection(), "GetMoveDirection"); // 2506366737
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_GreenSecondary(), "GreenSecondary"); // 175709691
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_IndigoSecondary(), "IndigoSecondary"); // 3863028410
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_MoveColorepoCharacter(), "MoveColorepoCharacter"); // 2298280964
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_OrangeSecondary(), "OrangeSecondary"); // 3470922962
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_RedSecondary(), "RedSecondary"); // 1089596945
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_SecondaryFireManager(), "SecondaryFireManager"); // 2158127492
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_UpdateFireDirection(), "UpdateFireDirection"); // 1299221186
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_VioletSecondary(), "VioletSecondary"); // 1832808798
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AcolorepoCharacter_YellowSecondary(), "YellowSecondary"); // 76501599
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -690,8 +837,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/colorepo")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x204F0EA9;
-			Guid.B = 0x40C73C37;
+			Guid.A = 0xD145627F;
+			Guid.B = 0x3105650F;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

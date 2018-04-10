@@ -51,11 +51,59 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execFireCircle) \
+	DECLARE_FUNCTION(execVioletSecondary) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->FireCircle(); \
+		this->VioletSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIndigoSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->IndigoSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlueSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->BlueSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGreenSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->GreenSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execYellowSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->YellowSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOrangeSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OrangeSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRedSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->RedSecondary(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -64,6 +112,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->FireLightWave(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSecondaryFireManager) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SecondaryFireManager(); \
 		P_NATIVE_END; \
 	}
 
@@ -107,11 +163,59 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execFireCircle) \
+	DECLARE_FUNCTION(execVioletSecondary) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->FireCircle(); \
+		this->VioletSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIndigoSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->IndigoSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlueSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->BlueSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGreenSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->GreenSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execYellowSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->YellowSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOrangeSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OrangeSecondary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRedSecondary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->RedSecondary(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -120,6 +224,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->FireLightWave(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSecondaryFireManager) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SecondaryFireManager(); \
 		P_NATIVE_END; \
 	}
 
