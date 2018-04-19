@@ -37,7 +37,7 @@ protected:
 	bool CanPlay();
 	void xPressed();
 	void xReleased();
-	void FireCircle();
+	void FireSecondary();
 
 	
 };

@@ -20,13 +20,12 @@ class AcolorepoCharacter : public ACharacter
 public:
 	AcolorepoCharacter();
 
-	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 		float BaseTurnRate;
 
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
-	float BaseLookUpRate;
 	int CurrentColor;
 	bool GetIsWithin();
 	void SetIsWithin(bool value);
@@ -42,6 +41,7 @@ public:
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
+
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		float MoveSpeed;
 	
@@ -79,16 +79,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Laser")
 		void VioletSecondary();
 
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-		FVector GetMoveDirection(float DeltaSeconds);
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-		FVector GetFireDirection();
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-		void MoveColorepoCharacter(FVector Movement, FVector FireDirection);
-
 	UFUNCTION(BlueprintCallable, Category = "Movement")
 		void UpdateFireDirection(FVector FireDirection, float DeltaSeconds);
 
@@ -117,29 +107,6 @@ protected:
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 
-	///** Called for forwards/backward input */
-	void MoveForward(float Value);
-
-	/** Called for side to side input */
-	void MoveRight(float Value);
-
-	/** 
-	 * Called via input to turn at a given rate. 
-	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
-	 */
-	void TurnAtRate(float Rate);
-
-	/**
-	 * Called via input to turn look up/down at a given rate. 
-	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
-	 */
-	void LookUpAtRate(float Rate);
-
-	/** Handler for when a touch input begins. */
-	void TouchStarted(ETouchIndex::Type FingerIndex, FVector Location);
-
-	/** Handler for when a touch input stops. */
-	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 	void FireManager(float moretime);
 	void CannotFire();
 	void CannotBurst();

@@ -21,21 +21,6 @@ AcolorepoCharacter::AcolorepoCharacter()
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
-	// set our turn rates for input
-	BaseTurnRate = 180.0f;
-	BaseLookUpRate = 180.0f;
-
-	// Don't rotate when the controller rotates. Let that just affect the camera.
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
-
-	// Configure character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
-	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 600.f;
-	GetCharacterMovement()->AirControl = 0.2f;
-
 
 	CanFire = true;
 	BurstBool = false;
@@ -43,12 +28,8 @@ AcolorepoCharacter::AcolorepoCharacter()
 	SpeedModifier = 1.0f;
 	DoDestroy = false;
 	Delay = 1.5f;
-	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
-	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
 
-//////////////////////////////////////////////////////////////////////////
-// Input
 
 void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
@@ -56,6 +37,7 @@ void AcolorepoCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 }
 
 void AcolorepoCharacter::SecondaryFireManager() {
+	//The manager calls a different secondary fire function based on what color the player has picked up
 	switch (CurrentColor) {
 	case 1:
 		RedSecondary();
@@ -83,6 +65,8 @@ void AcolorepoCharacter::SecondaryFireManager() {
 	}
 }
 
+//These functions don't do anything right now
+//TODO: Make secondary fire functions
 void AcolorepoCharacter::RedSecondary() {
 	TSubclassOf<ALightWave> ProjectileClass;
 	ProjectileClass = RedProjectile;
@@ -112,60 +96,7 @@ void AcolorepoCharacter::VioletSecondary() {
 	ProjectileClass = VioletProjectile;
 }
 
-//void AcolorepoCharacter::FireCircle() {
-//	// try and fire a projectile
-//	TSubclassOf<ALightWave> ProjectileClass;
-//	switch (ColorOnDeck) {
-//	case 1:
-//		ProjectileClass = RedProjectile;
-//		break;
-//	case 2:
-//		ProjectileClass = OrangeProjectile;
-//		break;
-//	case 3:
-//		ProjectileClass = YellowProjectile;
-//		break;
-//	case 4:
-//		ProjectileClass = GreenProjectile;
-//		break;
-//	case 5:
-//		ProjectileClass = BlueProjectile;
-//		break;
-//	case 6:
-//		ProjectileClass = IndigoProjectile;
-//		break;
-//	case 7:
-//		ProjectileClass = VioletProjectile;
-//		break;
-//	default:
-//		break;
-//	}
-//	if (ProjectileClass != NULL)
-//	{
-//		UWorld* const World = GetWorld();
-//		if (World != NULL)
-//		{
-//			//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("I shot a wave"), true);
-//			FVector CurrentLocation = this->GetActorLocation();
-//			FVector OurForwards = this->GetActorForwardVector();
-//			FVector OurUp = this->GetActorUpVector();
-//			OurUp.Normalize();
-//			OurForwards.Normalize();
-//			FVector DeltaForwards = OurForwards*150.0f;
-//			FVector DeltaUp = OurUp*20.0f;
-//			ALightWave* ShotWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp, this->GetActorRotation());
-//			float magnitudeSquared = FVector::DotProduct(this->GetActorForwardVector(), this->GetActorForwardVector());
-//			float magnitude = sqrt(magnitudeSquared);
-//			ShotWave->ProjectileMovement->SetVelocityInLocalSpace(FVector((1000.0f + magnitude)* SpeedModifier, 0.0f, 0.0f));
-//			ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
-//			ShotWave->SetColor(ColorOnDeck);
-//			ShotWave->SetSecondary(true);
-//			UAudioComponent* temp = PlaySound(BurstSound);
-//
-//		}
-//	}
-//
-//}
+
 
 void AcolorepoCharacter::OnResetVR()
 {
@@ -174,7 +105,6 @@ void AcolorepoCharacter::OnResetVR()
 
 
 void AcolorepoCharacter::xPressed() {
-	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString("E button pressed"));
 	DoDestroy = true;
 }
 
@@ -184,6 +114,7 @@ void AcolorepoCharacter::xReleased() {
 }
 
 void AcolorepoCharacter::FireManager(float moretime) {
+	//Manages cooldown on firing
 	CanFire = false;
 	int Value = 8 - ColorOnDeck;
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotFire,
@@ -191,11 +122,12 @@ void AcolorepoCharacter::FireManager(float moretime) {
 }
 
 void AcolorepoCharacter::CannotFire() {
+	//Allows for firing after cooldown 
 	CanFire = true;
 }
 
 void AcolorepoCharacter::FireLightBurstDown() {
-	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstDown"), true);
+	//Must charge up light wave burst
 	GetWorldTimerManager().SetTimer(Cooldown, this, &AcolorepoCharacter::CannotBurst,
 		Delay, false);
 }
@@ -210,9 +142,8 @@ UAudioComponent* AcolorepoCharacter::PlaySound(class USoundCue* Sound) {
 }
 
 void AcolorepoCharacter::FireLightBurstUp() {
-	//GEngine->AddOnScreenDebugMessage(-1, 5.0, FColor::Cyan, TEXT("BurstUp"), true);
+	//Fire 4 projectiles 
 	if (BurstBool) {
-		// try and fire a projectile
 		TSubclassOf<ALightWave> ProjectileClass;
 		switch (ColorOnDeck) {
 		case 1:
@@ -258,18 +189,20 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				ShotWave->SetInitialForward(ShotWave->ProjectileMovement->Velocity);
 				ShotWave->SetColor(ColorOnDeck);
 				FVector Right = this->GetActorRightVector();
-				FVector DeltaRight = Right * 100;
-				FVector MoreRight = Right * 200;
-				FVector DeltaLeft = Right * -100;
-				FVector MoreLeft = Right * -200;
-				ALightWave* RWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + DeltaRight, this->GetActorRotation());
-				ALightWave* SWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + DeltaLeft, this->GetActorRotation());
-				ALightWave* RRWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + MoreRight, this->GetActorRotation());
-				ALightWave* SSWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + MoreLeft, this->GetActorRotation());
+
+				//Spawn projectile actors
+				ALightWave* RWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + (Right * 100), this->GetActorRotation());
+				ALightWave* SWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + (Right * -100), this->GetActorRotation());
+				ALightWave* RRWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + (Right * 200), this->GetActorRotation());
+				ALightWave* SSWave = World->SpawnActor<ALightWave>(ProjectileClass, CurrentLocation + DeltaForwards + DeltaUp + (Right * -200), this->GetActorRotation());
+				
+				//set their velocity
 				RWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 300.0f, 0.0f));
 				SWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, -300.0f, 0.0f));
 				RRWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, 600.0f, 0.0f));
 				SSWave->ProjectileMovement->SetVelocityInLocalSpace(FVector(1000.0f + magnitude, -600.0f, 0.0f));
+				
+				//Set initial vector and color of the projectiles
 				RWave->SetInitialForward(RWave->ProjectileMovement->Velocity);
 				SWave->SetInitialForward(SWave->ProjectileMovement->Velocity);
 				RWave->SetColor(ColorOnDeck);
@@ -278,6 +211,7 @@ void AcolorepoCharacter::FireLightBurstUp() {
 				SSWave->SetInitialForward(SSWave->ProjectileMovement->Velocity);
 				RRWave->SetColor(ColorOnDeck);
 				SSWave->SetColor(ColorOnDeck);
+
 				ShotWave->SetSecondary(true);
 				auto temp = PlaySound(BurstSound);
 				BurstBool = false;
@@ -288,11 +222,12 @@ void AcolorepoCharacter::FireLightBurstUp() {
 }
 
 void AcolorepoCharacter::CannotBurst() {
+	//Restrict player from firing light burst
 	BurstBool = true;
 }
 
 void AcolorepoCharacter::FireLightWave() {
-	// try and fire a projectilerstBool = false;
+	//Fire a light wave in the direction the character is facing. 
 	TSubclassOf<ALightWave> ProjectileClass;
 	switch (ColorOnDeck) {
 	case 1:
@@ -351,58 +286,8 @@ void AcolorepoCharacter::SetIsWithin(bool value) {
 	IsWithin = value;
 }
 
-FVector AcolorepoCharacter::GetMoveDirection(float DeltaSeconds) {
-	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
-	const float RightValue = GetInputAxisValue(MoveRightBinding);
-	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
-	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
-	// Calculate  movement
-	return (MoveDirection * MoveSpeed * DeltaSeconds);
-}
-
-FVector AcolorepoCharacter::GetFireDirection() {
-	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
-	const float FireRightValue = GetInputAxisValue(FireRightBinding);
-	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
-	return FireDirection;
-}
-
-void AcolorepoCharacter::MoveColorepoCharacter(FVector Movement, FVector FireDirection) {
-	// If non-zero size, move this actor
-	if (Movement.SizeSquared() > 0.0f)
-	{
-		//const FRotator NewRotation = Movement.Rotation();
-		if (FireDirection.SizeSquared() > 0.0f) {
-			FHitResult Hit(1.f);
-
-			RootComponent->MoveComponent(Movement, FireDirection.Rotation(), true, &Hit);
-
-			if (Hit.IsValidBlockingHit())
-			{
-				const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
-				const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
-				RootComponent->MoveComponent(Deflection, FireDirection.Rotation(), true);
-			}
-		}
-		else {
-			FHitResult Hit(1.f);
-
-			RootComponent->MoveComponent(Movement, this->GetActorRotation(), true, &Hit);
-
-			if (Hit.IsValidBlockingHit())
-			{
-				const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
-				const FVector Deflection = FVector::VectorPlaneProject(Movement, Normal2D) * (1.f - Hit.Time);
-				RootComponent->MoveComponent(Deflection, this->GetActorRotation(), true);
-			}
-		}
-	}
-	else if (FireDirection.SizeSquared() > 0.0f) {
-		this->SetActorRotation(FireDirection.Rotation());
-	}
-}
-
 void AcolorepoCharacter::UpdateFireDirection(FVector FireDirection, float DeltaSeconds) {
+	//Always fire a shot if we are aiming in a certain direction
 	CurrentColor = ColorOnDeck;
 	if (SpeedModifier <= 5.0f) {
 		SpeedModifier += (DeltaSeconds / 20);

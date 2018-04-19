@@ -19,6 +19,9 @@ public:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
+	//UFUNCTION()
+		//void PlayerCollide(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+
 	UFUNCTION(BlueprintImplementableEvent)
 		void BeingDestroyed(int color);
 
@@ -29,9 +32,6 @@ public:
 
 private:
 
-
-	//UPROPERTY(VisibleDefaultsOnly)
-	//	class USphereComponent* CollisionComp;
 	UPROPERTY(VisibleAnywhere)
 		class UBoxComponent* BoundingBox;
 

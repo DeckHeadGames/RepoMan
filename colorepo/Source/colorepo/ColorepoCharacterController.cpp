@@ -14,6 +14,7 @@ const FName AColorepoCharacterController::FireRightBinding("Turn");
 
 AColorepoCharacterController::AColorepoCharacterController() {
 	bShowMouseCursor = true;
+	//Allow mouse input
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
 	FireVector = FVector(0.0f, 0.0f, 0.0f);
 }
@@ -21,6 +22,7 @@ AColorepoCharacterController::AColorepoCharacterController() {
 void AColorepoCharacterController::PlayerTick(float DeltaTime) {
 	Super::PlayerTick(DeltaTime);
 	if (CanPlay()) {
+		//Move character and update rotation
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		const FVector Movement = GetMoveDirection(DeltaTime);
 		const FVector FireDirection = GetFireDirection();
@@ -30,32 +32,32 @@ void AColorepoCharacterController::PlayerTick(float DeltaTime) {
 }
 
 void AColorepoCharacterController::SetupInputComponent( ) {
+	//Set up Input Bindings
 	Super::SetupInputComponent();
 		InputComponent->BindAxis(MoveForwardBinding);
 		InputComponent->BindAxis(MoveRightBinding);
 		InputComponent->BindAxis(FireForwardBinding);
 		InputComponent->BindAxis(FireRightBinding);
 
-		//PlayerInputComponent->BindAction("FireLightWave", IE_Pressed, this, &AcolorepoCharacter::FireLightWave);
 		InputComponent->BindAction("FireLightBurst", IE_Pressed, this, &AColorepoCharacterController::FireLightBurstDown);
 		InputComponent->BindAction("FireLightBurst", IE_Released, this, &AColorepoCharacterController::FireLightBurstUp);
 		InputComponent->BindAction("RemoveCrystal", IE_Pressed, this, &AColorepoCharacterController::xPressed);
 		InputComponent->BindAction("RemoveCrystal", IE_Released, this, &AColorepoCharacterController::xReleased);
-		InputComponent->BindAction("FireCircle", IE_Pressed, this, &AColorepoCharacterController::FireCircle);
+		InputComponent->BindAction("FireCircle", IE_Pressed, this, &AColorepoCharacterController::FireSecondary);
 
 }
 
 FVector AColorepoCharacterController::GetMoveDirection(float DeltaSeconds) {
+	//Get axis values
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
-	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
 	FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
-	// Calculate  movement
 	MoveDirection.Normalize();
 	return (MoveDirection);
 }
 
 FVector AColorepoCharacterController::GetFireDirection() {
+	//Find direction character should face, different for using keyboard and mouse controls vs gamepad
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
@@ -78,8 +80,8 @@ FVector AColorepoCharacterController::GetFireDirection() {
 }
 
 void AColorepoCharacterController::MoveColorepoCharacter(FVector Movement, FVector FireDirection, float DeltaTime) {
+	//Move the character
 	AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
-	// If non-zero size, move this actor
 	MyColorepoCharacter->AddMovementInput(Movement, 1000.0f * DeltaTime);
 	FRotator direction = FireDirection.Rotation();
 	MyColorepoCharacter->SetActorRotation(direction);
@@ -117,9 +119,7 @@ void AColorepoCharacterController::xReleased() {
 }
 
 
-
-
-void AColorepoCharacterController::FireCircle() {
+void AColorepoCharacterController::FireSecondary() {
 	if (CanPlay()) {
 		AcolorepoCharacter* MyColorepoCharacter = Cast<AcolorepoCharacter>(GetCharacter());
 		MyColorepoCharacter->SecondaryFireManager();
@@ -128,6 +128,7 @@ void AColorepoCharacterController::FireCircle() {
 }
 
 bool AColorepoCharacterController::CanPlay() {
+	//Make sure that we don't get a null reference on our character based on what level we are in
 	UColorepoInstance* ginstance = Cast<UColorepoInstance>(GetGameInstance());
 	FString Levelname = ginstance->CurrentLevel;
 	if (Levelname != FString("Main") && Levelname != FString("End") && Levelname != FString("Pause")) {

@@ -11,16 +11,15 @@
 // Sets default values
 ALightWave::ALightWave()
 {
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Use a sphere as a simple collision representation
+	// Use a sphere for colisions at the tip of our wave
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	CollisionComp->InitSphereRadius(5.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
-	CollisionComp->OnComponentHit.AddDynamic(this, &ALightWave::OnHit);		// set up a notification for when this component hits something blocking
+	CollisionComp->OnComponentHit.AddDynamic(this, &ALightWave::OnHit);	
 	SecondaryFire = false;
-																					// Players can't walk on it
+	
 	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
 	CollisionComp->CanCharacterStepUpOn = ECB_No;
 
@@ -41,16 +40,15 @@ ALightWave::ALightWave()
 
 }
 
-// Called when the game starts or when spawned
 void ALightWave::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
-// Called every frame
 void ALightWave::Tick( float DeltaTime )
 {
+	//Calculate the 'waviness' of our wave using sin
 	Super::Tick( DeltaTime );
 	xValue += DeltaTime;
 	FMath::Clamp(frequency, 10.0f, 100.0f);
@@ -90,9 +88,11 @@ FVector ALightWave::GetInitialForward() {
 
 void ALightWave::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) {
 	if (!OtherActor->IsA(AcolorepoCharacter::StaticClass())) {
+		//If we hit anything, destroy the wave
 		this->Destroy();
 	}
 	if (OtherActor->IsA(AcolorepoCharacter::StaticClass())) {
+		//If we hit a player, add an impulse to them
 		AcolorepoCharacter*  temp = Cast<AcolorepoCharacter>(OtherActor);
 		FVector Impulse = InitialForward;
 		Impulse.Normalize();
@@ -107,7 +107,7 @@ void ALightWave::SetFrequency(float number) {
 }
 
 void ALightWave::SetColor(int index) {
-	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow,FString::SanitizeFloat((float)index), false);
+	//Change wave frequency/wavelength based on color
 	switch (index) {
 	case 1:
 		SetFrequency(Red);
